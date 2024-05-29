@@ -8,21 +8,20 @@
 
 ***
 
-**\[Upcoming]** ⭐ DePIN Day @ Consensus2024
-
-🕘 5:00 PM - 11:00 PM PDT — 28th May 2024\
-📍 Location: Austin, Texas\
-➡️ Details and registration: [**https://lu.ma/mwqd3dok**](https://lu.ma/mwqd3dok)\
-
-
-***
-
-**\[Upcoming]** ⭐ R3al World DePIN House @ Consensus 2024
+**\[Live]** ⭐ R3al World DePIN House @ Consensus 2024
 
 🕘 2:00 PM - 10:00 PM CDT — 29th May 2024\
 📍 Location: Austin, Texas\
 ➡️ Details and registration: [**https://lu.ma/r3al-world-depin-consensus**](https://lu.ma/r3al-world-depin-consensus)\
 
+
+***
+
+**\[Ended]** ⭐ DePIN Day @ Consensus2024
+
+🕘 5:00 PM - 11:00 PM PDT — 28th May 2024\
+📍 Location: Austin, Texas\
+➡️ Details: [https://lu.ma/mwqd3dok](https://lu.ma/mwqd3dok)
 
 ***
 
@@ -39,7 +38,7 @@
 
 🕘 14:00 (UTC +7) — 28th April 2024\
 📍 Location: Hanoi, Vietnam\
-➡️ Details and registration: [**https://lu.ma/uyvebw3k**](https://lu.ma/uyvebw3k)\
+➡️ Details: [**https://lu.ma/uyvebw3k**](https://lu.ma/uyvebw3k)\
 
 
 ***
