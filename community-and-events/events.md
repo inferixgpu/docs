@@ -33,7 +33,7 @@ description: A list of our live, upcoming and ended events.
 
 
 
-**\[Ended]** ⭐ DePIN Day @ Consensus2024
+**\[Ended]** ⭐ **DePIN Day** @ Consensus2024
 
 🕘 5:00 PM - 11:00 PM PDT — 28th May 2024\
 📍 Location: Austin, Texas\
