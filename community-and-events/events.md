@@ -12,8 +12,15 @@
 
 🕘 2:00 PM - 10:00 PM CDT — 29th May 2024\
 📍 Location: Austin, Texas\
-➡️ Details and registration: [**https://lu.ma/r3al-world-depin-consensus**](https://lu.ma/r3al-world-depin-consensus)\
+➡️ Details and registration: [**https://lu.ma/r3al-world-depin-consensus**](https://lu.ma/r3al-world-depin-consensus)
 
+***
+
+**\[Upcoming]** ⭐ DePIN Happy Hour\
+\
+🕘 17:30 (UTC+7) — 8th June, 2024\
+📍 Location: CTY Kitchen + Bar | 72 Nguyen Thi Minh Khai, District 3, Ho Chi Minh city\
+➡️ Details: [**https://lu.ma/m9ffkelj**](https://lu.ma/m9ffkelj)
 
 ***
 
