@@ -66,7 +66,7 @@ Before being sent back to the users, the output images of \emph{workers} must be
 % , one cannot suppose any security on 
 % the graphics rendering programs installed on workers are secured.
 
-A public-key cryptography approach is using a scheme of \emph{fully homomorphic encryption} (FHE)~\cite{Gentry2009}. The graphics scene is encrypted first by a private key before sending to \emph{workers}. Given the corresponding public key, the homomorphic encryption software performs the graphics rendering on the encrypted scene without needing to decrypt it. Finally, the encrypted rendered results are returned and decrypted at the user's side using the private key. The advantage of FHE is that the\emph{workers}, even can modify the FHE softwares on their side, cannot interfere the FHE graphics rendering processes without being detected. Unfortunately, this approach is impractical since all state-of-the-art implementations will make the performance of the homomorphic encryption graphics rendering become unacceptable~\cite{9910347}.
+A public-key cryptography approach is using a scheme of \emph{fully homomorphic encryption} (FHE)~\cite{Gentry2009}. The graphics scene is encrypted first by a private key before sending to \emph{workers}. Given the corresponding public key, the homomorphic encryption software performs the graphics rendering on the encrypted scene without needing to decrypt it. Finally, the encrypted rendered results are returned and decrypted at the user's side using the private key. The advantage of FHE is that the \emph{workers}, even can modify the FHE softwares on their side, cannot interfere the FHE graphics rendering processes without being detected. Unfortunately, this approach is impractical since all state-of-the-art implementations will make the performance of the homomorphic encryption graphics rendering become unacceptable~\cite{9910347}.
 
 To handle this problem, we use a watermarking~\cite{Cox1997,Cox1999} method called \emph{Active Noise Generation and Verification} (ANGV) which is a simpler variant of \emph{proof of ownership}~\cite{Craver1997} schemes. \emph{First}, the detector can always judge that the rendered digital content is the result of a valid rendering process whose input is the submitted graphics scene. \emph{Second}, though ANGV needs to modify the initial submitted scene, as a sequence the rendered output will be distorted also, the distortion is regulated to below the human perception capability, so there is no quality degradation. \emph{Third}, the embedded watermark is robust under rendering enhancements (e.g. anti-aliasing) and post-processing operations. \emph{Finally}, there is no need to use a special rendering software on \emph{workers} as in the case of FHE, the performance of graphics rendering will be not affected.
 % verification will be proceeded on \emph{verifiers}
@@ -79,45 +79,53 @@ To handle this problem, we use a watermarking~\cite{Cox1997,Cox1999} method call
 % Since images are output of \emph{workers} which are not under control, watermarks cannot be embedded directly into 
 The user submits some Blender work to the \emph{manager}, this work consists of several graphics scenes. Each scene contains information about graphical objects, the camera, light sources and materials~\cite{Blender}. The photorealistic rendering is a sophisticated computation process that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene~\cite{Hughes2014}.
 
-To verify the authenticity, special watermarks will be embedded into the rendered images. It might be worth noting that, different from the context of traditional digital watermarking methods~\cite{Cox2008}, these images are not under our control, they are instead output of \emph{workers}. Our approach is to embed watermarks into the graphics scene submitted by users before sending it to \emph{workers}.
+To check whether an image output from a \emph{worker} is actually the result of a valid graphics rendering process whose input is a given scene, invisible watermarks~\cite{Craver1997} will be embedded into the rendered images. A \emph{verifier} which knows the watermarks  It might be worth noting that, different from the context of traditional digital watermarking schemes~\cite{Cox2008}, these images are not under our control, they are instead output of \emph{workers}. Hence, it is not possible to embed directly watermarks into images, our approach is to embed watermarks into the graphics scene submitted by users before sending it to \emph{workers}.
 % the initial digital content in this context is now the output of the malicious side, so freely susceptible to malicious intervention.
 
 \subsection[Hight level description]{High level description}
 The \emph{Active Noise Generation and Verification} (ANGV) consists of two main procedures as described below.
 
 \paragraph[Watermark insertion]{Watermark insertion}
-In practice, a scene may have multiple frames and each worker may render only a subset of these frames. For simplification purpose, we assume in this section that a scene has only one frame, so the output rendered image is determined uniquely by the scene. Let $\mathcal{R}$ and $S$ be respectively the rendering function and the scene, the rendered image $\mathtt{Img}$ without watermark will be:
+In practice, a scene may have multiple frames and each worker may render only a subset of these frames. For the simplification purpose, we assume in this section that a scene has only one frame, so the output rendered image is determined uniquely by the scene.
+
+Let $\mathcal{R}$ and $S$ be respectively the rendering function and the scene, the rendered image $I$ without watermark will be:
 \begin{equation*}
-    \mathtt{Img} = \mathcal{R}\left(S\right)
+    I = \mathcal{R} \left( S \right)
 \end{equation*}
-Similar with traditional schemes~\cite{Cox1999,Cox1997}, a watermark $W$ is a sequence of atomic watermarks:
+It is important to note that $I$ is actually never computed (neither by the \emph{manager} in the watermark insertion procedure nor by \emph{workers} in rendering processes), the equation above represents only an equality. Similar with traditional schemes~\cite{Cox1999,Cox1997}, a watermark $W$ is a sequence of atomic watermarks:
 \begin{equation*}
     W = \left\{ w_1,\dots,w_n \right\}
 \end{equation*}
-where $w_i$ is chosen from some probability distribution. As an additional step, we generate a representative key using $W$ and $S$:
+where $w_i$ is chosen from some probability distribution. Using $W$ and $S$, we next generate a representative key:
 \begin{equation*}
     K_{\mathtt{repr}} \left(W,S\right) = \left\{ k_1,\dots,k_n \right\}
 \end{equation*}
-that will be used later for watermark verification. Different from the previous schemes, we do not insert $W$ into the image $\mathtt{Img}$ but into the scene $S$, to create a watermarked scene:
+that will be used later for the watermark verification procedure. We do not insert $W$ into the image $I$ but into the scene $S$, to create a watermarked scene:
 \begin{equation*}
-    S' = \mathtt{Insert} \left(S, W\right)
+    \hat{S} = \mathtt{Insert} \left(S, W\right)
 \end{equation*}
-Finally $S'$ is sent to \emph{workers} for rendering, that results in a watermarked image:
+Finally $\hat{S}$ is sent to \emph{workers} for rendering, that results in a watermarked image:
 \begin{equation*}
-    \mathtt{Img'} = \mathcal{R}\left(S'\right)
+    \hat{S} = \mathcal{R} \thinspace (\hat{S})
 \end{equation*}
 
 \paragraph[Watermark verification]{Watermark verification}
-Given an image $\mathtt{Img}'$ and a representative key $K_{\mathtt{repr}}$, we will first try to extract a watermark $W'$ from $\mathtt{Img}'$:
+Given an image $\hat{I}$ and a representative key $K_{\mathtt{repr}}$, we will first try to extract a watermark $\hat{W}$ from $\hat{I}$:
 \begin{equation*}
-    W' = \mathtt{Extract}\left(\mathtt{Img}', K_{\mathtt{repr}}\right)
+    \hat{W} = \mathtt{Extract} \thinspace (\hat{I}, K_{\mathtt{repr}})
 \end{equation*}
-Next $W'$ is compared against $W$, if their difference is below some threshold $T$ then $\mathtt{Img'}$ will be accepted otherwise rejected.
+Next $\hat{W}$ is compared against $W$, if the difference is below some threshold $T$
+\begin{equation*}
+    \lVert \hat{W} - W \rVert < T
+\end{equation*}
+then $\hat{I}$ will be accepted otherwise rejected.
 
 \paragraph[Remark]{Remark}
-Under ANGV scheme, the rendered image (if accepted) sent back to users is $\mathtt{Img'} = \mathcal{R}\left(S'\right)$ but not $\mathtt{Img} = \mathcal{R}\left(S\right)$. The insertion function $\mathtt{Insert}$ and the watermark $W$ are designed so that the difference between $\mathtt{Img'}$ and $\mathtt{Img}$ is under human perception, then $\mathtt{Img'}$ can be used as an authentic result of graphics rendering.
+Under ANGV scheme, the rendered image (if accepted) sent back to users is $\hat{I} = \mathcal{R}\thinspace(\hat{S})$ but not $I = \mathcal{R}\left(S\right)$. The function $\mathtt{Insert}$ and the watermark $W$ are designed so that the difference between $\hat{I}$ and $I$ is under human perception, then $\hat{I}$ can be used as an authentic result of graphics rendering.
 
-The watermark insertion function $\mathtt{Insert}$ and the watermark extraction function $\mathtt{Extract}$ are designed so that their computation resource consumption is negligible in comparison with the graphics rendering function $\mathcal{R}$. Moreover, the watermark verification procedure does not require the image $\mathtt{Img}$ (there is no need to render this image for comparing with $\mathtt{Img}'$), consequently ANGV makes no serious effect on performance degradation of graphics rendering.
+We design also the functions $\mathtt{Insert}$ and $\mathtt{Extract}$ so that their computation resource consumption is negligible in comparison with the graphics rendering function $\mathcal{R}$. Moreover, the watermark verification procedure does not require the image $I$, consequently ANGV makes no serious effect on performance degradation of graphics rendering.
+% (there is no need to render this image for comparing with $I'$)
+ 
 
 \subsection[Implementation]{Implementation}
 In this section, we present in detail the current Inferix's implementation of watermark insertion and verification.
@@ -149,7 +157,7 @@ The number $n$ is one of the factors decides the robustness of watermark, the hi
 \paragraph[Watermark insertion]{Watermark insertion}
 Given some graphics scene $S$, we embed the watermark $W$ into $S$ by wrapping each atomic watermark as a graphics objects, then insert these objects into $S$ so that they contribute to the result rendered image (i.e. they distort this image).
 
-By the nature of the graphics rendering, an object in the scene will not be visible if there is no light scattered from the surface of the object to the camera. This may be caused by several reasons: the object is not located in the frustum of the camera, it is hidden by some other objects, the material of the object is transparent, etc. The watermark insertion must satisfy first several constraints:
+By the nature of the graphics rendering, an object in the scene will not be visible if there is no light scattered from the surface of the object to the camera. This may be caused by several reasons: the object is not located in the frustum of the camera, is hidden by some other objects, or the material of the object is transparent, etc. The watermark insertion must satisfy first several constraints:
 \begin{itemize}
     \item there are no collisions between watermark objects,
     \item all watermark objects are located completely in the camera frustum,
@@ -157,7 +165,7 @@ By the nature of the graphics rendering, an object in the scene will not be visi
 \end{itemize}
 
 \paragraph[Representative key generation]{Representative key generation}
-An atomic watermark $w_i$ contributes to the image $\mathtt{Img'}$ as a rectangular region $k_i$ (for that, the rotation vector of the graphics object $w_i$ is kept to be equal with the one of the camera in $S$). The location $k_i$ on $\mathtt{Img'}$ can be precisely calculated without rendering:
+An atomic watermark $w_i$ contributes to the image $\hat{I}$ as a rectangular region at the location $k_i$ (for that, the rotation vector of the graphics object $w_i$ is kept to be equal with the one of the camera in $S$). The location $k_i$ on $\hat{I}$ can be precisely calculated without rendering:
 \begin{equation*}
     k_i = \left(x^{\mathtt{ul}}_i, y^{\mathtt{ul}}_{i},x^{\mathtt{lr}}_i, y^{\mathtt{lr}}_{i}\right)
 \end{equation*}
@@ -197,7 +205,7 @@ for all $1 \leq i \leq n$ (see~\autoref{fig:coca_cola}).
 \end{figure}
 
 \paragraph[Watermark verification]{Watermark verification}
-The verification procedure needs only the representative key $K_\mathtt{repr}$ and the rendered image $\mathtt{Img'}$. It is not always possible to restore the atomic watermark $w_i \in W$ since most information of $w_i$ is lost after the graphics rendering process (note that $k_i$ is much smaller than the size of $w_i$). However, it is neither necessary to restore $w_i$, instead to verify the existence of $W$, checking the existence of $w_i$ on the image region determined by $k_i$ on $\mathtt{Img'}$ for $1 \leq i \leq n$ is sufficient.
+The verification procedure needs only the representative key $K_\mathtt{repr}$ and the rendered image $\hat{I}$. It is not always possible to restore the atomic watermark $w_i \in W$ since most information of $w_i$ is lost after the graphics rendering process (note that $k_i$ is much smaller than the size of $w_i$). However, it is neither necessary to restore $w_i$, instead to verify the existence of $W$, checking the existence of $w_i$ on the image region determined by $k_i$ on $\hat{I}$ for $1 \leq i \leq n$ is sufficient.
 
 For each region of coordinates $k_i = \left(x^{\mathtt{ul}}_i, y^{\mathtt{ul}}_{i},x^{\mathtt{lr}}_i, y^{\mathtt{lr}}_{i}\right)$, we pick a bound region of coordinates:
 \begin{equation*}
@@ -212,7 +220,7 @@ To check the contribution of the atomic watermark at the region of coordinates $
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \includegraphics[width=\textwidth]{coca_cola_bound.png}
-        \caption{Pickup bound region of size $9\times9$ (the atomic watermark region of size $3\times3$ located at the center of the bound)}    
+        \caption{Pickup bound region of size $9\times9$ pixels, the atomic watermark region of size $3\times3$ located at the center of the bound (numbers on each pixel are RGB values)}
     \end{subfigure}
     \qquad
     \begin{subfigure}[t]{0.45\textwidth}
@@ -223,7 +231,7 @@ To check the contribution of the atomic watermark at the region of coordinates $
     \label{fig:coca_cola_bound}
 \end{figure}
 
-
+\subsection[Performance]{Performance}
 
 \section[Threat analysis]{Threat analysis}
 
