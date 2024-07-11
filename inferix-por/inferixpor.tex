@@ -114,9 +114,9 @@ Given an image $\hat{I}$ and a representative key $K_{\mathtt{repr}}$, we will f
 \begin{equation*}
     \hat{W} = \mathtt{Extract} \thinspace (\hat{I}, K_{\mathtt{repr}})
 \end{equation*}
-Next $\hat{W}$ is compared against $W$, if the difference is below some threshold $T$
+Next $\hat{W}$ is compared against $W$, if the difference is above some threshold $T$
 \begin{equation*}
-    \lVert \hat{W} - W \rVert < T
+    \lVert \hat{W} - W \rVert \geq T
 \end{equation*}
 then $\hat{I}$ will be accepted otherwise rejected.
 
@@ -132,7 +132,7 @@ In this section, we present in detail the current Inferix's implementation of wa
 
 % \subsubsection[Insertion]{Insertion}
 
-\paragraph[Structure of watermark]{Structure of watermark}
+\paragraph[Structure of watermark]{Structure of watermark}\label{par:structure_of_watermark}
 As described above, a watermark $W$ consists of a sequence of $n$ atomic watermarks, each watermark $w_i$ is a rectangle image of special pattern (see~\autoref{fig:atomic_patterns}) of noise chosen from a normal distribution $w_i \sim \mathcal{N}(0, \sigma_i^2)$.
 \begin{figure}[h]
     \centering
@@ -176,10 +176,12 @@ where $\left(x^{\mathtt{ul}}_i, y^{\mathtt{ul}}_{i}\right)$ (resp. $x^{\mathtt{l
 
 \paragraph[Other constraints]{Other constraints}
 It might be worth noting that $k_i$ represents the distortion caused by the atomic watermark $w_i$ to the rendered image, normally $k_i$ is much smaller than the original size of $w_i$. On the one hand $k_i$ must not be negligible otherwise the watermark verification is not possible. On the other hand, $k_i$ must be kept under the human perception capability. Experimentally we keep a trade-off:
-\begin{align*}
+\begin{align}\label{eq:side_constraint}
+\begin{split}
     2 \leq x^{\mathtt{lr}}_{i} - x^{\mathtt{ul}}_{i} \leq 3 \\
     2 \leq y^{\mathtt{lr}}_{i} - y^{\mathtt{ul}}_{i} \leq 3
-\end{align*}
+\end{split}
+\end{align}
 for all $1 \leq i \leq n$ (see~\autoref{fig:coca_cola}).
 \begin{figure}[ht]
     \centering
@@ -211,25 +213,39 @@ For each region of coordinates $k_i = \left(x^{\mathtt{ul}}_i, y^{\mathtt{ul}}_{
 \begin{equation*}
     b_i =  \left(x^{\mathtt{ul}}_i - \delta^{x}_{i}, y^{\mathtt{ul}}_{i} - \delta^{y}_i ,x^{\mathtt{lr}}_i + \delta^{x}_{i}, y^{\mathtt{lr}}_{i} + \delta^{y}_{i}\right)
 \end{equation*}
-where $\delta^{x}_{i}$ and $\delta^{y}_{i}$ are the width and the height of $k_i$ (see~\autoref{fig:coca_cola_bound}):
+where $\delta^{x}_{i}$ and $\delta^{y}_{i}$ are the width and the height of $k_i$ (see~\autoref{subfig:coca_cola_pickup}):
 \begin{equation*}
     \delta^{x}_{i} = x^{\mathtt{lr}}_i - x^{\mathtt{ul}}_i \qquad \delta^{y}_{i} = y^{\mathtt{lr}}_i - y^{\mathtt{ul}}_i \\
 \end{equation*}
-To check the contribution of the atomic watermark at the region of coordinates $k_i$, we apply an edge detection filter on the bound region.
+To check the contribution of the atomic watermark at the region of coordinates $k_i$, we apply an edge detection filter (see~\autoref{subfig:coca_cola_pickup_filtered}) on the bound region, then compare the mean $m_b$ of the bound region against the mean $m_k$ of the atomic watermark located inside. Experimentally, we will check if
+\begin{equation}\label{eq:edge_difference}
+    m_k - m_b \geq 5
+\end{equation}
+to validate the existence of the atomic watermark. This check is proceeded for all $n$ atomic watermarks, if all of them are validated then the rendered image $\hat{I}$ is accepted otherwise rejected.
 \begin{figure}[ht]
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \includegraphics[width=\textwidth]{coca_cola_bound.png}
-        \caption{Pickup bound region of size $9\times9$ pixels, the atomic watermark region of size $3\times3$ located at the center of the bound (numbers on each pixel are RGB values)}
+        \caption{Pickup bound region of size $9\times9$ pixels, the atomic watermark region of size $3\times3$ located at the center of the bound (numbers on each pixel are RGB color values)}
+        \label{subfig:coca_cola_pickup}
     \end{subfigure}
     \qquad
     \begin{subfigure}[t]{0.45\textwidth}
         \includegraphics[width=\textwidth]{coca_cola_laplace.png}
         \caption{Pickup bound region after an edge detection filter}
+        \label{subfig:coca_cola_pickup_filtered}
     \end{subfigure}
     \caption{Watermark verification}
     \label{fig:coca_cola_bound}
 \end{figure}
+
+\paragraph[Robustness]{Robustness}
+We now discuss several details about the contribution of the watermark on the rendered image. There are two related constraints:
+\begin{itemize}
+    \item the side trade-off in~\autoref{eq:side_constraint} is used to keep the rendering distortion under the human perception capability, and
+    \item the mean difference in~\autoref{eq:edge_difference} is used to validate the existence of an atomic watermark
+\end{itemize}
+which are unfortunately disproportional: if the side is too small
 
 \subsection[Performance]{Performance}
 
