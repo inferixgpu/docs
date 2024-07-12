@@ -22,6 +22,8 @@
 \usepackage{csquotes}
 \addbibresource{inferix.bib}
 
+% \setcounter{secnumdepth}{6}
+
 \author{
     Inferix team
 }
@@ -183,28 +185,58 @@ It might be worth noting that $k_i$ represents the distortion caused by the atom
     2 \leq y^{\mathtt{lr}}_{i} - y^{\mathtt{ul}}_{i} \leq 3
 \end{split}
 \end{align}
-for all $1 \leq i \leq n$ (see~\autoref{fig:coca_cola}).
+for all $1 \leq i \leq n$ (see~\autoref{fig:coca_cola} and~\autoref{fig:tea_mug}).
 \begin{figure}[ht]
     \centering
-    \begin{subfigure}[b]{0.45\textwidth}
+    \makebox[\textwidth][c]{%
+    \begin{subfigure}[t]{0.4\textwidth}
+        \centering
         \includegraphics[width=\textwidth]{coca_cola.png}
         \label{subfig:coca_cola}
         \caption{Original}
     \end{subfigure}
-    \qquad
-    \begin{subfigure}[b]{0.45\textwidth}
+    % \quad
+    \begin{subfigure}[t]{0.4\textwidth}
+        \centering
         \includegraphics[width=\textwidth]{coca_cola_wm_ko.png}
         \label{subfig:coca_cola_wm_ko}
-        \caption{Watermarked (atomic size $= 5$)}
+        \caption{Watermarked with atomic watermark size $= 5$}
     \end{subfigure}
-    \vfill
-    \begin{subfigure}[b]{0.45\textwidth}
+    % \vfill
+    % \qquad
+    \begin{subfigure}[t]{0.4\textwidth}
+        \centering
         \includegraphics[width=\textwidth]{coca_cola_wm_ok.png}
         \label{subfig:coca_cola_wm_ok}
-        \caption{Watermarked (atomic size $= 2$)}
-    \end{subfigure}
-    \caption[Scene watermarked with different sizes of atomic watermarks]{Scene watermarked with different size of atomic watermarks: the distortion is observable when the width and the height of an atomic watermark are about $5$, but unobservable when these lengths are $3$.}
+        \caption{Atomic watermark size $= 2$}
+    \end{subfigure}}
+    \caption[Scene watermarked with different sizes of atomic watermarks]{Scene watermarked with different size of atomic watermarks: the distortion is observable when the width and the height of an atomic watermark are about $5$, but unobservable when these lengths are $2$.}
     \label{fig:coca_cola}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \makebox[\textwidth][c]{%
+    \begin{subfigure}[t]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{tea_mug.png}
+        \label{subfig:tea_mug}
+        \caption{Original}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{tea_mug_wm_ko.png}
+        \label{subfig:tea_mug_wm_ko}
+        \caption{Atomic watermark size $= 7$}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{tea_mug_wm_ok.png}
+        \label{subfig:tea_mug_wm_ok}
+        \caption{Atomic watermark size $= 3$}
+    \end{subfigure}}
+    \caption[Scene watermarked with different sizes of atomic watermarks]{Another scene watermarked with different sizes of atomic watermarks}
+    \label{fig:tea_mug}
 \end{figure}
 
 \paragraph[Watermark verification]{Watermark verification}
