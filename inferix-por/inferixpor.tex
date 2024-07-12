@@ -86,23 +86,23 @@ To check whether an image output from a \emph{worker} is actually the result of 
 The \emph{Active Noise Generation and Verification} (ANGV) consists of two main procedures as described below.
 
 \paragraph[Watermark insertion]{Watermark insertion}
-In practice, a scene may have multiple frames and each worker may render only a subset of these frames. For the simplification purpose, we assume in this section that a scene has only one frame, so the output rendered image is determined uniquely by the scene.
+In practice, a graphics scene may have multiple frames and each worker may render only a subset of these frames. For the simplification purpose, we assume in this section that a scene has only one frame, so the output rendered image is determined uniquely by the scene.
 
-Let $\mathcal{R}$ and $S$ be respectively the rendering function and the scene, the rendered image $I$ without watermark will be:
+Let $\mathcal{R}$ and $S$ denote respectively the rendering function and the scene, the rendered image $I$ without watermark will be:
 \begin{equation*}
     I = \mathcal{R} \left( S \right)
 \end{equation*}
-It is important to note that $I$ is actually never computed (neither by the \emph{manager} in the watermark insertion procedure nor by \emph{workers} in rendering processes), the equation above represents only an equality. Similar with traditional schemes~\cite{Cox1999,Cox1997}, a watermark $W$ is a sequence of atomic watermarks:
+It is important to note that $I$ is actually never computed (neither by the \emph{manager} in the watermark insertion procedure nor by \emph{workers} in rendering processes), the equation above represents only an equality. Similar with traditional schemes~\cite{Cox1999,Cox1997,Craver1997}, a watermark $W$ is a sequence of atomic watermarks:
 \begin{equation*}
     W = \left\{ w_1,\dots,w_n \right\}
 \end{equation*}
-where $w_i$ is chosen from some probability distribution. Using $W$ and $S$, we next generate a representative key:
+where $w_i$ is chosen from some probability distribution and $w_i$ may also depend on $S$ (see~\autoref{par:robustness}). Using $W$ and $S$, we next generate a representative key:
 \begin{equation*}
     K_{\mathtt{repr}} \left(W,S\right) = \left\{ k_1,\dots,k_n \right\}
 \end{equation*}
-that will be used later for the watermark verification procedure. We do not insert $W$ into the image $I$ but into the scene $S$, to create a watermarked scene:
+that will be used later for the watermark verification procedure. We do not insert $W$ into the image $I$ but into the scene $S$ using an encoding function $\mathcal{E}$, to create a watermarked scene:
 \begin{equation*}
-    \hat{S} = \mathtt{Insert} \left(S, W\right)
+    \hat{S} = \mathcal{E} \left(S, W\right)
 \end{equation*}
 Finally $\hat{S}$ is sent to \emph{workers} for rendering, that results in a watermarked image:
 \begin{equation*}
@@ -110,9 +110,9 @@ Finally $\hat{S}$ is sent to \emph{workers} for rendering, that results in a wat
 \end{equation*}
 
 \paragraph[Watermark verification]{Watermark verification}
-Given an image $\hat{I}$ and a representative key $K_{\mathtt{repr}}$, we will first try to extract a watermark $\hat{W}$ from $\hat{I}$:
+Given an image $\hat{I}$ and a representative key $K_{\mathtt{repr}}$, we first try to recover a watermark $\hat{W}$ from $\hat{I}$ using a decoding function $\mathcal{D}$:
 \begin{equation*}
-    \hat{W} = \mathtt{Extract} \thinspace (\hat{I}, K_{\mathtt{repr}})
+    \hat{W} = \mathcal{D} \thinspace (\hat{I}, K_{\mathtt{repr}})
 \end{equation*}
 Next $\hat{W}$ is compared against $W$, if the difference is above some threshold $T$
 \begin{equation*}
@@ -120,10 +120,11 @@ Next $\hat{W}$ is compared against $W$, if the difference is above some threshol
 \end{equation*}
 then $\hat{I}$ will be accepted otherwise rejected.
 
-\paragraph[Remark]{Remark}
-Under ANGV scheme, the rendered image (if accepted) sent back to users is $\hat{I} = \mathcal{R}\thinspace(\hat{S})$ but not $I = \mathcal{R}\left(S\right)$. The function $\mathtt{Insert}$ and the watermark $W$ are designed so that the difference between $\hat{I}$ and $I$ is under human perception, then $\hat{I}$ can be used as an authentic result of graphics rendering.
+\paragraph[Rendering result]{Rendering result}
+In case of being accepted, the rendered image sent back to users is $\hat{I} = \mathcal{R}\thinspace(\hat{S})$ but not $I = \mathcal{R}\left(S\right)$. The encoding function $\mathcal{E}$ and the watermark $W$ are designed so that the distortion of $\hat{I}$ against $I$ is under human perception capability, then $\hat{I}$ can be authentically used as a result of the graphics rendering.
 
-We design also the functions $\mathtt{Insert}$ and $\mathtt{Extract}$ so that their computation resource consumption is negligible in comparison with the graphics rendering function $\mathcal{R}$. Moreover, the watermark verification procedure does not require the image $I$, consequently ANGV makes no serious effect on performance degradation of graphics rendering.
+\paragraph[Performance]{Performance}
+The functions $\mathcal{E}$ and $\mathcal{D}$ are designed so that their computation resource consumption is negligible in comparison with the graphics rendering function $\mathcal{R}$; and the watermark verification does not require $I$, only $\hat{I}$ is rendered. That means the only overhead caused by ANGV is by $\mathcal{E}$ and $\mathcal{D}$, hence there is no significant effect on the performance of the graphics rendering.
 % (there is no need to render this image for comparing with $I'$)
  
 
@@ -239,7 +240,7 @@ to validate the existence of the atomic watermark. This check is proceeded for a
     \label{fig:coca_cola_bound}
 \end{figure}
 
-\paragraph[Robustness]{Robustness}
+\paragraph[Robustness]{Robustness}\label{par:robustness}
 We now discuss several details about the contribution of the watermark on the rendered image. There are two related constraints:
 \begin{itemize}
     \item the side trade-off in~\autoref{eq:side_constraint} is used to keep the rendering distortion under the human perception capability, and
