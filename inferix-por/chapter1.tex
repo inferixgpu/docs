@@ -1,5 +1,7 @@
 \chapter{Introduction}
 \label{ch:introduction}
+\epigraph{Non ministrari, sed ministrare}{Matthaeus 20:28 - Biblia Vulgata}
+
 Inferix is a decentralized GPU network for visual computing and AI, it is built to bridge the needs of users and hardware owners. Its solution meets real-world problems across a range of industries, not only for the AI field but also for high-quality rendering needs. Users (e.g.~3D graphics artists, game developers, enterprises) who need GPU computing power for rendering high-quality graphics can use Inferix system to continuously access these precious resources with faster processing time and more efficient spending.
 \begin{figure}[h]
     \centering
@@ -9,13 +11,14 @@ Inferix is a decentralized GPU network for visual computing and AI, it is built 
 \end{figure}
 Owners of GPUs can share idle resources to Inferix network and earn long-term passive income while simultaneously balancing their main jobs or leisure activities.
 
-In this document, we briefly present first the graphics rendering network of Inferix, then focus on the internal details of the verification procedure for rendered images.
+In this document, we briefly present first the graphics rendering network of Inferix and discuss the challenge of maintaining the authenticity, then focus on the internal details of the verification procedure for rendered images.
 
 
 % Inferix provides a decentralized 3D graphics rendering service: remote people can submit Blender graphics scenes then receive rendered images and videos, others can join the service to let their computing resources for hire. Since the graphic rendering processes are intensively resources (GPU, RAM, disk storage, etc.) consuming and not everyone possessing these resources, Inferix regulates this exigence by in the one hand helping artists get their jobs done without equipping very high-end workstations. In the other hand, it allows individuals making profit from their unused high-performance computation resources.
 
-
 \section[Rendering network]{Rendering network}
+\label{sec:rendering_network}
+
 The graphics rendering service consists in a network of decentralized machines called \emph{nodes} which are of $3$ kinds: \emph{manager}, \emph{worker} and \emph{verifier}. The \emph{managers} and \emph{verifiers} are dedicated machines of Inferix while the \emph{workers} are machines joined by GPU owners. The number of \emph{workers} is normally much larger than the number of \emph{managers} and \emph{verifiers}.
 \begin{figure}[h]
     \centering
@@ -43,10 +46,17 @@ A typical rendering session contains several steps which are shown in~\autoref{f
 The \emph{managers} synchronize a database of rendering and verification jobs. That makes the rendering service  being both logically and physically decentralized: a graphic scene can be simultaneously rendered by different \emph{workers} and later checked by different \emph{verifiers}, the machines of \emph{workers} and \emph{verifiers} can be also located at different geographical locations.
 
 \section[Rendering output verification]{Rendering output verification}\label{sec:output_verification}
-One of the most important problems that Inferix has to solve is to maintain the \emph{authenticity} of rendered result. That means how to warranty that once a user submits a valid graphics scene, then after waiting for an amount of time, the user will receive an authentically rendered result. The authenticity can be defined informally as the result received from the rendering network and the result received if the scene is rendered by the genuine graphics rendering software are human perceptual indistinguishable.
+One of the most important problems that Inferix has to solve is to maintain the \emph{authenticity} of rendered results. That means how to warranty that once a user submits a valid graphics scene, then after waiting for an amount of time, the user will receive authentically rendered images. The authenticity can be defined informally as if the result received from the rendering network and the result received when the scene is genuinely rendered by a graphics rendering software are human perceptual indistinguishable.
 
-However, the \emph{workers} joined the rendering network are mostly workstations\footnote{Except the dedicated machines of Inferix.} of GPU owners who want to make profit from their unused computing resources. Respecting the privacy of GPU owners, beside a lightweight open source software client installed to manage the communication with the network, there is completely no control on \emph{workers}.
+The \emph{workers} joined the rendering network are mostly workstations\footnote{Except the dedicated machines of Inferix.} of GPU owners who want to make profit from their unused computing resources. Respecting the privacy of GPU owners and their computation resources, beside a lightweight open source software client installed to manage the communication with the network, there is completely no control on \emph{workers}.
 
+Consequently, there is no constraint to oblige \emph{workers} to render the graphics scene correctly. Indeed, a malicious \emph{worker} may receive a rendering job, but does nothing then uses some random images as results. Without rendering the graphics scene by themselves, the \emph{managers} and users know only several superficial features of what the rendered images look like. Obviously, the \emph{managers} and users have no interest in rendering the scene: if they can do that, there is no need to rely on \emph{workers}. Moreover, we cannot set up any surveillance mechanism on the machines of \emph{worker} due to privacy reasons. Even if we try to do that, this is only a matter of time before the \emph{worker} reverse engineers the mechanism and eventually bypass it.
+
+The situation seems not favor us: checking the authenticity of something while only having a little knowledge about it, otherwise the attacker has complete information.
+
+% The situation seems not favor us: we have only a little knowledge about the output, both us and \emph{worker} known the input,
+
+% having to maintain the authenticity of the output while having no control on the \emph{worker} side, both  We have only a little knowledge on the output while the \emph{worker} have full 
 
 
 
