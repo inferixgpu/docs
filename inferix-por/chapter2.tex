@@ -18,11 +18,11 @@ To handle this problem, we use a watermarking~\cite{Cox1997,Cox1999} method call
 % As discussed above (see also~\ref{sec:output_verification}), to check the validity of the rendered images output from \emph{workers}, special watermarks will be embedded into these images.
 % It is important to note that we cannot insert watermarks into the images as in the traditional digital watermarking methods~\cite{Cox2008} since the images are output of \emph{workers}, they are not under our control.
 % Since images are output of \emph{workers} which are not under control, watermarks cannot be embedded directly into 
-A user submits some Blender work to a \emph{manager} (see~\autoref{fig:rendering_service}), this work consists of several graphics scenes; each contains information about graphical objects, the camera, light sources and materials~\cite{Blender}. The photorealistic rendering is a sophisticated computation process that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene~\cite{Hughes2014}.
+A user submits some Blender work to a \emph{manager} (see~\autoref{sec:rendering_network}), this work consists of several graphics scenes; each contains information about graphical objects, the camera, light sources and materials~\cite{Blender}. The photorealistic rendering is a sophisticated computation process that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene~\cite{Hughes2014}.
 
-In traditional digital watermarking schemes~\cite{Cox2008,Cox1997,Cox1999}, to check the authenticity, an invisible watermark~\cite{Craver1997} will be embedded into the image needed to be protected. A detector tries to extract the watermark from a tested image then compares the extracted watermark with the original embedded one, if the comparison is passed then that the tested image is concluded as being authentic.
+In traditional digital watermarking schemes~\cite{Cox2008,Cox1997,Cox1999}, to check the authenticity, an invisible watermark~\cite{Yeung1997,Craver1997,Wu1998} will be embedded into the image needed to be protected. A detector tries to extract the watermark from a tested image then compares the extracted watermark with the original embedded one, if the comparison is passed then that the tested image is concluded as being authentic.
 
-In the context of rendering network (see~\autoref{sec:rendering_network}), the \emph{manager} has access to the image only after the graphics scene is rendered by some \emph{worker}, and it is nonsense to embed watermark at this point since the watermarking cannot check any malicious activities may happen in the rendering process. Our approach is to embed watermarks into the graphics scene submitted by users before sending it to \emph{workers}.
+In the context of Inferix's rendering network, the \emph{manager} has access to the image only after the graphics scene has been rendered by some \emph{worker}, but it is nonsense to embed watermark into the image at this point since the watermarking cannot help to detect any malicious manipulations which may happen before that, namely in the rendering process. Our approach is to embed watermarks into the graphics scene submitted by users before sending it to \emph{workers}.
 
 % the \emph{manager} has no access to the rendered images
 
@@ -33,8 +33,14 @@ In the context of rendering network (see~\autoref{sec:rendering_network}), the \
 \subsection[Hight level description]{High level description}
 The \emph{Active Noise Generation and Verification} (ANGV) consists of two main procedures as described below.
 
-\paragraph[Watermark insertion]{Watermark insertion}
-In practice, a graphics scene may have multiple frames and each worker may render only a subset of these frames. For the simplification purpose, we assume in this section that a scene has only one frame, so the output rendered image is determined uniquely by the scene.
+\paragraph[Watermark insertion]{Noise generation}
+In practice, a graphics scene may contain multiple frames, each job of this scene contains some range of frames to be rendered, consequently each worker may render only a subset of these frames. For the simplification purpose, we assume in this section that a scene has only one frame, so the output image is determined uniquely by the scene.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{noise_generation.png}
+    \caption[Noise generation]{Noise generation}
+    \label{fig:noise_generation}
+\end{figure}
 
 Let $\mathcal{R}$ and $S$ denote respectively the rendering function and the scene, the rendered image $I$ without watermark will be:
 \begin{equation*}
@@ -44,9 +50,9 @@ It is important to note that $I$ is actually never computed (neither by the \emp
 \begin{equation*}
     W = \left\{ w_1,\dots,w_n \right\}
 \end{equation*}
-where $w_i$ is chosen from some probability distribution and $w_i$ may also depend on $S$ (see~\autoref{par:robustness}). Using $W$ and $S$, we next generate a representative key:
+where $w_i$ is chosen from some probability distribution and $w_i$ may also depend on $S$ (see~\autoref{par:robustness}). Using $W$ and $S$, we next generate a verification key:
 \begin{equation*}
-    K_{\mathtt{repr}} \left(W,S\right) = \left\{ k_1,\dots,k_n \right\}
+    K_{\mathtt{verif}} \left(W,S\right) = \left\{ k_1,\dots,k_n \right\}
 \end{equation*}
 that will be used later for the watermark verification procedure. We do not insert $W$ into the image $I$ but into the scene $S$ using an encoding function $\mathcal{E}$, to create a watermarked scene:
 \begin{equation*}
@@ -58,7 +64,7 @@ Finally $\hat{S}$ is sent to \emph{workers} for rendering, that results in a wat
 \end{equation*}
 
 \paragraph[Watermark verification]{Watermark verification}
-Given an image $\hat{I}$ and a representative key $K_{\mathtt{repr}}$, we first try to recover a watermark $\hat{W}$ from $\hat{I}$ using a decoding function $\mathcal{D}$:
+Given an image $\hat{I}$ and a verification key $K_{\mathtt{repr}}$, we first try to recover a watermark $\hat{W}$ from $\hat{I}$ using a decoding function $\mathcal{D}$:
 \begin{equation*}
     \hat{W} = \mathcal{D} \thinspace (\hat{I}, K_{\mathtt{repr}})
 \end{equation*}
@@ -67,6 +73,12 @@ Next $\hat{W}$ is compared against $W$, if the difference is above some threshol
     \lVert \hat{W} - W \rVert \geq T
 \end{equation*}
 then $\hat{I}$ will be accepted otherwise rejected.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{noise_verification.png}
+    \caption[Noise verification]{Noise verification}
+    \label{fig:noise_verification}
+\end{figure}
 
 \paragraph[Rendering result]{Rendering result}
 In case of being accepted, the rendered image sent back to users is $\hat{I} = \mathcal{R}\thinspace(\hat{S})$ but not $I = \mathcal{R}\left(S\right)$. The encoding function $\mathcal{E}$ and the watermark $W$ are designed so that the distortion of $\hat{I}$ against $I$ is under human perception capability, then $\hat{I}$ can be authentically used as a result of the graphics rendering.
@@ -123,7 +135,7 @@ where $\left(x^{\mathtt{ul}}_i, y^{\mathtt{ul}}_{i}\right)$ (resp. $x^{\mathtt{l
     K_{\mathtt{repr}} = \left\{k_1,\dots,k_n \right\}
 \end{equation*}
 
-\paragraph[Other constraints]{Other constraints}
+\paragraph[Distortion constraint]{Distortion constraint}
 It might be worth noting that $k_i$ represents the distortion caused by the atomic watermark $w_i$ to the rendered image, normally $k_i$ is much smaller than the original size of $w_i$. On the one hand $k_i$ must not be negligible otherwise the watermark verification is not possible. On the other hand, $k_i$ must be kept under the human perception capability. Experimentally we keep a trade-off:
 \begin{align}\label{eq:side_constraint}
 \begin{split}
