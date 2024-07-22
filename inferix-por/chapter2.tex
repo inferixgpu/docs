@@ -9,7 +9,7 @@ Before being sent back to the users, the output images of \emph{workers} must be
 
 A public-key cryptography approach is using a scheme of \emph{fully homomorphic encryption} (FHE)~\cite{Gentry2009}. The graphics scene is encrypted first by a private key before sending to \emph{workers}. Given the corresponding public key, the homomorphic encryption software performs the graphics rendering on the encrypted scene without needing to decrypt it. Finally, the encrypted rendered results are returned and decrypted at the user's side using the private key. The advantage of FHE is that the \emph{workers}, even being able to modify the FHE softwares on their side, cannot interfere the FHE graphics rendering processes without being detected. Unfortunately, this approach is impractical since all state-of-the-art implementations will make the performance of the homomorphic encryption graphics rendering become unacceptable~\cite{9910347}.
 
-To handle this problem, we use a watermarking~\cite{Cox1997,Cox1999} method called \emph{Active Noise Generation and Verification} (ANGV) which is a simpler variant of \emph{proof of ownership}~\cite{Craver1997} schemes. \emph{First}, the \emph{verifier} can quickly judge that the rendered digital content is an authentic result of a rendering process whose input is the submitted graphics scene. \emph{Second}, though ANGV needs to modify the initial submitted scene, as a sequence the rendered output will be distorted also, the distortion is regulated to below the human perception capability, hence there is no quality degradation. \emph{Third}, the embedded noise is robust under rendering enhancements (e.g. anti-aliasing) and post-processing operations. \emph{Finally}, there is no need to use a special graphics rendering software on \emph{workers} as in the case of FHE, the performance of graphics rendering is not affected.
+To handle this problem, we use a watermarking~\cite{Cox1997,Cox1999} method called \emph{Active Noise Generation and Verification} (ANGV) which is a simpler variant of \emph{proof of ownership}~\cite{Wu1998,Yeung1997} schemes. \emph{First}, the \emph{verifier} can quickly judge that the rendered digital content is an authentic result of a rendering process whose input is the submitted graphics scene. \emph{Second}, though ANGV needs to modify the initial submitted scene, as a sequence the rendered output will be distorted also, the distortion is regulated to below the human perception capability, hence there is no quality degradation. \emph{Third}, the embedded noise is robust under rendering enhancements (e.g. anti-aliasing) and post-processing operations. \emph{Finally}, there is no need to use a special graphics rendering software on \emph{workers} as in the case of FHE, the performance of graphics rendering is not affected.
 % verification will be proceeded on \emph{verifiers}
 
 % the verification is proceeded on \emph{verifiers}
@@ -18,11 +18,12 @@ To handle this problem, we use a watermarking~\cite{Cox1997,Cox1999} method call
 % As discussed above (see also~\ref{sec:output_verification}), to check the validity of the rendered images output from \emph{workers}, special watermarks will be embedded into these images.
 % It is important to note that we cannot insert watermarks into the images as in the traditional digital watermarking methods~\cite{Cox2008} since the images are output of \emph{workers}, they are not under our control.
 % Since images are output of \emph{workers} which are not under control, watermarks cannot be embedded directly into 
-A user submits some Blender work to a \emph{manager} (see~\autoref{sec:rendering_network}), this work consists of several graphics scenes; each contains information about graphical objects, the camera, light sources and materials~\cite{Blender}. The photorealistic rendering is a sophisticated computation process that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene~\cite{Hughes2014}.
+A user submits some graphics work to a \emph{manager} (see~\autoref{sec:rendering_network}), this work consists of several graphics scenes; each contains information about graphical objects, the camera, light sources and materials~\cite{Blender}. The photorealistic rendering is a sophisticated computation process that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene~\cite{Hughes2014}.
 
-In traditional digital watermarking schemes~\cite{Cox2008,Cox1997,Cox1999}, to check the authenticity, an invisible watermark~\cite{Yeung1997,Craver1997,Wu1998} will be embedded into the image needed to be protected. A detector tries to extract the watermark from a tested image then compares the extracted watermark with the original embedded one, if the comparison is passed then that the tested image is concluded as being authentic.
+In traditional digital watermarking schemes~\cite{Cox1997,Cox1999}, to check the authenticity, an invisible watermark~\cite{Yeung1997,Craver1997,Wu1998} will be embedded into the image needed to be protected. A detector tries to extract the watermark from a tested image then compares the extracted watermark with the original embedded one, if the comparison is passed then that the tested image is concluded as being authentic.
 
-In the context of Inferix's rendering network, the \emph{manager} has access to the image only after the graphics scene has been rendered by some \emph{worker}, but it is nonsense to embed watermark into the image at this point since the watermarking cannot help to detect any malicious manipulations which may happen before that, namely in the rendering process. Our approach is to embed watermarks into the graphics scene submitted by users before sending it to \emph{workers}.
+\paragraph[Approach]{Approach}\label{par:inferix_approach}
+In the context of Inferix's rendering network, the \emph{manager} has access to the image only after the graphics scene has been rendered by some \emph{worker}. It is nonsense to embed watermark into the image at this point since the watermarking cannot help to detect any malicious manipulations which may happen before that, namely in the rendering process. Our approach is to embed watermarks into the graphics scene submitted by users before sending it to \emph{workers}.
 
 % the \emph{manager} has no access to the rendered images
 
@@ -33,7 +34,7 @@ In the context of Inferix's rendering network, the \emph{manager} has access to 
 \subsection[Hight level description]{High level description}
 The \emph{Active Noise Generation and Verification} (ANGV) consists of two main procedures as described below.
 
-\paragraph[Watermark insertion]{Noise generation}
+\paragraph[Noise generation]{Noise generation}
 In practice, a graphics scene may contain multiple frames, each job of this scene contains some range of frames to be rendered, consequently each worker may render only a subset of these frames. For the simplification purpose, we assume in this section that a scene has only one frame, so the output image is determined uniquely by the scene.
 \begin{figure}[h]
     \centering
@@ -41,12 +42,17 @@ In practice, a graphics scene may contain multiple frames, each job of this scen
     \caption[Noise generation]{Noise generation}
     \label{fig:noise_generation}
 \end{figure}
-
-Let $\mathcal{R}$ and $S$ denote respectively the rendering function and the scene, the rendered image $I$ without watermark will be:
+Mathematically, we denote the graphics rendering process by a function $\mathcal{R}$, for each input scene $\mathcal{S}$, the result of the rendering is an image:
 \begin{equation*}
     I = \mathcal{R} \left( S \right)
 \end{equation*}
-It is important to note that $I$ is actually never computed (neither by the \emph{manager} in the watermark insertion procedure nor by \emph{workers} in rendering processes), the equation above represents only an equality. Similar with traditional schemes~\cite{Cox1999,Cox1997,Craver1997}, a watermark $W$ is a sequence of atomic watermarks:
+% Let $\mathcal{R}$ and $S$ denote respectively the rendering function and the scene, the rendered image $I$ without watermark will be:
+% \begin{equation*}
+%     I = \mathcal{R} \left( S \right)
+% \end{equation*}
+It is important to note that $I$ is actually never computed, neither by the \emph{manager} in the watermark insertion procedure nor by \emph{workers} in rendering processes, the equation above represents only an equality.
+
+Similar with invisible watermark schemes~\cite{Yeung1997,Craver1997,Wu1998}, a noise $W$ is a sequence of atomic watermarks:
 \begin{equation*}
     W = \left\{ w_1,\dots,w_n \right\}
 \end{equation*}
@@ -54,38 +60,44 @@ where $w_i$ is chosen from some probability distribution and $w_i$ may also depe
 \begin{equation*}
     K_{\mathtt{verif}} \left(W,S\right) = \left\{ k_1,\dots,k_n \right\}
 \end{equation*}
-that will be used later for the watermark verification procedure. We do not insert $W$ into the image $I$ but into the scene $S$ using an encoding function $\mathcal{E}$, to create a watermarked scene:
+that will be used later for the watermark verification procedure.
+
+The noise $W$ is not embedded into the image $I$ but into the scene $S$ (see~\autoref{fig:noise_generation}). We use an encoding function $\mathcal{E}$ to create a watermarked scene:
 \begin{equation*}
     \hat{S} = \mathcal{E} \left(S, W\right)
 \end{equation*}
 Finally $\hat{S}$ is sent to \emph{workers} for rendering, that results in a watermarked image:
 \begin{equation*}
-    \hat{S} = \mathcal{R} \thinspace (\hat{S})
+    \hat{I} = \mathcal{R} \thinspace (\hat{S})
 \end{equation*}
+In case of being accepted, the rendered image sent back to the original user (i.e. the owner of the graphics scene $\mathcal{S}$) is $\hat{I}$ but not $I$. The encoding function $\mathcal{E}$ and the watermark $W$ are designed so that the distortion of $\hat{I}$ against $I$ is under human perception capability, then $\hat{I}$ can be authentically used as a result of the graphics rendering.
 
-\paragraph[Watermark verification]{Watermark verification}
-Given an image $\hat{I}$ and a verification key $K_{\mathtt{repr}}$, we first try to recover a watermark $\hat{W}$ from $\hat{I}$ using a decoding function $\mathcal{D}$:
-\begin{equation*}
-    \hat{W} = \mathcal{D} \thinspace (\hat{I}, K_{\mathtt{repr}})
-\end{equation*}
-Next $\hat{W}$ is compared against $W$, if the difference is above some threshold $T$
-\begin{equation*}
-    \lVert \hat{W} - W \rVert \geq T
-\end{equation*}
-then $\hat{I}$ will be accepted otherwise rejected.
+\paragraph[Noise verification]{Noise verification}
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{noise_verification.png}
     \caption[Noise verification]{Noise verification}
     \label{fig:noise_verification}
 \end{figure}
+Given an image $J$ and a verification key $K_{\mathtt{repr}}$, we first try to recover a watermark $\hat{W}$ from $\hat{I}$ using a decoding function $\mathcal{D}$:
+\begin{equation*}
+    \hat{W} = \mathcal{D} \thinspace (J, K_{\mathtt{repr}})
+\end{equation*}
+Next $\hat{W}$ is compared against $W$, if the difference is above some threshold $T$
+\begin{equation*}
+    \lVert \hat{W} - W \rVert \geq T
+\end{equation*}
+then $J$ will be accepted otherwise rejected.
 
-\paragraph[Rendering result]{Rendering result}
-In case of being accepted, the rendered image sent back to users is $\hat{I} = \mathcal{R}\thinspace(\hat{S})$ but not $I = \mathcal{R}\left(S\right)$. The encoding function $\mathcal{E}$ and the watermark $W$ are designed so that the distortion of $\hat{I}$ against $I$ is under human perception capability, then $\hat{I}$ can be authentically used as a result of the graphics rendering.
+% \paragraph[Rendering result]{Rendering result}
+% In case of being accepted, the rendered image sent back to users is $\hat{I} = \mathcal{R}\thinspace(\hat{S})$ but not $I = \mathcal{R}\left(S\right)$. The encoding function $\mathcal{E}$ and the watermark $W$ are designed so that the distortion of $\hat{I}$ against $I$ is under human perception capability, then $\hat{I}$ can be authentically used as a result of the graphics rendering.
 
 \paragraph[Performance]{Performance}
 The functions $\mathcal{E}$ and $\mathcal{D}$ are designed so that their computation resource consumption is negligible in comparison with the graphics rendering function $\mathcal{R}$; and the watermark verification does not require $I$, only $\hat{I}$ is rendered. That means the only overhead caused by ANGV is by $\mathcal{E}$ and $\mathcal{D}$, hence there is no significant effect on the performance of the graphics rendering.
 % (there is no need to render this image for comparing with $I'$)
+
+\subsection[Deployment]{Deployment}
+To apply ANGV into the rendering network (see~\autoref{fig:rendering_service})
  
 
 \subsection[Implementation]{Implementation}
