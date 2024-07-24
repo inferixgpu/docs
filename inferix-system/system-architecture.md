@@ -14,7 +14,8 @@ Owners of GPUs can share idle resources to Inferix network and earn long-term pa
 
 The graphics rendering service consists in a network of decentralized machines called *nodes* which are of 3 kinds: *manager*, *worker* and *verifier*. The *managers* and *verifiers* are dedicated machines of Inferix while the *workers* are machines joined by GPU owners. The number of *workers* is normally much larger than the number of *managers* and *verifiers*.
 
-![Graphics rendering flow](../.gitbook/assets/rendering_service.png#center)
+<!-- ![Graphics rendering flow](../.gitbook/assets/rendering_service.png#center) -->
+<figure><img src="../.gitbook/assets/rendering_service.png" alt=""><figcaption></figcaption></figure>
 
 A typical rendering session contains several steps:
  1. A user submits a graphics scene to some *manager* using the Inferix plugin for client.
