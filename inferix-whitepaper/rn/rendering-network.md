@@ -2,7 +2,7 @@
 
 The graphics rendering service consists of a network of decentralized machines called _nodes_ which are of 3 kinds: _manager_, _worker_ and _verifier_. The _managers_ and _verifiers_ are dedicated machines of Inferix while the _workers_ are machines joined by GPU owners. The number of _workers_ is normally much larger than the number of _managers_ and _verifiers_.
 
-<figure><img src="../../.gitbook/assets/rendering_service.png" alt=""><figcaption><p>Figure 1: Graphics rendering flow</p></figcaption></figure>
+<figure><img id="figure1" src="../../.gitbook/assets/rendering_service.png" alt=""><figcaption><p>Figure 1: Graphics rendering flow</p></figcaption></figure>
 
 A typical rendering session contains several steps which are shown in [Figure 1:](./#figure1)
 
