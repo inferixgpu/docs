@@ -17,7 +17,7 @@ In practice, a graphics scene may contain multiple frames, each job of this scen
 
 <figure><img src="../../.gitbook/assets/noise_generation.png" alt=""><figcaption><p>Figure 2: Noise generation</p></figcaption></figure>
 
-Let \(\mathcal{R}\) denote the graphics rendering process, for each input graphics scene $\mathcal{S}$, the result of the rendering is an image:
+Let $$\mathcal{R}$$ denote the graphics rendering process, for each input graphics scene $\mathcal{S}$, the result of the rendering is an image:
 $$
 \begin{equation}
     I = \mathcal{R} \left( S \right)
