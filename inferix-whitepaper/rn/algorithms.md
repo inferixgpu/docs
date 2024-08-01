@@ -15,7 +15,7 @@ However, in the context of Inferix's rendering network, the __manager__ has acce
 ### Noise Generation
 In practice, a graphics scene may contain multiple frames, each job of this scene contains some range of frames to be rendered, consequently each worker may render only a subset of these frames. For the simplification purpose, we assume in this section that a scene has only one frame, so the output image is determined uniquely by the scene.
 
-<figure><img src="../../.gitbook/assets/noise_generation.png" alt=""><figcaption><p>Figure 2: Noise generation</p></figcaption></figure>
+<figure><img id="figure2" src="../../.gitbook/assets/noise_generation.png" alt=""><figcaption><p>Figure 2: Noise generation</p></figcaption></figure>
 
 Let $$\mathcal{R}$$ denote the graphics rendering process, for each input graphics scene $$\mathcal{S}$$, the result of the rendering is an image:
 $$
@@ -39,4 +39,15 @@ $$
 $$
 that will be used later for the noise verification procedure.
 
-The noise $$W$$ is not embedded into the image $$I$$ (we have remarked that embedding watermarks into $$I$$ cannot help the authentication) but into the scene $$S$$. Let $$\mathcal{E}$$ denote the noise embedding function,
+The noise $$W$$ is not embedded into the image $$I$$ (we have remarked that embedding watermarks into $$I$$ cannot help the authentication) but into the scene $$S$$ (c.f. [Figure 2:](./#figure2)). Let $$\mathcal{E}$$ denote the noise embedding function, now we now create a watermarked scene:
+$$
+\begin{equation}
+    \hat{S} = \mathcal{E} \left(S, W\right)
+\end{equation}
+$$
+Finally $$\hat{S}$$ is sent to __workers__ for rendering, that results in a watermarked image:
+$$
+\begin{equation}
+    \hat{I} = \mathcal{R} \thinspace (\hat{S})
+\end{equation}
+$$
