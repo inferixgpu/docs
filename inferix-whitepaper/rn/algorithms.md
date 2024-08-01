@@ -17,15 +17,25 @@ In practice, a graphics scene may contain multiple frames, each job of this scen
 
 <figure><img src="../../.gitbook/assets/noise_generation.png" alt=""><figcaption><p>Figure 2: Noise generation</p></figcaption></figure>
 
-Let $$\mathcal{R}$$ denote the graphics rendering process, for each input graphics scene $\mathcal{S}$, the result of the rendering is an image:
+Let $$\mathcal{R}$$ denote the graphics rendering process, for each input graphics scene $$\mathcal{S}$$, the result of the rendering is an image:
 $$
 \begin{equation}
     I = \mathcal{R} \left( S \right)
 \end{equation}
 $$
-But it is important to remark that $I$ is actually never computed, neither by the __manager__ in the watermark insertion procedure nor by __workers__ in rendering processes, the equation above represents only an equality. Similar with conventional invisible watermark schemes ([\[8\]](../references.md),[\[9\]](../references.md),[\[10\]](../references.md)), a noise $W$ is a sequence of atomic watermarks:
+But it is important to remark that $$I$$ is actually never computed, neither by the __manager__ in the watermark insertion procedure nor by __workers__ in rendering processes, the equation above represents only an equality. Similar with conventional invisible watermark schemes ([\[8\]](../references.md),[\[9\]](../references.md),[\[10\]](../references.md)), a noise $$W$$ is a sequence of atomic watermarks:
 $$
 \begin{equation}
     W = \left\{ w_1,\dots,w_n \right\}
 \end{equation}
 $$
+where $$w_i \, \left(1 \leq i \leq n\right)$$ is independently chosen from some normal probability distribution $$\mathcal{N}\left(0, \mu^2\right)$$. Furthermore, $$w_i$$ has a special structure depending on where it is introduced in the scene $$S$$. The number $$n$$ of atomic watermark signals is chosen around an experimental human perception threshold. Together with a uniformly generated job identification number $$J_{\mathtt{id}}$$, we calculate a verification key:
+$$
+\begin{equation}
+    \label{equ:verification_key}
+    K_{\mathtt{verif}} \left(S, W, J_{\mathtt{id}}\right) = \left\{ k_1,\dots,k_n \right\}
+\end{equation}
+$$
+that will be used later for the noise verification procedure.
+
+The noise $$W$$ is not embedded into the image $$I$$ (we have remarked that embedding watermarks into $$I$$ cannot help the authentication) but into the scene $$S$$. Let $$\mathcal{E}$$ denote the noise embedding function,
