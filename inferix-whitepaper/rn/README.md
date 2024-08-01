@@ -18,7 +18,7 @@ A typical rendering session contains several steps which are shown in <a href="#
 The *managers* synchronize a database of rendering and verification jobs. That makes the rendering service being both logically and physically decentralized: a graphic scene can be simultaneously rendered by different *workers* and later checked by different *verifiers*, the machines of *workers* and *verifiers* can be also located at different geographical locations.
 
 ## Rendering authentication problem
-A user submits some graphics work to some *manager* (cf. <a href="#figure1">Figure 1:</a>), this work consists of several graphics scenes; each contains information about graphical objects, the camera, light sources and materials. The photorealistic rendering consists of sophisticated computation processes that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene [[1]](#1).
+A user submits some graphics work to some *manager* (cf. <a href="#figure1">Figure 1:</a>), this work consists of several graphics scenes; each contains information about graphical objects, the camera, light sources and materials. The photorealistic rendering consists of sophisticated computation processes that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene <a href="#abc">[1]</a>.
 
 One of the most important problems that Inferix has to solve is to maintain the *authenticity* of rendered results. That means how to ensure that once a user submits a valid graphics scene, then after waiting for an amount of time, the user will receive authentically rendered images. The authenticity can be defined informally as if the result received from the rendering network and the result received when the scene is genuinely rendered by a graphics rendering software are human perceptual indistinguishable.
 
@@ -29,14 +29,14 @@ Consequently, there is no constraint to oblige *worker* to render the graphics s
 Naturally, a public-key cryptography approach is using a scheme of *fully homomorphic encryption* (FHE) [[2]](#2). The graphics scene is encrypted first by a private key before sending to *worker*. Given the corresponding public key, the homomorphic encryption software performs the graphics rendering on the encrypted scene without needing to decrypt it. Finally, the encrypted rendered results are returned and decrypted at the user's side using the private key. The advantage of FHE is that the *worker*, even being able to modify the FHE softwares on their side, cannot interfere the FHE graphics rendering processes or forge the rendering results without being detected. Unfortunately, this approach is impractical since all state-of-the-art implementations will make the performance of the homomorphic encryption graphics rendering become unacceptable [[3]](#3).
 
 ## Algorithms
-To handle this problem, we follow the approach of digital watermarking ([[4]](#4),[[5]](#5)) and propose a scheme called \emph{Active Noise Generation and Verification} (ANGV) which is a variant of *proof of ownership* ([[6]](#6),[[7]](#7)). Our scheme has several favorable properties:
+To handle this problem, we follow the approach of digital watermarking ([[4]](#4),[[5]](#5)) and propose a scheme called *Active Noise Generation and Verification* (ANGV) which is a variant of *proof of ownership* ([[6]](#6),[[7]](#7)). Our scheme has several favorable properties:
  1. **Efficiency**: noise generation and verification requires much lower computation resources compared with the graphics rendering, the total performance of the system is not affected.
  2. **Fidelity**: the scheme needs to modify the initial scene so the rendered output will be distorted; but the distortion is regulated being below the human perception capability, hence there is no loss of quality.
  3. **Robustness**: the embedded noises are robust under rendering enhancements (e.g. anti-aliasing) and post-processing operations.
  4. **Effectiveness**: there is no need to use a special graphics rendering software as in the case of FHE.
 
 ## References
-<a id="1">[1]</a>
+<span id="abc">[1]</span>
 John F. Hughes, Andries van Dam, Morgan McGuire, David F. Sklar, James D. Foley, Steven K. Feiner, Kurt Akeley. Addison-Wesley. Computer Graphics: Principles and Practice. 2014.
 
 <a id="2">[2]</a>
