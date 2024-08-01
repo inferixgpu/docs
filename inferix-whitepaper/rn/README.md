@@ -22,7 +22,7 @@ The _managers_ synchronize a database of rendering and verification jobs. That m
 
 ### Rendering authentication problem
 
-A user submits some graphics work to some _manager_ (cf. [Figure 1:](#figure1)), this work consists of several graphics scenes; each contains information about graphical objects, the camera, light sources and materials. Photorealistic rendering consists of sophisticated computation processes that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene [[1]](#Hughes2014).
+A user submits some graphics work to some _manager_ (cf. [Figure 1:](#figure1)), this work consists of several graphics scenes; each contains information about graphical objects, the camera, light sources and materials. Photorealistic rendering consists of sophisticated computation processes that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene <a id="Hughes2014">[1]</a>
 
 One of the most important problems that Inferix has to solve is to maintain the _authenticity_ of rendered results. That means how to ensure that once a user submits a valid graphics scene, then after waiting for an amount of time, the user will receive authentically rendered images. The authenticity can be defined informally as if the result received from the rendering network and the result received when the scene is genuinely rendered by a graphics rendering software are human perceptual indistinguishable.
 
@@ -43,7 +43,7 @@ To handle this problem, we follow the approach of digital watermarking ([\[4\]](
 
 ### References
 
-<p id="Hughes2014"><a>[1]</a> John F. Hughes, Andries van Dam, Morgan McGuire, David F. Sklar, James D. Foley, Steven K. Feiner, Kurt Akeley. Addison-Wesley. Computer Graphics: Principles and Practice. 2014.</p>
+<p id="Hughes2014"><a>[1]</a></p> John F. Hughes, Andries van Dam, Morgan McGuire, David F. Sklar, James D. Foley, Steven K. Feiner, Kurt Akeley. Addison-Wesley. Computer Graphics: Principles and Practice. 2014.</p>
 
 [2](#2) Craig Gentry. Proceedings of the 41st Annual ACM Symposium on Theory of Computing. Fully Homomorphic Encryption using Ideal Lattices. 2009.
 
