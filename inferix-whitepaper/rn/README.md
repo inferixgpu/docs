@@ -2,9 +2,9 @@
 
 The graphics rendering service consists in a network of decentralized machines called *nodes* which are of $3$ kinds: *manager*, *worker* and *verifier*. The *managers* and *verifiers* are dedicated machines of Inferix while the *workers* are machines joined by GPU owners. The number of *workers* is normally much larger than the number of *managers* and *verifiers*.
 
-<figure><img id="figure" src="../../.gitbook/assets/rendering_service.png" alt=""><figcaption>Figure 1: Graphics rendering flow</figcaption></figure>
+<figure><img id="figure1" src="../../.gitbook/assets/rendering_service.png" alt=""><figcaption>Figure 1: Graphics rendering flow</figcaption></figure>
 
-A typical rendering session contains several steps which are shown in <a href="#figure">Figure 1:</a>
+A typical rendering session contains several steps which are shown in <a href="#figure1">Figure 1:</a>
  1. A user submits a graphics scene to some *manager* using the Inferix plugin for client.
  2. The *manager* who receives the graphics scene builds corresponding rendering jobs, each job consists of several parameters: range of images to be rendered, image format, etc. These job will be dispatched to *workers*.
  3. Receiving a rendering job, a *worker* renders the graphics scene using the parameters given by the job. When it finishes, it sends the rendered images to a shared storage.
@@ -18,7 +18,7 @@ A typical rendering session contains several steps which are shown in <a href="#
 The *managers* synchronize a database of rendering and verification jobs. That makes the rendering service being both logically and physically decentralized: a graphic scene can be simultaneously rendered by different *workers* and later checked by different *verifiers*, the machines of *workers* and *verifiers* can be also located at different geographical locations.
 
 ## Rendering authentication problem
-A user submits some graphics work to some *manager* (cf. <a href="#figure">Figure 1:</a>), this work consists of several graphics scenes; each contains information about graphical objects, the camera, light sources and materials. The photorealistic rendering consists of sophisticated computation processes that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene [[1]](#1).
+A user submits some graphics work to some *manager* (cf. <a href="#figure1">Figure 1:</a>), this work consists of several graphics scenes; each contains information about graphical objects, the camera, light sources and materials. The photorealistic rendering consists of sophisticated computation processes that calculate light properties at surfaces of all visible objects, results in 3D rendered images of the scene [[1]](#1).
 
 One of the most important problems that Inferix has to solve is to maintain the *authenticity* of rendered results. That means how to ensure that once a user submits a valid graphics scene, then after waiting for an amount of time, the user will receive authentically rendered images. The authenticity can be defined informally as if the result received from the rendering network and the result received when the scene is genuinely rendered by a graphics rendering software are human perceptual indistinguishable.
 
@@ -36,23 +36,23 @@ To handle this problem, we follow the approach of digital watermarking ([[4]](#4
  4. **Effectiveness**: there is no need to use a special graphics rendering software as in the case of FHE.
 
 ## References
-<a id="1">[1]<a>
+<a id="1">[1]</a>
 John F. Hughes, Andries van Dam, Morgan McGuire, David F. Sklar, James D. Foley, Steven K. Feiner, Kurt Akeley. Addison-Wesley. Computer Graphics: Principles and Practice. 2014.
 
-<a id="2">[2]<a>
+<a id="2">[2]</a>
 Craig Gentry. Proceedings of the 41st Annual ACM Symposium on Theory of Computing. Fully Homomorphic Encryption using Ideal Lattices. 2009.
 
-<a id="3">[3]<a>
+<a id="3">[3]</a>
 Chiara Marcolla, Victor Sucasas, Marc Manzano, Riccardo Bassoli, Frank H. P. Fitzek, Najwa Aaraj. Survey on Fully Homomorphic Encryption, Theory, and Applications. 2022.
 
-<a id="4">[4]<a>
+<a id="4">[4]</a>
 Ingemar J. Cox, Joe Kilian, Tom Leighton, Talal Shamoon. IEEE Transactions on Image Processing. Secure Spread Spectrum Watermarking for Multimedia. 1997.
 
-<a id="5">[5]<a>
+<a id="5">[5]</a>
 Ingemar J. Cox, Matthew L. Miller, Andrew L. McKellips. IEEE Transactions on Image Processing. Watermarking as Communications with Side Information. 1999.
 
-<a id="6">[6]<a>
+<a id="6">[6]</a>
 Min Wu, Bede Liu. Proceedings of International Conference on Image Processing. Watermarking for Image Authentication. 1998.
 
-<a id="7">[7]<a>
+<a id="7">[7]</a>
 Minerva M. Yeung, Fred Mintzer. Proceedings of International Conference on Image Processing. An Invisible Watermarking Technique for Image Verification. 1997.
