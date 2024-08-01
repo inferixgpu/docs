@@ -10,6 +10,7 @@
   * [Burn-Mint-Work Equilibrium](inferix-whitepaper/bmwe/README.md)
     * [Inferix Bench Efficiency](inferix-whitepaper/bmwe/bmwe.md)
   * [Proof of Rendering](inferix-whitepaper/rn/README.md)
+    * [Rendering network](inferix-whitepaper/rn/rendering-network.md)
     * [Algorithms](inferix-whitepaper/rn/algorithms.md)
     * [Implementation](inferix-whitepaper/rn/implementation.md)
     <!-- * [Active Noise Generation](inferix-whitepaper/rn/active-noise-generation/README.md)

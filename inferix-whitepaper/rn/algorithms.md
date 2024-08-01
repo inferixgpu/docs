@@ -6,3 +6,5 @@ To handle this problem, we follow the approach of digital watermarking ([\[6\]](
 2. **Fidelity**: the scheme needs to modify the initial scene so the rendered output will be distorted; but the distortion is regulated being below the human perception capability, hence there is no loss of quality.
 3. **Robustness**: the embedded noises are robust under rendering enhancements (e.g. anti-aliasing) and post-processing operations.
 4. **Effectiveness**: there is no need to use special graphics rendering software as in the case of FHE.
+
+## 
