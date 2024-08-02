@@ -23,7 +23,9 @@ $$
     I = \mathcal{R} \left( S \right)
 \end{equation}
 $$
-But it is important to remark that $$I$$ is actually never computed, neither by the __manager__ in the watermark insertion procedure nor by __workers__ in rendering processes, the equation above represents only an equality. Similar with conventional invisible watermark schemes ([\[8\]](../references.md),[\[9\]](../references.md),[\[10\]](../references.md)), a noise $$W$$ is a sequence of atomic watermarks:
+But it is important to remark that $$I$$ is actually never computed, neither by the __manager__ in the watermark insertion procedure nor by __workers__ in rendering processes, the equation above represents only an equality.
+
+Similar with conventional invisible watermark schemes ([\[8\]](../references.md),[\[9\]](../references.md),[\[10\]](../references.md)), a noise $$W$$ is a sequence of atomic watermarks:
 $$
 \begin{equation}
     W = \left\{ w_1,\dots,w_n \right\}
@@ -45,9 +47,10 @@ $$
     \hat{S} = \mathcal{E} \left(S, W\right)
 \end{equation}
 $$
-Finally $$\hat{S}$$ is sent to __workers__ for rendering, that results in a watermarked image:
+Finally $$\hat{S}$$ is sent to __workers__ for rendering, that results in a rendered image:
 $$
 \begin{equation}
     \hat{I} = \mathcal{R} \thinspace (\hat{S})
 \end{equation}
 $$
+In case of being accepted, that means $$\hat{I}$$ passes the noise verification which will be presented hereafter, this is the image sent back to the original user (i.e. the owner of the graphics scene $$\mathcal{S}$$), but not the image $$I$$ in [eq. (1)](./#eq1). The encoding function $$\mathcal{E}$$ and the watermark $$W$$ are designed so that the distortion of $$\hat{I}$$ against $$I$$ is under human perception capability, then $$\hat{I}$$ can be authentically used as a result of the graphics rendering.
