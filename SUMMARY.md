@@ -13,6 +13,7 @@
     * [Rendering network](inferix-whitepaper/rn/rendering-network.md)
     * [Algorithms](inferix-whitepaper/rn/algorithms.md)
     * [Implementation](inferix-whitepaper/rn/implementation.md)
+    * [Deployment](inferix-whitepaper/rn/deployment.md)
     <!-- * [Active Noise Generation](inferix-whitepaper/rn/active-noise-generation/README.md)
       * [Implementation](inferix-whitepaper/rn/active-noise-generation/implementation.md)
       * [Performance](inferix-whitepaper/rn/active-noise-generation/performance.md)
