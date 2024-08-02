@@ -8,7 +8,7 @@ To handle this problem, we follow the approach of digital watermarking ([\[6\]](
 4. **Effectiveness**: there is no need to use special graphics rendering software as in the case of FHE.
 
 ## Active Noise Generation and Verification
-In current digital watermarking schemes for authentication systems ([\[8\]](../references.md),[\[9\]](../references.md),[\[10\]](../references.md)), invisible watermarks will be embedded into the digital content needed to be protected. The detector (or verifier) tries to extract the watermark from a tested content, then compares the extracted watermark with the original embedded one, if the comparison is passed then that the content is authenticated.
+In current digital watermarking schemes for authentication and ownership verification ([\[8\]](../references.md),[\[9\]](../references.md),[\[10\]](../references.md)), invisible watermarks will be embedded into the digital content needed to be protected. The detector (or verifier) tries to extract the watermark from a tested content, then compares the extracted watermark with the original embedded one, if the comparison is passed then that the content is authenticated.
 
 However, in the context of Inferix's rendering network, the __manager__ has access to the image only after the graphics scene has been rendered by __workers__. It is nonsense to embed watermark into the image at this point since the watermarking cannot help to detect any malicious manipulations which may happen before that, i.e. in the rendering process. Our approach is to embed watermarks into the graphics scene submitted by users before sending it to __workers__. The __Active Noise Generation and Verification__ consists of two algorithms as described below.
 
