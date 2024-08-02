@@ -14,7 +14,7 @@
 
 \[7] I. J. Cox, M. L. Miller, and A. L. McKellips, “Watermarking as communications with side information,” Proceedings of the IEEE, vol. 87, no. 7, Jul. 1999.
 
-\[9] M. Wu and B. Liu, “Watermarking for image authentication,” in Proceedings of International Conference on Image Processing, 1998.
+\[8] M. Wu and B. Liu, “Watermarking for image authentication,” in Proceedings of International Conference on Image Processing, 1998.
 
 \[9] M. M. Yeung and F. Mintzer, “An invisible watermarking technique for image verification,” in Proceedings of International Conference on Image Processing, 1997.
 

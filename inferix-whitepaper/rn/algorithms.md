@@ -56,7 +56,7 @@ $$
 In case $$\hat{I}$$ passes the noise verification which will be presented hereafter, it is the image sent back to the original user (i.e. the owner of the graphics scene $$\mathcal{S}$$), but not the image $$I$$ in [eq. (1)](./#eq1). The encoding function $$\mathcal{E}$$ and the watermark $$W$$ are designed so that the distortion of $$\hat{I}$$ against $$I$$ is under human perception capability, then $$\hat{I}$$ can be authentically used as a result of the graphics rendering.
 
 ### Noise Verification
-Different from proof of ownership schemes ([\[8\]](../references.md),[\[9\]](../references.md)), the verification of watermark requires a key. Given an image $$J$$ and a verification key $$K_{\mathtt{repr}}$$, we first try to recover a watermark $$\hat{W}$$ from $$J$$ using a decoding function $$\mathcal{D}$$:
+Different from proof of ownership schemes ([\[8\]](../references.md),[\[9\]](../references.md)), the verification of watermark now requires a key. Given an image $$J$$ and a verification key $$K_{\mathtt{repr}}$$, we first try to recover a watermark $$\hat{W}$$ from $$J$$ using a decoding function $$\mathcal{D}$$:
 $$
 \begin{equation}
     \hat{W} = \mathcal{D} \thinspace (J, K_{\mathtt{repr}})
