@@ -21,6 +21,7 @@
       * [Implementation](inferix-whitepaper/rn/active-noise-verification/implementation.md)
       * [Performance](inferix-whitepaper/rn/active-noise-generation/performance.md) -->
   * [References](inferix-whitepaper/references.md)
+  * [Download](inferix-whitepaper/download.md)
 * [Inferix MVP](inferix-mvp/README.md)
   * [Tutorial: MVP for designers & GPU owners](inferix-mvp/tutorial-mvp-for-designers-and-gpu-owners.md)
   * [PoR MVP](inferix-mvp/por-mvp.md)
