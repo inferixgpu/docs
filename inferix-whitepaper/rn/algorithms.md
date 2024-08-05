@@ -31,7 +31,7 @@ $$
     W = \left\{ w_1,\dots,w_n \right\}
 \end{equation}
 $$
-where $$w_i \, \left(1 \leq i \leq n\right)$$ is independently chosen from some normal probability distribution $$\mathcal{N}\left(\mu, \sigma^2\right)$$. Furthermore, $$w_i$$ has a special structure depending on where it is introduced in the scene $$S$$. The number $$n$$ of atomic watermark signals is chosen around an experimental human perception threshold.
+where $$w_i \, \left(1 \leq i \leq n\right)$$ is independently chosen from some normal probability distribution $$\mathcal{N}\left(\mu, \sigma^2\right)$$. Furthermore, $$w_i$$ has a special structure depending on where it is introduced in the scene $$S$$. The number $$n$$ of atomic watermark signals is chosen around an experimental trade-off between human perception threshold about the image distortion and the false positive ratio of the noise verification.
 
 Together with a uniformly generated job identification number $$J_{\mathtt{id}}$$, we calculate a verification key:
 $$
