@@ -7,6 +7,7 @@ In the previous section, we have described the high-level view of the Active Noi
 Following [Equation 2](algorithms.md), a noise is a random vector $$W = \left(w_i\right)_{1 \leq i \leq n}$$ where each $$w_i$$ is independently chosen from a normal distribution $$\mathcal{N}\left(\mu, \sigma^2\right)$$. The atomic watermark $$w_i$$ is implemented a rectangular image of periodic patterns as follows:
  * let fix some values $M,N$ for the width and the height of the rectangle, and
  * let $$X_i, Y_i$$ be respectively the periods following the horizontal and vertical axis, they are random variables $$X_i \sim \mathcal{N}\left(\mu, \sigma^2\right), Y_i \sim \mathcal{N}\left(\mu, \sigma^2\right)$$,
+
 then the image $$w_i$$ is defined by:
 $$
 \begin{equation} w_i(x,y) = e^{2i\pi\left(\frac{x}{X_i} + \frac{y}{Y_i}\right)} \ \left(1 \leq x \leq M, 1 \leq y \leq N \right) \end{equation}
