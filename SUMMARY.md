@@ -14,12 +14,6 @@
     * [Algorithms](inferix-whitepaper/rn/algorithms.md)
     * [Implementation](inferix-whitepaper/rn/implementation.md)
     * [Deployment](inferix-whitepaper/rn/deployment.md)
-    <!-- * [Active Noise Generation](inferix-whitepaper/rn/active-noise-generation/README.md)
-      * [Implementation](inferix-whitepaper/rn/active-noise-generation/implementation.md)
-      * [Performance](inferix-whitepaper/rn/active-noise-generation/performance.md)
-    * [Active Noise Verification](inferix-whitepaper/rn/active-noise-verification/README.md)
-      * [Implementation](inferix-whitepaper/rn/active-noise-verification/implementation.md)
-      * [Performance](inferix-whitepaper/rn/active-noise-generation/performance.md) -->
   * [References](inferix-whitepaper/references.md)
   * [Download](inferix-whitepaper/download.md)
 * [Inferix MVP](inferix-mvp/README.md)
