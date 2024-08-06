@@ -38,6 +38,9 @@ $$
 
 The size $$n$$ of the random vector is one of the principal factors which decides the robustness of noise: the higher value of $$n$$ the lower the false positive of noise verification. This value influences the quality of the rendered image: the lower value of $$n$$ the higher fidelity of the rendered images. Consequently, the value of $$n$$ is a trade-off between the robustness of the embedded noise and the fidelity of the rendered image, this value is empirically chosen to be about $$5$$ to $$8$$.
 
+### Remark
+We need a stronger requirement for [Equation 1](implementation.md): the random variables $$\left\{ \mathcal{X}_i, \mathcal{Y}_i \mid 1 \leq i \leq n\right\}$$ are independent.
+
 ## Noise generation
 Given a graphics scene $$S$$, the random vector $$W = \left(w_i\right)_{1 \leq i \leq n}$$ is embedded into $$S$$ by first wrapping each atomic $$w_i$$ by a graphical object: let denote it $$\omega_i$$, then we obtain a vector of objects $$\Omega = \left(\omega_i\right)_{1 \leq i \leq n}$$. Next by inserting $$\Omega$$ into $$S$$ so that every $$\omega_i$$ contribute to the rendered image, namely they distort this image, but the distortion must be kept so that it is lower than the human perception of light.
 
