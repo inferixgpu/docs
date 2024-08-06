@@ -15,6 +15,7 @@
     * [Implementation](inferix-whitepaper/rn/implementation.md)
     * [Deployment](inferix-whitepaper/rn/deployment.md)
   * [References](inferix-whitepaper/references.md)
+  * [Appendix](inferix-whitepaper/appendix.md)
   * [Download](inferix-whitepaper/download.md)
 * [Inferix MVP](inferix-mvp/README.md)
   * [Tutorial: MVP for designers & GPU owners](inferix-mvp/tutorial-mvp-for-designers-and-gpu-owners.md)
