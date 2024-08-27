@@ -1,14 +1,14 @@
-We introduce in this section a novel approach for the Burn-and-Mint Equilibrium ([[1]](#1),[[2]](#2)) that aims to solve the problem of precisely evaluating the value of GPU nodes up on their contribution to the network.
-$$
-\begin{align*}
-    IBM(t) &= \int\limits_{0}^{t} IB(t) \, dt \\
-    IBE(t) &= \frac{1}{t} \int\limits_{0}^{t} IB(t) \, dt
-\end{align*}
-$$
+# High-level description
 
-## References
-<a id="1">[1]<a>
-Paul Snow, Brian Deery, Jack Lu, David Johnston, Peter Kirby. Factom: Business Processes Secured by Immutable Audit Trails on the Blockchain. Factom Protocol. 2018.
+To handle this problem, we follow the approach of digital watermarking\cite{Cox1997,Cox1999} and propose a scheme called _Active Noise Generation and Verification_ (ANGV) which is a variant of _proof of ownership_\cite{Wu1998,Yeung1997}. Our scheme has several favorable properties:
 
-<a id="2">[2]<a>
-Amir Haleem, Andrew Allen, Andrew Thompson, Marc Nijdam, Rahul Garg. Helium: A Decentralized Wireless Network. Helium Systems. 2018.
+* _Efficiency:_ noise generation and verification require much lower computational resources compared with the graphics rendering; the total performance of the system is not affected.
+* _Fidelity:_ the scheme needs to modify the initial scene so the rendered output will be distorted, but the distortion is human perception subthreshold.
+* _Robustness:_ the embedded noises are robust under rendering enhancements and post-processing operations (e.g. denoising, anti-aliasing).
+* _Effectiveness:_ there is no need to use special rendering software as in the case of FHE.
+* _Security:_ without knowing the verification key, attackers need the same computational cost with the rendering to bypass the authenticity verification.
+
+In current digital watermarking schemes for authentication and ownership verification\cite{Wu1998,Yeung1997,Wolfgang1999,Craver1997}, invisible watermarks will be embedded into the digital content needed to be protected. The detector (or verifier) tries to extract the watermark from a tested content, then compares the extracted watermark with the original embedded one, if the comparison is passed then the content is authenticated.
+
+However, in the context of Inferix's rendering network, the _manager_ has access to the image only after the graphics scene has been rendered by _workers_. It is nonsense to embed watermark into the image at this point since the watermarking cannot help to detect any malicious manipulations which may happen before that, i.e. in the rendering process. Our approach is to embed watermarks into the graphics scene submitted by users before sending it to _workers_. The _Active Noise Generation and Verification_ scheme consists of two algorithms as described below.
+
