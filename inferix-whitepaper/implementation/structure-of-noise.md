@@ -21,7 +21,7 @@ for some amplitude $$A$$. We observe that $$w_i\left(x,y\right) = w_i\left(x + X
 
 _Remark:_ $$\mathcal{X}_i$$ and $$\mathcal{Y}_i$$ are elements of a set $$\left\{ \mathcal{X}_i, \mathcal{Y}_i \mid 1 \leq i \leq n\right\}$$ of independent and identically distributed normal random variables $$\mathcal{N}\left(\mu, \sigma^2\right)$$. The parameters $$\mu$$ and $$\sigma$$ are chosen by analyzing the input scene that is discussed in\~\cref{subsec:noise\_spreading}.
 
-_Proposition 1:_ (Fourier transform of complex atomic signals)
+_Proposition 1._ (Fourier transform of complex atomic signals)
 
 $$
 F_i\left(u,v\right) = \frac{A}{M \times N} \frac{\left(1 - e^{2i\pi \frac{M}{X_i}}\right) \left(1 - e^{2i\pi \frac{N}{Y_i}}\right)}{\left(1 - e^{2i\pi\left(\frac{1}{X_i} + \frac{u}{M}\right)}\right) \left(1 - e^{2i\pi\left(\frac{1}{Y_i} + \frac{v}{N}\right)}\right)}

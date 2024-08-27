@@ -4,7 +4,7 @@ As discussed above, each atomic $$w_i \in W$$ has its distortion contribution at
 
 We handle this problem using the adaptive noise spreading\cite{Swanson1996,Podilchuk1998,Voloshynovskiy2000}. Research on the human visual perception agrees that the important information of images is located at high energy and low frequency spectral regions\cite{Jayant1993}. Then before embedding the object vector $$\Omega$$, we render the scene $$G$$ at some low settings to get a sampling instance of the image. Next, we proceed both the spatial and spectral analysis on this instance to get perceptually significant spatial regions, called preferred regions. The atomic noises $$w_i$$(s) will be placed in these regions. Simultaneously, we tune the expectation value $$\mu$$ used in generating atomic noises so that the energy (statistically given in\cref{prop:convergence_of_energy}) of high frequencies of the noises are sufficiently higher than the threshold used in the noise verification (c.f.\cref{subsec:noise_verification_implementation}).
 
-_Proposition 2:_ (Convergence of energies)
+_Proposition 2._ (Convergence of energies)
 
 Let $$\left\{ \mathcal{X}_i, \mathcal{Y}_i \mid i \in \mathbb{N} \right\}$$ be a set of independent and identically distributed normal random variables $$\mathcal{X}_i \sim \mathcal{Y}_i \sim \mathcal{N}\left(\mu, \sigma^2\right)$$. Let $$[X_i \quad Y_i]^t$$  be a sample of the random vector $$[\mathcal{X}_i \quad \mathcal{Y}_i]^t$$ and $$w_i$$ be the signal $$\left(x,y\right) \mapsto Ae^{2i\pi\left(\frac{x}{X_i} + \frac{y}{Y_i}\right)}$$ for any $$i \in \mathbb{N}$$. Then the average of discrete Fourier transforms $$\overline{F}_n = \frac{1}{n}\sum\limits_{i=1}^{n} F_i$$ converges:
 
