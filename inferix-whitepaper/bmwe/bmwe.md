@@ -28,7 +28,7 @@ $$
 
 that will be used later for the noise verification.
 
-We have discussed that embedding watermarks into $$I$$ cannot help the authentication, then the noise $$W$$ is not embedded into the image $$I$$ but into the scene $$G$$ (c.f.\cref{fig:noise_generation}). Let $$\mathcal{E}$$ denote the embedding function, we now create a watermarked scene:
+We have discussed that embedding watermarks into $$I$$ cannot help the authentication, then the noise $$W$$ is not embedded into the image $$I$$ but into the scene $$G$$. Let $$\mathcal{E}$$ denote the embedding function, we now create a watermarked scene:
 
 $$
 \hat{G} = \mathcal{E} \left(G, W\right)
@@ -37,7 +37,7 @@ $$
 Finally, $$\hat{G}$$ is sent to _workers_ for rendering, that results in a rendered image:
 
 $$
-\hat{I} = \mathcal{R} \thinspace (\hat{G})
+\hat{I} = \mathcal{R} (\hat{G})
 $$
 
-If got accepted, namely $$\hat{I}$$ passes the noise verification which will be presented hereafter, this is the image sent back to the user (recall that $$I$$ in~\cref{equ:rendering_function} is not computed). The encoding function $$\mathcal{E}$$ and the noise $$W$$ are designed so that the distortion of $$\hat{I}$$ against $$I$$ is imperceptible\cite{Jayant1993,Wu2013}, then $$\hat{I}$$ can be authentically used as a result of the graphics rendering.
+If got accepted, namely $$\hat{I}$$ passes the noise verification which will be presented hereafter, this is the image sent back to the user (recall that $$I$$ in the rendering equation is not computed). The encoding function $$\mathcal{E}$$ and the noise $$W$$ are designed so that the distortion of $$\hat{I}$$ against $$I$$ is imperceptible\cite{Jayant1993,Wu2013}, then $$\hat{I}$$ can be authentically used as a result of the graphics rendering.

@@ -11,6 +11,7 @@
     * [Rendering verification problem](inferix-whitepaper/introduction/rendering-verification-problem.md)
   * [High-level description](inferix-whitepaper/bmwe/README.md)
     * [Noise generation](inferix-whitepaper/bmwe/bmwe.md)
+    * [Noise verification](inferix-whitepaper/bmwe/noise-verification.md)
   * [Proof of Rendering](inferix-whitepaper/rn/README.md)
     * [Rendering network](inferix-whitepaper/rn/rendering-network.md)
     * [Algorithms](inferix-whitepaper/rn/algorithms.md)
