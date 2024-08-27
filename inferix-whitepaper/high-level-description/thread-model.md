@@ -1,3 +1,15 @@
 # Thread model
 
-a
+Given rendering tasks each contains basically a watermarked scene $$\hat{G}$$ and some range of frames required to be rendered, the goal of an attacker, namely a malicious _worker_ (or in general a group of maliciously colluding _workers_\cite{Lian2007}), is to generate rendered frames that pass the noise verification, with computational costs significantly lower than doing render this range by some conventional rendering software.
+
+By Kerckhoff's principle, it is essential that the attackers know the noise generation and verification algorithms, working parameters including trade-offs. But the task identification numbers and the corresponding verification keys are kept secret. Furthermore, we require a strong assumption that the attackers cannot detect the existence of watermarks in scenes. That means attackers can analyze and even modify different watermarked scenes $$\hat{G}$$(s) but they cannot distinguish objects of the noise wrapping vector $$\Omega$$ (discussed in detail in\cref{subsec:noise_generation}) embedded in $$\hat{G}$$(s) from original graphical objects of $$G$$. Otherwise, we assume no constraint on the communication capability of colluding attackers.
+
+Not surprisingly, the security of ANGV can be modeled as the problem of sending steganographic messages over a public communication channel with passive adversaries\cite{Cox1999a,Cachin1998}. Indeed, let us consider some graphics scene, by repetitively receiving rendering tasks for this scene and sending results (both genuinely rendered and intentionally forged), an attacker (or set of colluding attackers) knows a set of accepted and rejected images. The attacker analyzes these tested images to estimate probability distributions $$P_{\mathcal{S}}$$ and $$P_{\mathcal{C}}$$ for respectively images that would pass the noise verification and images that would be rendering results of the scene. We use the traditional notations of the steganography literature: $$C$$ for cover-work and $$S$$ for stego-work~\cite{Petitcolas1999}. It may be worth noting that $$P_{\mathcal{S}}$$ and $$P_{\mathcal{C}}$$ represent partial knowledge of the attacker obtained by analyzing the set of tested images: the larger this set, the more precise estimation for $$P_{\mathcal{S}}$$ and $$P_{\mathcal{C}}$$.
+
+The information-theoretic security of ANGV is quantified by the Kullback–Leibler divergence (i.e. relative entropy) $$D\left(P_{\mathcal{C}} \mathrel{\Vert} P_{\mathcal{S}}\right)$$ of $$P_{\mathcal{C}}$ from $P_{\mathcal{S}}$$. Concretely, ANGV is called $$\epsilon$$-secure if
+
+$$
+\lim_{n \to \infty} D\left(P_{\mathcal{C}} \mathrel{\Vert} P_{\mathcal{S}}\right) \leq \epsilon
+$$
+
+where $$n$$ is the number of tested images. In particular, $$\epsilon = 0$$ if and only if $$P_{\mathcal{C}} = P_{\mathcal{S}}$$, or the attacker cannot distinguish watermarked images from genuinely rendered ones, in this case we have perfect security.
