@@ -13,3 +13,5 @@ For the size of distortion regions, similar with the length of the noise random 
 <figure><img src="../../../.gitbook/assets/distorted_images.png" alt=""><figcaption><p>Rendered watermarked scenes (random vector length 12)</p></figcaption></figure>
 
 The figure above shows some distortion results of rendering watermarked scenes. From two original scenes, noise vectors of length $$12$$ with different distortion sizes are embedded, then different watermarked scenes are generated. When rendering the scenes containing noises whose distortion sizes are $$7$$ or $$8$$, the distortions are visible under the form of small rectangles dispersed in the rendered images. In contrast, when the sizes are $$4$$ or $$5$$, the distortions are imperceptible.
+
+_Remark:_ While the atomic watermarks are quite large, the distortions made by them on rendered images are constrained relatively small. The figure in the previous section shows atomic watermarks of size $$512 \times 512$$ which are used for watermarking scenes shown in the figure above, their imprints are about $$4 \times 4$$. The sizes of the rendered images are much larger: $$1080 \times 1080$$ and $$1920 \times 1080$$.
