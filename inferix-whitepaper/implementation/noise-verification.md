@@ -37,3 +37,5 @@ If there is a distortion region where the deviation $$e_i$$ is lower than the th
 _Remark._ From the construction of enveloping regions from distortion regions, the areas can be simply calculated by $$\lvert k_i \rvert = \delta^{x}_{i} \times \delta^{x}_{i}$$ and $$\lvert v_i \rvert = 9 \times \lvert k_i \rvert$$.
 
 <figure><img src="../../.gitbook/assets/enveloping_region_laplacian.png" alt=""><figcaption><p>Noise verification using Laplacian filter</p></figcaption></figure>
+
+The figure on the left shows an enveloping region of size $$9 \times 9$$, its distortion region is of size $$3 \times 3$$ located at the center, numbers at each pixel are the RGB color values. The right one shows the enveloping region after applying the Laplacian convolution.
