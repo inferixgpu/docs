@@ -19,3 +19,4 @@ layout:
 
 # Inferix Whitepaper
 
+{% pdf src="/assets/example.pdf", width="100%", height="850" %}{% endpdf %}
