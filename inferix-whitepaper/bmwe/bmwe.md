@@ -17,3 +17,7 @@ Similar with invisible watermark schemes in the literature\cite{Wu1998,Yeung1997
 $$
 W \triangleq \left( w_1, \dots, w_n \right)
 $$
+
+where [w\_i , \left(1 \leq i \leq n\right)](#user-content-fn-1)[^1] is independently chosen from some normal probability distribution $\mathcal{N}\left(\mu, \sigma^2\right)$. Furthermore, $w\_i$ has a special structure depending on where it is introduced in the scene $G$. The number n of atomic watermark signals is chosen around an experimental trade-off between human perception threshold about the image distortion and the false positive ratio of the noise verification.
+
+[^1]: 
