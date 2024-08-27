@@ -13,3 +13,5 @@ $$
 $$
 
 then $$J$$ will be accepted otherwise rejected.
+
+<figure><img src="../../.gitbook/assets/noise-verification.svg" alt=""><figcaption><p>Noise verification</p></figcaption></figure>

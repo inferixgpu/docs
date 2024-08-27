@@ -12,6 +12,7 @@
   * [High-level description](inferix-whitepaper/high-level-description/README.md)
     * [Noise generation](inferix-whitepaper/high-level-description/noise-generation.md)
     * [Noise verification](inferix-whitepaper/high-level-description/noise-verification.md)
+    * [Thread model](inferix-whitepaper/high-level-description/thread-model.md)
   * [Proof of Rendering](inferix-whitepaper/rn/README.md)
     * [Rendering network](inferix-whitepaper/rn/rendering-network.md)
     * [Algorithms](inferix-whitepaper/rn/algorithms.md)
