@@ -40,4 +40,4 @@ $$
 \hat{I} = \mathcal{R} \thinspace (\hat{G})
 $$
 
-If got accepted, namely $$\hat{I}$$ passes the noise verification which will be presented hereafter, this is the image sent back to the user (recall that $$I$$ in~\cref{equ:rendering_function} is not computed). The encoding function $$\mathcal{E}$$ and the noise $W$ are designed so that the distortion of $$\hat{I}$$ against $$I$$ is imperceptible\cite{Jayant1993,Wu2013}, then $$\hat{I}$$ can be authentically used as a result of the graphics rendering.
+If got accepted, namely $$\hat{I}$$ passes the noise verification which will be presented hereafter, this is the image sent back to the user (recall that $$I$$ in~\cref{equ:rendering_function} is not computed). The encoding function $$\mathcal{E}$$ and the noise $$W$$ are designed so that the distortion of $$\hat{I}$$ against $$I$$ is imperceptible\cite{Jayant1993,Wu2013}, then $$\hat{I}$$ can be authentically used as a result of the graphics rendering.
