@@ -8,6 +8,7 @@
 * [Inferix Whitepaper](inferix-whitepaper/README.md)
   * [Introduction](inferix-whitepaper/introduction/README.md)
     * [Rendering network using crowdsourced GPU](inferix-whitepaper/introduction/rendering-network-using-crowdsourced-gpu.md)
+    * [Rendering verification problem](inferix-whitepaper/introduction/rendering-verification-problem.md)
   * [Burn-Mint-Work Equilibrium](inferix-whitepaper/bmwe/README.md)
     * [Inferix Bench Efficiency](inferix-whitepaper/bmwe/bmwe.md)
   * [Proof of Rendering](inferix-whitepaper/rn/README.md)
