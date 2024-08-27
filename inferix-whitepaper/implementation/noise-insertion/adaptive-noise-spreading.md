@@ -12,7 +12,7 @@ $$
 \overline{F}_n \left(u,v\right) \xrightarrow[n \to \infty]{a.s} \frac{A}{M \times N} \frac{\left(1 - e^{2i\pi \frac{M}{\mu}}\right) \left(1 - e^{2i\pi \frac{N}{\mu}}\right)}{\left(1 - e^{2i\pi\left(\frac{1}{\mu} + \frac{u}{M}\right)}\right) \left(1 - e^{2i\pi\left(\frac{1}{\mu} + \frac{v}{N}\right)}\right)}
 $$
 
-for all $0 \leq u < M, \ 0 \leq v < N$.
+for all $$0 \leq u < M, \ 0 \leq v < N$$.
 
 _Proof._ Direct application of the continuous mapping theorem. For details, see appendix~\labelcref{proof:convergence_of_energy}.
 
