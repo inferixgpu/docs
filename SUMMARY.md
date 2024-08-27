@@ -18,6 +18,7 @@
     * [Noise insertion](inferix-whitepaper/implementation/noise-insertion/README.md)
       * [Geometric constraints](inferix-whitepaper/implementation/noise-insertion/geometric-constraints.md)
       * [Distortion region](inferix-whitepaper/implementation/noise-insertion/distortion-region.md)
+      * [Adaptive noise spreading](inferix-whitepaper/implementation/noise-insertion/adaptive-noise-spreading.md)
   * [References](inferix-whitepaper/references.md)
   * [Appendix](inferix-whitepaper/appendix.md)
   * [Download](inferix-whitepaper/download.md)
