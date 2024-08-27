@@ -35,6 +35,6 @@ The spectrums of atomic signals play a crucial role in the noise verification si
 
 The length $n$ of the noise vector is one of the principal factors which decides the robustness of noise: the higher the value $$n$$, the lower the false positive of noise verification. But this size influences the quality of the rendered image: the lower value $n$, the higher fidelity of the rendered images. Consequently, the value $n$ is a trade-off between the robustness of the embedded noise and the fidelity of the rendered image, it is empirically chosen to be about $$8$$ to $$15$$.
 
-<figure><img src="../../.gitbook/assets/random_vector_atomic_watermark_fft (1).png" alt=""><figcaption><p>A random vector of 5 atomic watermark</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/random_vector_atomic_watermark_fft (1).png" alt=""><figcaption><p>A random vector of $$5$$ atomic watermark (periods $$\sim \mathcal{N}\left(25,5\right)$$)</p></figcaption></figure>
 
 The figure above shows a noise as a vector of $$5$$ atomic watermarks and the Fourier transforms showing the corresponding frequency characteristics. The vital frequencies of energy are clearly shown in the spectrums. For illustration purpose, we take $$X_i = Y_i \sim \mathcal{N}\left(25,5\right) \ \left(1 \leq i \leq 5\right)$$, and $$M = N = 512$$.
