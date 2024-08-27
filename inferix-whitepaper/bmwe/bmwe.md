@@ -4,7 +4,7 @@ In practice, a scene may contain multiple frames, each task of this scene contai
 
 <figure><img src="../../.gitbook/assets/noise-generation.svg" alt=""><figcaption><p>Noise generation</p></figcaption></figure>
 
-Let R denote the rendering process, for each input scene G, the result of the rendering is an image:
+Let $$R$$ denote the rendering process, for each input scene $$G$$, the result of the rendering is an image:
 
 $$
 I = \mathcal{R} \left(G\right)
