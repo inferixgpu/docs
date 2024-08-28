@@ -21,6 +21,7 @@
     * [Adaptive noise spreading](inferix-whitepaper/implementation/adaptive-noise-spreading.md)
     * [Verification key generation](inferix-whitepaper/implementation/verification-key-generation.md)
     * [Noise verification](inferix-whitepaper/implementation/noise-verification.md)
+    * [Threat analysis](inferix-whitepaper/implementation/threat-analysis.md)
   * [References](inferix-whitepaper/references.md)
   * [Appendix](inferix-whitepaper/appendix.md)
   * [Download](inferix-whitepaper/download.md)
