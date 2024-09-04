@@ -15,7 +15,7 @@ The minimum requirements for a single license for Standard Verifier Node are as 
    * $$10$$ Mbit/s internet connection
 
  * Standard Unit Node
-The hardware requirements for a Standard Unit Node must be \textit{\textbf{exactly}} as follows:
+The hardware requirements for a Standard Unit Node must be _**exactly**_ as follows:
    * 1x Intel Core i9 CPU
    * $$32$$ GB RAM
    * $$20$$ GB SSD disk space
@@ -29,4 +29,4 @@ The minimum requirements for a single license for Mobile Verifier Node are as fo
     * $$10$$ GB disk space
     * $$10$$ Mbit/s internet connection
 
-_Remark._ Mobile Verifier Node can be used only for PoR verification tasks. This type of node cannot run other types of verification.
+_**Remark.**_ Mobile Verifier Node can be used only for PoR verification tasks. This type of node cannot run other types of verification.
