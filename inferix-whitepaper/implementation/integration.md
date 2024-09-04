@@ -1,6 +1,6 @@
 # Integration
 
-We integrate the Active Noise Generation and Verification scheme into the original rendering flow (c.f.\cref{fig:rendering\_service}) by placing respectively the noise generation and the noise verification into the rendering task controller of the _manager_ and the proof-of-rendering verification of the _verifier_. The completed flow is depicted in [Figure 7](#fig_rendering_flow_with_angv).
+We integrate the Active Noise Generation and Verification scheme into the [original rendering flow](/inferix-whitepaper/introduction/rendering-network-using-crowdsourced-gpu.md#rendering-network-using-crowdsourced-gpu) by placing respectively the noise generation and the noise verification into the rendering task controller of the _manager_ and the proof-of-rendering verification of the _verifier_. The completed flow is depicted in [Figure 7](#fig_rendering_flow_with_angv).
 
 #### Figure 7 <a id="fig_rendering_flow_with_angv"></a>
 <figure><img src="../../.gitbook/assets/rendering-service-with-angv.svg" alt=""><figcaption><p>aa</p></figcaption></figure>
