@@ -1,6 +1,6 @@
 # References
 
-\[1] P. Snow, B. Deery, J. Lu, D. Johnston, and P. Kirby, “Factom: Business processes secured by immutable audit trails on the blockchain,” Factom Protocol, Tech. Rep., 2018.
+#### \[1] P. Snow, B. Deery, J. Lu, D. Johnston, and P. Kirby, “Factom: Business processes secured by immutable audit trails on the blockchain,” Factom Protocol, Tech. Rep., 2018. <a id="1"></a>
 
 \[2] A. Haleem, A. Allen, A. Thompson, M. Nijdam, and R. Garg, “Helium: A decentralized wireless network,” Helium Systems, Tech. Rep., 2018.
 
