@@ -1,5 +1,5 @@
 ---
-description: Docs
+description: Inferix Documentation
 cover: .gitbook/assets/docs-cover.webp
 coverY: 0
 layout:
@@ -20,3 +20,16 @@ layout:
 
 # Getting Started
 
+
+
+[Getting Starts](./)
+
+[Inferix Whitepaper](inferix-whitepaper/)
+
+[Inferix MVP](inferix-mvp/)
+
+[Inferix Explorer](inferix-explorer.md)
+
+[Team & Achievements](team-and-achievements/)
+
+[Community & Events](community-and-events/)
