@@ -1,2 +1,3 @@
 # PoR and NFT minting for graphics creative assets
 
+During the process of creating their work, graphic artists frequently engage in rendering activities. The results and traces generated during rendering on Inferix can be used as proof of artistic creation. Naturally, PoR combined with native blockchains can be utilized to mint NFTs that fully capture the artist's creative process. In the future, the Inferix ecosystem could potentially host projects related to this field.
