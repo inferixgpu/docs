@@ -6,4 +6,4 @@ The TensorOpera:registered: team has released public data on deploying pre-train
 
 In their introduction to ScaleLLM, the TensorOpera:registered: team claims that by utilizing this engine with the RTX4090, LLMs can operate with three times less memory, run 1.8 times faster, and be 20 times more cost-effective compared to using A100 GPUs in traditional data centers.
 
-Research and experimental benchmarks have shown that we can _train larger LLMs on a larger number of distributed GPUs than in data centers with federated learning_, using Gradient Low-rank Projection (GaLore)[23](/inferix-whitepaper/references.md#23), [24](/inferix-whitepaper/references.md#24).
+Research and experimental benchmarks have shown that we can _train larger LLMs on a larger number of distributed GPUs than in data centers with federated learning_, using Gradient Low-rank Projection (GaLore) [[23]](/inferix-whitepaper/references.md#23), [[24]](/inferix-whitepaper/references.md#24).
