@@ -3,8 +3,8 @@
 To handle this problem, we follow the approach of digital watermarking\cite{Cox1997,Cox1999} and propose a scheme called _Active Noise Generation and Verification_ (ANGV) which is a variant of _proof of ownership_\cite{Wu1998,Yeung1997}. Our scheme has several favorable properties:
 
 * _Efficiency:_ noise generation and verification require much lower computational resources compared with the graphics rendering; the total performance of the system is not affected.
-* _Fidelity:_ the scheme needs to modify the initial scene so the rendered output will be distorted, but the distortion is human perception subthreshold.
-* _Robustness:_ the embedded noises are robust under rendering enhancements and post-processing operations (e.g. denoising, anti-aliasing).
+* _Fidelity:_ the scheme needs to modify the initial scene so the rendered output will be distorted, but the distortion is human perception sub-threshold.
+* _Robustness:_ the embedded noises are robust under rendering enhancements and post-processing operations (e.g. de-noising, anti-aliasing).
 * _Effectiveness:_ there is no need to use special rendering software as in the case of FHE.
 * _Security:_ without knowing the verification key, attackers need the same computational cost with the rendering to bypass the authenticity verification.
 
