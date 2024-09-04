@@ -1,2 +1,5 @@
 # Client Apps plugin
 
+Inferix provides plugins and APIs that allow traditional graphic design software to easily send 2D/3D graphic data into the Inferix decentralized rendering system and receive photorealistic images or videos in return.
+
+At the time of writing this paper, there is only one project on the market offering a GPU-based decentralized rendering solution, but it requires users to use (and pay for) their proprietary rendering engine. Inferix emphasizes the principle of freedom in line with the Web3 spirit, not mandating that end-users use a specific rendering engine or graphics software to leverage its GPU compute network. The Client App Plugin system, developed collaboratively by the Inferix team and developers within the ecosystem, supports most major rendering software and engines such as Blender, SketchUp, Cinema 4D, 3ds Max, and more.
