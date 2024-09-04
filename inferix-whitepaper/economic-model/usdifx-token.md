@@ -1,0 +1,2 @@
+# $IFX token
+
