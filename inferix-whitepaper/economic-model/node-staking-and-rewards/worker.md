@@ -8,6 +8,6 @@ $$
 $$
 where $$\text{IB}\left(n\right)$$ is the benchmark value of the node (c.f.~\cref{equ:inferix_bench}), $$P\left(n\right)$$ is the price per IBM defined by the node provider himself and $$\mathcal{E}$$ is a constant defined by number of minutes of the Epoch period, that is $$72 \times 60 = 4320$$.
 
-For example, if a provider owns a node with 32 GB RAM, Intel Core i9 CPU, and an RTX4090 card, its computing power will be approximately 0.5 IB. To participate in the Inferix network at a service price of 2\$ per hour, it is needed to hold a quantity of \$IFX tokens equivalent to $$0.5 \times 2 \times 4320 \div 60$$ = 72 USD.
+For example, if a provider owns a node with 32 GB RAM, Intel:registerd:Core:tm:i9 CPU, and an RTX4090 card, its computing power will be approximately 0.5 IB. To participate in the Inferix network at a service price of 2\$ per hour, it is needed to hold a quantity of \$IFX tokens equivalent to $$0.5 \times 2 \times 4320 \div 60$$ = 72 USD.
 
 _Inferix Edge:_ computers are specially designed to participate in the Inferix worker network. These machines are streamlined by removing non-essential components and focusing on enhancing the CPU, GPU, RAM, and motherboard to optimize performance for Visual Computing and federated AI tasks.
