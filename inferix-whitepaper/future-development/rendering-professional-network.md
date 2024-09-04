@@ -1,2 +1,3 @@
 # Rendering professional network
 
+In its plan to utilize the Community Grants Fund, Inferix has programs aimed at developing a community of graphic artists and students from universities related to visual computing. These initiatives will result in the creation of a Rendering Professional Network capable of connecting end-users with professional graphic creators. This will foster sustainable growth for Inferix.

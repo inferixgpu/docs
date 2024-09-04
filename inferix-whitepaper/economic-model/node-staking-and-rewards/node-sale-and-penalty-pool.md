@@ -1,2 +1,5 @@
 # Node sale and penalty pool
 
+\emph{Node Sales} are crucial programs for building Inferix's compute network. Participants in these programs are required to stake a certain amount of \$IFX tokens by purchasing a node license. The number of \$IFX tokens needed varies depending on the type of node and the timing of the license purchase. Node Sale programs will be organized into tiers based on the order of the sale. As a general rule, the earlier the license is purchased (the lower the tier), the cheaper the price. Licenses purchased before the TGE are referred to as Whitelisted licenses. Participants who acquire Whitelisted licenses will receive more benefits and discounts compared to those who purchase after the TGE.
+
+\emph{Penalty Pool} is a token fund collected from penalties imposed on Worker Nodes that violate Inferix standards while performing assigned visual computing or AI inference tasks. The Penalty Pool is used as a reward for Verifiers who actively contribute to ensuring the efficient operation of the network.

@@ -1,2 +1,14 @@
 # $IFX token
 
+Inferix tokens (\$IFX) are integral to the value exchange within the Inferix ecosystem and the operation of its decentralized GPU network. GPU owners can earn \$IFX tokens through the following methods:
+ * _Participation in Inferix visual computing:_ Participating in the Visual Computing network is one of the primary ways to earn \$IFX token rewards. Participants contribute their computational resources (CPU/GPU, internet bandwidth, storage) to assist with graphic rendering tasks. This includes not only performing rendering work but also contributing to PoR verification. The greater the contribution, the greater the \$IFX token reward.
+    
+ * _Contributing to Inferix federated AI tasks:_ Participating in the Federated AI network is another key way to earn \$IFX tokens. In this process, participants contribute their computational resources to support the training or inference of AI models. Additionally, individuals or groups can earn \$IFX token rewards by engaging in activities such as optimizing models and improving training efficiency.
+    
+ * _Running Verifier Node:_ The Verifier nodes ensure the integrity and service quality of Inferix network by checking the visual computing or AI workers and their service process. The parameters mainly include liveness, capacity, and quality of service. The checking methods include heartbeat collection, benchmark testing using PoR, link data collection and analysis.
+   
+ * _Engaging in Inferix Governance activities:_ Another way to earn \$IFX tokens is by participating in the governance of the Inferix network. \$IFX token holders can take part in the decision-making process, such as voting on network protocol updates and adjustments to BMW reward parameters. This participation not only enhances the network's democracy and transparency but also allows holders to directly influence the direction of Inferix. Governance participants are rewarded with \$IFX tokens based on their level of contribution to the network’s decision-making. This approach is designed to incentivize and empower those who actively participate in Inferix governance, ensuring that the network evolves for the common good of the community.
+    
+ * _Joining Inferix Professional Artist Network:_ 3D artists, designers, and architects can join the Inferix Professional Artist Network and utilize Inferix GPU infrastructure services. Based on the volume and frequency of each individual's IBM (c.f.~\cref{subsec:inferix_bench_ibme}) consumption, Inferix will implement an \$IFX token reward mechanism to encourage end-users to use the service.
+
+For GPU owners, please refer to~\cref{subsec:node_staking_and_rewards} for more details on how to earn rewards by running an Inferix node.

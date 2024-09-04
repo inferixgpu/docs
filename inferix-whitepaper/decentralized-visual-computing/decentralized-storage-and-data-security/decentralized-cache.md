@@ -1,2 +1,3 @@
 # Decentralized cache
 
+Inferix's 3D data caching system utilizes decentralized CDNs. This approach enhances the distribution and retrieval of data across the network, reducing latency and improving access speeds by caching frequently requested 3D assets closer to the end-users. The decentralized nature of the CDN ensures that caching is distributed across multiple nodes, providing redundancy and resilience while minimizing the load on any single server. This setup aligns with Inferix's broader strategy of leveraging decentralized technologies for efficient data management.

@@ -1,2 +1,3 @@
 # Polygon digester
 
+After a 3D data file is stored on Inferix, it may be queried multiple times by Worker Nodes or design software. Depending on the needs of the query, the original data is converted into different levels of polygon detail through a lossy conversion algorithm. This process is handled by the _Polygon Digester_ tool within the Inferix storage system. This tool ensures that the appropriate level of detail is provided for each task, optimizing both storage and performance by reducing unnecessary complexity in the 3D models when high detail is not required.

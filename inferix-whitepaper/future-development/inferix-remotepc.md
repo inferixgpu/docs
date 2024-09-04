@@ -1,2 +1,3 @@
-# Inferix RemotePC
+# Inferix Remote PC
 
+In the future, Inferix plans to develop Inferix Remote PC, a service that allows end-users to directly access Workers via remote desktop. This will enable users to have greater control over installing the necessary software on the worker machines, potentially reducing service costs. For example, if a user has a license for a render engine that Inferix’s workers do not have, they can still utilize it with Inferix's computational hardware through Inferix Remote PC.

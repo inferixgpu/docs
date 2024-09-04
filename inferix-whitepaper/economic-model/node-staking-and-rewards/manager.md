@@ -1,2 +1,3 @@
 # Manager
 
+The Inferix network requires \num{2500} Manager nodes, which will be sourced through Manager Node License sales. Initially, when the mainnet goes live, the \emph{Inferix Foundation} will deploy no more than $100$ in-house nodes of this type to ensure network availability. The plan for Manager node sales will be announced before the TGE. The reward pool for Manager Nodes is $1.25\%$ of the total supply of \$IFX tokens.

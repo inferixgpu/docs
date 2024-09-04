@@ -1,2 +1,5 @@
 # Decentralized federated AI
 
+In\cref{sec:decentralized_visual_computing}, we introduced the physical GPU network used for graphics rendering. Next, we will discuss how we utilize this GPU network for AI training and inference. These processes are essential items of Inferix's Phase 2 strategy, aligning with the core principles of Web3: openness, decentralization, self-governance, and diversity.
+
+Currently, AI advancements are predominantly driven by industry giants like Google and OpenAI, relegating most users to passive roles. This situation runs counter to the principles of Web3 and DePIN. To bridge this gap, we propose an application framework for deploying federated learning models on the Inferix GPU infrastructure in the following sections. This framework is designed not only to reshape the existing landscape but also to elevate the intelligence of the evolving DePIN ecosystem.

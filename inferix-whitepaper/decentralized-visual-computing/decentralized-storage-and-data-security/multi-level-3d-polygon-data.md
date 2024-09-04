@@ -1,2 +1,3 @@
 # Multi-level 3D polygon data
 
+In the stored data on Inferix, aside from images and videos, the geometry data of 3D models consumes the most storage space. Each time a render is performed, the Worker Node must download this data locally so that the render engines can execute the task. This process can consume significant bandwidth and time. To save bandwidth and reduce download times, 3D models are converted into two levels of detail, known as high-poly and low-poly, and are pre-stored on the Inferix network. The existence of multiple levels of 3D data is referred to as _multi-level 3D polygon data_.

@@ -1,2 +1,3 @@
 # Decentralized storage
 
+With the large volume of data involved, using traditional cloud storage models at traditional data centers can be extremely costly. Peer-to-peer (P2P) and decentralized storage networks like IPFS and Filecoin offer a significant reduction in costs while maintaining access speeds comparable to traditional methods. The 3D data storage system of Inferix will predominantly rely on such decentralized networks, leveraging their cost-effectiveness and efficiency for managing extensive data volumes.
