@@ -1,9 +1,10 @@
 # Token allocation
 
-The token allocation of $IFX is depicted in <a href="#token-allocation-chart">figure</a>, that includes:
+The token allocation of $IFX is depicted in the following [token allocation chart](token-allocation.md#token-allocation-chart), that includes:
+
+#### Token allocation chart: <a href="#token-allocation-chart" id="token-allocation-chart"></a>
 
 <figure><img src="../../../.gitbook/assets/token-allocation-chart.svg" alt=""><figcaption><p>$IFX token allocation</p></figcaption></figure>
-## Token allocation chart{#token-allocation-chart}
 
 * _**Investors:**_ Inferix raises capital from investors, including Seed, Strategic, KOLs, and Public Investors, using $$22.5\%$$ of $IFX total supply.
 * _**Liquidity and listing:**_ $$0.6\%$$ for DEX and CEX.
