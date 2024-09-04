@@ -11,4 +11,4 @@ Inferix tokens (\$IFX) are integral to the value exchange within the Inferix eco
     
  * _Joining Inferix Professional Artist Network:_ 3D artists, designers, and architects can join the Inferix Professional Artist Network and utilize Inferix GPU infrastructure services. Based on the volume and frequency of each individual's IBM (c.f.~\cref{subsec:inferix_bench_ibme}) consumption, Inferix will implement an \$IFX token reward mechanism to encourage end-users to use the service.
 
-For GPU owners, please refer to~\cref{subsec:node_staking_and_rewards} for more details on how to earn rewards by running an Inferix node.
+For GPU owners, please refer to the [node staking and rewards](/inferix-whitepaper/economic-model/node-staking-and-rewards/README.md) for more details on how to earn rewards by running an Inferix node.
