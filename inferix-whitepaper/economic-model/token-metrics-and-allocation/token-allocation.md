@@ -1,6 +1,6 @@
 # Token allocation
 
-The token allocation of $IFX is depicted in the following [token allocation chart](token-allocation.md#token-allocation-chart), that includes:
+The token allocation of $IFX is depicted in the following [token allocation chart](#token-allocation-chart), that includes:
 
 #### Token allocation chart: <a href="#token-allocation-chart" id="token-allocation-chart"></a>
 
