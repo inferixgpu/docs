@@ -6,7 +6,7 @@ $$
 \text{IBME}_{P}\left(\mathcal{N}\right) \triangleq \frac{\sum_{n \in \mathcal{N}} \text{IBM}_P \left(n\right)}{\sum_{n \in \mathcal{N}} \text{IBM}_P^a \left(n\right)}
 $$
 
-where $$\text{IBM}_P \left(n\right)$$ is the customer paid IBM for node $$n$$ and $$\text{IBM}_P^a \left(n\right)$$ is the apparent IBM of node $$n$$ calculated by multiplying the IB of a node by the elapsed time (in minutes) of period $P$. We observe that IBME is always a figure below 100\% and the higher the IBME ratio, the more efficiently the network operates.
+where $$\text{IBM}_P \left(n\right)$$ is the customer paid IBM for node $$n$$ and $$\text{IBM}_P^a \left(n\right)$$ is the apparent IBM of node $$n$$ calculated by multiplying the IB of a node by the elapsed time (in minutes) of period $$P$$. We observe that IBME is always a figure below 100\% and the higher the IBME ratio, the more efficiently the network operates.
 
 Recent reports from DePIN projects have highlighted a significant issue: while the number of nodes participating in the network is very high, many of these nodes are either inactive or active but not receiving any service requests. By controlling the IBME, Inferix will solve this problem.
 
