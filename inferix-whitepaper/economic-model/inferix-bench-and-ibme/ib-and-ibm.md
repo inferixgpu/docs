@@ -9,7 +9,7 @@ Assuming the average rendering time for one frame of a scene $$G$$ in the sample
 To determine the IB of any given node $$n$$, Inferix sends render requests for scene $$G$$ (randomly selected) to that node periodically. Assuming the average time it takes that node to render one frame in $$G$$ is $$T_G$$, the rendering power of $$n$$ is defined by:
 
 $$
-    \text{IB}\left(n\right) \triangleq \frac{T^{0}_{G}}{T_G}
+\text{IB}\left(n\right) \triangleq \frac{T^{0}_{G}}{T_G}
 $$
 
 Thus, the larger the $$T_G$$, the smaller the $$\text{IB}_n$$ value.
