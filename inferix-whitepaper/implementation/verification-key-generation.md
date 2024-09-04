@@ -2,7 +2,7 @@
 
 The constraints and trade-offs discussed in the [noise insertion](/inferix-whitepaper/implementation/noise-insertion/README.md) and the [noise spreading](/inferix-whitepaper/implementation/adaptive-noise-spreading.md) are to ensure the _fidelity_ of rendered results and the _robustness_ of the verification, but they do not concern the security. Indeed, any attacker knowing the algorithm and parameters including trade-offs, can straightforwardly generate (without rendering the graphics scene) forged images with the same spectral characteristics, finally bypasses the verification. The security is supported using verification keys.
 
-Each rendering task has a secret key, in current implementation, this key is also the task identification number $$J_{\mathtt{id}}$$. When embedding the noise vector $$W$$ into the scene $$G$$, this number is used to compute distortion regions $$k_i$$ for all $$1 \leq i \leq n$$, the vector $$\left(k_i\right)_{1 \leq i \leq n}$$ is called verification key. The computation is modeled as a function (c.f.~\cref{equ:verification_key}):
+Each rendering task has a secret key, in current implementation, this key is also the task identification number $$J_{\mathtt{id}}$$. When embedding the noise vector $$W$$ into the scene $$G$$, this number is used to compute distortion regions $$k_i$$ for all $$1 \leq i \leq n$$, the vector $$\left(k_i\right)_{1 \leq i \leq n}$$ is called verification key. The computation is modeled as a function:
 
 $$
 K_{\mathtt{verif}} \colon \left(S,W,J_{\mathtt{id}}\right) \mapsto \left(k_i\right)_{1 \leq i \leq n}
