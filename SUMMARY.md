@@ -73,7 +73,6 @@
   * [Appendix B: Price simulation details](inferix-whitepaper/appendix-b-price-simulation-details.md)
   * [Appendix C: Hardware requirements for nodes](inferix-whitepaper/appendix-c-hardware-requirements-for-nodes.md)
   * [Appendix D: Performance evaluation data](inferix-whitepaper/appendix-d-performance-evaluation-data.md)
-  * [Download](inferix-whitepaper/download.md)
 * [Inferix MVP](inferix-mvp/README.md)
   * [Tutorial: MVP for designers & GPU owners](inferix-mvp/tutorial-mvp-for-designers-and-gpu-owners.md)
   * [PoR MVP](inferix-mvp/por-mvp.md)
