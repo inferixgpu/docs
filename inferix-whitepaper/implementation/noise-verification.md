@@ -30,11 +30,11 @@ $$
 e_i \triangleq \lvert \overline{v}_i - \overline{k}_i \rvert
 $$
 
-with some energy threshold. Using the noise tuning discussed in\~\cref{subsec:noise\_spreading}, we experimentally accept the existence of the atomic watermarked $$w_i$$ when $$e_i \geq 5$$.
+with some energy threshold. Using the [noise tuning](/inferix-whitepaper/implementation/adaptive-noise-spreading.md), we experimentally accept the existence of the atomic watermarked $$w_i$$ when $$e_i \geq 5$$.
 
 If there is a distortion region where the deviation $$e_i$$ is lower than the threshold then the image $$J$$ is immediately rejected, otherwise $$J$$ is accepted.
 
-_Remark._ From the construction of enveloping regions from distortion regions, the areas can be simply calculated by $$\lvert k_i \rvert = \delta^{x}_{i} \times \delta^{x}_{i}$$ and $$\lvert v_i \rvert = 9 \times \lvert k_i \rvert$$.
+_**Remark.**_ From the construction of enveloping regions from distortion regions, the areas can be simply calculated by $$\lvert k_i \rvert = \delta^{x}_{i} \times \delta^{x}_{i}$$ and $$\lvert v_i \rvert = 9 \times \lvert k_i \rvert$$.
 
 <figure><img src="../../.gitbook/assets/enveloping_region_laplacian.png" alt=""><figcaption><p>Noise verification using Laplacian filter</p></figcaption></figure>
 
