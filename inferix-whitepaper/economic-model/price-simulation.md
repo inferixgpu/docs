@@ -12,4 +12,4 @@ In the best-case scenario, where GPUs receive enough tasks to operate full-time 
 
 A crucial point to note here is that with the proposed _Provider Price_, Inferix’s service price is the equivalent of only from 12\% to 38\% of the average price in the traditional cloud rendering market at the time of writing this paper [[30]](/inferix-whitepaper/references.md#30), [[31]](/inferix-whitepaper/references.md#31), [[32]](/inferix-whitepaper/references.md#32). This means that providers can adjust the price higher to shorten the payback period.
 
-_**Price of 1 IBM**_: Based on the previously discussed calculation method for [IBM](/inferix-whitepaper/economic-model/inferix-bench-and-ibme/ib-and-ibm.md), the price of 1 IBM is approximately 0.06\$ according to this pricing simulation.
+_**Price of 1 IBM**_: Based on the previously discussed calculation method for [IBM](/inferix-whitepaper/economic-model/inferix-bench-and-ibme/ib-and-ibm.md), the price of 1 IBM is approximately \$0.016 according to this pricing simulation.
