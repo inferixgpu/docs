@@ -9,7 +9,7 @@ The minimum requirements for a single license for Manager Node are as follows:
 
 * Standard Verifier Node
 The minimum requirements for a single license for Standard Verifier Node are as follows:
-   * 1 x64 CPU Core 2.1 GHz
+   * 1 $$\texttt{x}$$64 CPU Core 2.1 GHz
    * 8 GB RAM
    * 10 GB disk space
    * 10 Mbit/s internet connection
