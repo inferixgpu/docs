@@ -8,6 +8,8 @@ $$
 K_{\mathtt{verif}} \colon \left(S,W,J_{\mathtt{id}}\right) \mapsto \left(k_i\right)_{1 \leq i \leq n}
 $$
 
-In the operation of the rendering network, the leak of used verification keys is unavoidable. For instance, a _worker_ may register itself to become a _verifier_ node; when got accepted, it will be assigned verification tasks containing verification keys, then will be able to collect used keys. Even worse, colluding _workers_ may exchange collected keys so that each of them will possess a much larger collection [[12]](/inferix-whitepaper/references.md#12). Another possibility is the malicious _workers_ may get verification keys from some compromised _verifiers_. Hence, the $$K_{\mathtt{verif}}$$ must be designed so that the knowledge about used keys does not leak any information about the next generated keys. The following proposition is necessary for the security of ANGV.
+In the operation of the rendering network, the leak of used verification keys is unavoidable. For instance, a _worker_ may register itself to become a _verifier_ node; when got accepted, it will be assigned verification tasks containing verification keys, then will be able to collect used keys. Even worse, colluding _workers_ may exchange collected keys so that each of them will possess a much larger collection [[12]](/inferix-whitepaper/references.md#12). Another possibility is the malicious _workers_ may get verification keys from some compromised _verifiers_.
+
+Hence $$K_{\mathtt{verif}}$$ must be designed so that the knowledge about used keys does not leak any information about the next generated keys. The following proposition is necessary for the security of ANGV.
 
 _**Proposition 3.**_ $$K_{\mathtt{verif}}$$ is a cryptographic hash function.
