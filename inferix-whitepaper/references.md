@@ -1,6 +1,6 @@
 # References
 
-##### \[1\]  J. F. Hughes, A. van Dam, M. McGuire, D. F. Sklar, J. D. Foley, S. K. Feiner, and K. Akeley, Computer Graphics: Principles and Practice, 3rd ed. Addison-Wesley, 2014 <a id="1"></a>
+##### [1] <a id="1"></a> J. F. Hughes, A. van Dam, M. McGuire, D. F. Sklar, J. D. Foley, S. K. Feiner, and K. Akeley, Computer Graphics: Principles and Practice, 3rd ed. Addison-Wesley, 2014
 
 ##### \[2\] M. Wu and B. Liu, “Watermarking for image authentication,” in Proceedings of International Conference on Image Processing, 1998. <a id="2"></a>
 
