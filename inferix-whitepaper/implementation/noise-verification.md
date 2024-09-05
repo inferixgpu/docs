@@ -34,7 +34,9 @@ with some energy threshold. Using the [noise tuning](/inferix-whitepaper/impleme
 
 If there is a distortion region where the deviation $$e_i$$ is lower than the threshold then the image $$J$$ is immediately rejected, otherwise $$J$$ is accepted.
 
-_**Remark.**_ From the construction of enveloping regions from distortion regions, the areas can be simply calculated by $$\lvert k_i \rvert = \delta^{x}_{i} \times \delta^{x}_{i}$$ and $$\lvert v_i \rvert = 9 \times \lvert k_i \rvert$$.
+_**Remark.**_ _From the construction of enveloping regions from distortion regions, the areas can be simply calculated by $$\lvert k_i \rvert = \delta^{x}_{i} \times \delta^{x}_{i}$$ and $$\lvert v_i \rvert = 9 \times \lvert k_i \rvert$$._
+
+#### Figure 6: <a id="fig_enveloping_region_laplacian"></a>
 
 <figure><img src="../../.gitbook/assets/enveloping_region_laplacian.png" alt=""><figcaption><p>Noise verification using Laplacian filter</p></figcaption></figure>
 
