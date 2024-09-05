@@ -24,5 +24,6 @@ The noise insertion needs to analyze the structure of the input scene to generat
 | Grease Pencil Bike | 4.30 | 2880x1620 |
 | Blender 3.5 Splash | 11.41 | 1327x1250 |
 | Bathroom Above Corner | 146.41 | 4000x3000 |
+| | |
 
 Whereas the noise verification needs only to analyze the distortion regions whose locations are given by the verification key, then the execution time depends mostly on the number of the regions (which is also the length of the noise vector) and slightly on the size of the rendered frame.
