@@ -10,7 +10,7 @@ $$
 I = \mathcal{R} \left(G\right)
 $$
 
-It is important to note that $$I$$ is actually never computed, neither by the _manager_ in the noise embedding (see also the discussion about [sampling frames](/inferix-whitepaper/implementation/adaptive-noise-spreading.md)) nor by _workers_ in the frame rendering. The equation above represents only equality.
+It is important to note that $$I$$ is actually _**never**_ computed, neither by the _manager_ in the noise embedding (see also the discussion about [frame sampling](/inferix-whitepaper/implementation/adaptive-noise-spreading.md)) nor by _workers_ in the frame rendering. The equation above represents only equality.
 
 Similar with invisible watermark schemes in the literature [[2]](/inferix-whitepaper/references.md#2), [[3]](/inferix-whitepaper/references.md#3), [[9]](/inferix-whitepaper/references.md#9) a noise $$W$$ consists in a random vector of atomic watermarks:
 
