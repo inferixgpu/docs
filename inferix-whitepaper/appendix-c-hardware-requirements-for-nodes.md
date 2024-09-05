@@ -2,7 +2,7 @@
 
 * Manager Node
 The minimum requirements for a single license for Manager Node are as follows:
-  * 6 x64 CPU Core 2.1 GHz
+  * 6 $$\textt{x64}$$ CPU Core 2.1 GHz
   * 64 GB RAM
   * 1000 GB disk space
   * 100 Mbit/s internet connection
