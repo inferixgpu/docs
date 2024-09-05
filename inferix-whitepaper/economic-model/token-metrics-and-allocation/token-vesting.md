@@ -1,6 +1,8 @@
 # Token vesting
 
-The token vesting is show in the following table.
+The token vesting is shown in [Table 2](#tab_token_vesting).
+
+#### Table 2: Token vesting <a id="tab_token_vesting"></a>
 
 |    |    |
 | -- | -- |
@@ -11,6 +13,4 @@ The token vesting is show in the following table.
 | Liquidity and listing | 100\% unlocked at TGE, circulated when listed |
 | Community Grants Fund | Unlock 3 million \$IFX at TGE for community airdrop. Later schedule is under DAO governance |
 | Ecosystem Fund | Locked at TGE, gradually unlocked under the BMW model for GPU providers and Ecosystem partners. Release all within 4 years |
-| Inferix Foundation | 12 months lock, linear vesting 24 months
-|    |    |
-
+| Inferix Foundation | 12 months lock, linear vesting 24 months |
