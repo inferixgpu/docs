@@ -16,4 +16,4 @@ for all $$0 \leq u < M, \ 0 \leq v < N$$.
 
 _**Proof.**_ Direct application of the continuous mapping theorem. For details, see [Appendix A](/inferix-whitepaper/appendix.md).
 
-It is worth noting that the rendering work of $$G$$ generally contains multiple tasks, each requires to render multiple image frames. But the number of reference instances used for spectral analysis is much smaller, practically less than $$1\%$$ the total number of rendered frames. While keeping the robustness of ANGV, we can adjust this ratio be even smaller by increasing the size $$n$$ of the noise vector $$W$$.
+It is worth noting that the rendering work of $$G$$ generally contains multiple tasks, each requires to render multiple image frames. But the number of reference instances used for spectral analysis is much smaller, practically less than 1\% the total number of rendered frames. While keeping the robustness of ANGV, we can adjust this ratio be even smaller by increasing the size $$n$$ of the noise vector $$W$$.
