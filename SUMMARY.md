@@ -38,7 +38,6 @@
       * [Polygon digester](inferix-whitepaper/decentralized-visual-computing/decentralized-storage-and-data-security/polygon-digester.md)
       * [Decentralized storage](inferix-whitepaper/decentralized-visual-computing/decentralized-storage-and-data-security/decentralized-storage.md)
       * [Decentralized cache](inferix-whitepaper/decentralized-visual-computing/decentralized-storage-and-data-security/decentralized-cache.md)
-      * [Data security](inferix-whitepaper/decentralized-visual-computing/decentralized-storage-and-data-security/data-security.md)
     * [Data security with FHE and TEE](inferix-whitepaper/decentralized-visual-computing/data-security-with-fhe-and-tee/README.md)
       * [Verifier data security enhancement with FHE](inferix-whitepaper/decentralized-visual-computing/data-security-with-fhe-and-tee/verifier-data-security-enhancement-with-fhe.md)
       * [Worker and Manager data security enhancement with FHE](inferix-whitepaper/decentralized-visual-computing/data-security-with-fhe-and-tee/worker-and-manager-data-security-enhancement-with-fhe.md)
