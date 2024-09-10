@@ -1,21 +1,18 @@
 # Appendix C: Hardware requirements for nodes
 
-* Manager Node
-The minimum requirements for a single license for Manager Node are as follows:
-  * 6 $$\texttt{x}$$64 CPU Core 2.1 GHz
+* Manager node: The minimum requirements for a single license for manager Node are as follows:
+  * 6 $$\texttt{x}$$64 Intel:registered:Core:tm: 2.1 GHz CPU
   * 64 GB RAM
   * 1000 GB disk space
   * 100 Mbit/s internet connection
 
-* Standard Verifier Node
-The minimum requirements for a single license for Standard Verifier Node are as follows:
+* Standard verifier node: The minimum requirements for a single license for standard verifier node are as follows:
    * 1 $$\texttt{x}$$64 CPU Core 2.1 GHz
    * 8 GB RAM
    * 10 GB disk space
    * 10 Mbit/s internet connection
 
- * Standard Unit Node
-The hardware requirements for a Standard Unit Node must be _**exactly**_ as follows:
+ * Standard Unit Node: The hardware requirements for a Standard Unit Node must be _**exactly**_ as follows:
    * 1x Intel:registered:Core:tm: i9 CPU
    * 32 GB RAM
    * 20 GB SSD disk space
