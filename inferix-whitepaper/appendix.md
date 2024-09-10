@@ -53,7 +53,7 @@ by strong law of large numbers; similarly $$\overline{\mathcal{Y}}_n \xrightarro
 $$
     {[\overline{\mathcal{X}}_n \quad \overline{\mathcal{Y}}_n]^t} \xrightarrow[n \to \infty]{a.s} {[\overline{\mathcal{X}} \quad \overline{\mathcal{Y}}]^t}
 $$
-for some independent and identically distributed variables $$\overline{\mathcal{X}} \sim \overline{\mathcal{Y}} \sim \mu$$. Let us fix some $$0 \leq u < M$$ and $0 \leq v < N$$, then it is obvious that the function
+for some independent and identically distributed variables $$\overline{\mathcal{X}} \sim \overline{\mathcal{Y}} \sim \mu$$. Let us fix some $$0 \leq u < M$$ and $$0 \leq v < N$$, then it is obvious that the function
 $$
     F_{\left(u,v\right)} \triangleq \left(x,y\right) \mapsto \frac{A}{M \times N} \frac{\left(1 - e^{2i\pi \frac{M}{x}}\right) \left(1 - e^{2i\pi \frac{N}{y}}\right)}{\left(1 - e^{2i\pi\left(\frac{1}{x} + \frac{u}{M}\right)}\right) \left(1 - e^{2i\pi\left(\frac{1}{y} + \frac{v}{N}\right)}\right)}
 $$
