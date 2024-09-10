@@ -14,7 +14,7 @@
   * 100 Mbit/s internet connection
 
 * Standard verifier node: The minimum requirements for a single license for standard verifier node are as follows:
-   * 1 $$\texttt{x}$$64 Intel:registered:SGX Core:tm: 2.1 GHz CPU
+   * 1 $$\texttt{x}$$64 Intel:registered: Core:tm: 2.1 GHz CPU
    * 8 GB RAM
    * 10 GB disk space
    * 10 Mbit/s internet connection
