@@ -1,2 +1,3 @@
 # Worker and Manager data security enhancement with FHE
 
+The Manager and Worker are the components that receive the most information in the Inferix network. For user data with a high priority on security, Inferix adopts the Trusted Execution Environment (TEE) solution~\cite{Omtp2009}. This solution requires the node to use a CPU that supports TEE, such as Intel SGX or AMD SEV. The additional costs incurred due to the high-end hardware requirements will be factored into the service pricing, allowing users to choose and make decisions accordingly.
