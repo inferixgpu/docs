@@ -32,7 +32,7 @@
     * [Client API and SDK](inferix-whitepaper/decentralized-visual-computing/client-api-and-sdk.md)
     * [Manager node](inferix-whitepaper/decentralized-visual-computing/manager-node.md)
     * [Worker node](inferix-whitepaper/decentralized-visual-computing/worker-node.md)
-    * [Decentralized storage and data security](inferix-whitepaper/decentralized-visual-computing/decentralized-storage-and-data-security/README.md)
+    * [Decentralized storage](inferix-whitepaper/decentralized-visual-computing/decentralized-storage-and-data-security/README.md)
       * [Data categories](inferix-whitepaper/decentralized-visual-computing/decentralized-storage-and-data-security/data-categories.md)
       * [Multi-level 3D polygon data](inferix-whitepaper/decentralized-visual-computing/decentralized-storage-and-data-security/multi-level-3d-polygon-data.md)
       * [Polygon digester](inferix-whitepaper/decentralized-visual-computing/decentralized-storage-and-data-security/polygon-digester.md)
