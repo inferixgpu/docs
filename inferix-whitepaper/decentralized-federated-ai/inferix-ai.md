@@ -2,7 +2,7 @@
 
 From the information presented above, we can conclude that the hardware of the Inferix network is well-suited to serve as an infrastructure for federated AI. Next, we will discuss the design of the Inferix Federated AI system.
 
-#### Figure 12: <a id="fig_inferix_tensoropera_integrated_architecture"></a>
+#### Figure 13: <a id="fig_inferix_tensoropera_integrated_architecture"></a>
 <figure><img src="../../.gitbook/assets/inferix-decentralized-fed-ai-architecture.svg" alt=""><figcaption><p>Inferix and TensorOpera integrated architecture</p></figcaption></figure>
 
 In the [architectural design](#fig_inferix_tensoropera_integrated_architecture), Inferix enables _generative AI artists_ and content creators to access AI models trained by _AI Builders_ within the Inferix community, as well as models trained by the Inferix Team itself (built-in models). These services can be hosted on the Inferix Manager Node system or on the TensorOpera AI platform.

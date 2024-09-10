@@ -1,2 +1,3 @@
 # ZKP and PoR communication
 
+Zero-knowledge proofs (ZKP) have recently garnered significant attention from developers in the Web3 space. At present, applying ZKP to heavy edge computing systems, such as GPU-based rendering or AI, faces challenges due to the high computational resources required, leading to reduced processing performance. However, the Inferix development team believes that ZKP will become increasingly valuable for our use cases in the future. Therefore, we are continuing to explore experimental approaches that combine ZKP with PoR. We will publish these experiments in future papers.
