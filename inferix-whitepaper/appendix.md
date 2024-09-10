@@ -59,8 +59,8 @@ $$
 $$
 is continuous. We define the variable:
 $$
-    \mathcal{F}_{\left(u,v\right)} \colon &\Omega \to \mathbb{R}^2 \\
-        &\omega \mapsto F_{\left(u,v\right)} \left(\mathcal{X} \left(\omega\right),\mathcal{Y}\left(\omega\right)\right)
+    \mathcal{F}_{\left(u,v\right)} \colon \Omega \to \mathbb{R}^2 \\
+        \omega \mapsto F_{\left(u,v\right)} \left(\mathcal{X} \left(\omega\right),\mathcal{Y}\left(\omega\right)\right)
 $$
 for some random variables $$\mathcal{X}$$ and $$\mathcal{Y}$$, then $$\mathcal{F}_{\left(u,v\right)}\left(\omega\right)$$ is nothing but the Fourier transform of the atomic signal whose the horizontal and the vertical period are $$\mathcal{X}\left(\omega\right)$$ and $$\mathcal{Y}\left(\omega\right)$$ respectively. Let us consider the sequence $$\left(\mathcal{F}_{\left(u,v\right)}^n\right)_{n \in \mathbb{N}}$$ where:
 $$
