@@ -25,6 +25,8 @@
     * 10 GB disk space
     * 10 Mbit/s internet connection
 
+_**Remark.**_ _Mobile verifier node can be used only for PoR verification tasks. This type of node cannot run other types of verification._
+
 * Secure verifier node: The minimum requirements for a single license for standard verifier node are as follows:
    * 1 $$\texttt{x}$$64 Intel:registered:SGX Core:tm: 2.1 GHz CPU
    * NVIDIA GeForce RTX3090 GPU
@@ -37,5 +39,3 @@
    * 32 GB RAM
    * 20 GB SSD disk space
    * 100 Mbit/s internet connection
-
-_**Remark.**_ _Mobile verifier node can be used only for PoR verification tasks. This type of node cannot run other types of verification._
