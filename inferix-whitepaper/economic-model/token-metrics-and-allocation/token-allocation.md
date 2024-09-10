@@ -2,7 +2,7 @@
 
 The token allocation of $IFX is depicted in [Figure 16](token-allocation.md#token-allocation-chart), that includes:
 
-#### Figure 16: <a href="#token-allocation-chart" id="token-allocation-chart"></a>
+#### Figure 17: <a href="#token-allocation-chart" id="token-allocation-chart"></a>
 
 <figure><img src="../../../.gitbook/assets/token-allocation-chart.svg" alt="" width="332"><figcaption><p>$IFX token allocation</p></figcaption></figure>
 

@@ -4,7 +4,7 @@ Increasing the _token velocity_ and controlling inflation are critical issues fo
 
 Inferix's BMW (Burn-Mint-Work) is the token issuance mechanism designed to address the creation of tokens based on the amount of work completed and a Node's working capacity. When BMW is combined with the [IBME mechanism](inferix-bench-and-ibme/ibme.md), it also helps solve the inflation control issue within the Inferix system, allowing $IFX tokens to be minted flexibly based on the total volume of work completed and the total amount of money users pay for services across the Inferix network.
 
-#### Figure 14
+#### Figure 14: <a id="figure_14"></a>
 <figure><img src="../../.gitbook/assets/bmw-model (3).svg" alt=""><figcaption><p>Inferix Burn-Mint-Work token issuance model</p></figcaption></figure>
 
 Inferix's BMW is an improvement on the BME algorithm, with the important parameter being "work" calculated based on the PoR algorithm. While BME (Burn and Mint Equilibrium) balances only two parameters, burn and mint, BMW balances three parameters: burn, mint, and work. BMW also incorporates penalty mechanisms for substandard providers from the Work Token model.

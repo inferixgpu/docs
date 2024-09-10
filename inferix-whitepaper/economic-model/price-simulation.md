@@ -2,7 +2,7 @@
 
 Now, we will build a price simulation for Inferix's GPU rendering service and compare Inferix's price competitiveness with traditional Cloud Rendering services. The details of these calculations are listed in [Appendix B](/inferix-whitepaper/appendix-b-price-simulation-details.md). The table in [Figure 15](#fig_pricing_simulation) shows the most important information.
 
-#### Figure 15: <a id="fig_pricing_simulation"></a>
+#### Figure 16: <a id="fig_pricing_simulation"></a>
 
 <figure><img src="../../.gitbook/assets/pricing-simulation.svg" alt=""><figcaption>Price simulation</figcaption></figure>
 
