@@ -32,7 +32,7 @@ _**Remark.**_ _Mobile verifier node can be used only for PoR verification tasks.
    * NVIDIA GeForce RTX3090 GPU
    * 8 GB RAM
    * 10 GB disk space
-   * 10 Mbit/s internet connection
+   * 30 Mbit/s internet connection
 
  * Standard unit node: The hardware requirements for a standard unit node must be _**exactly**_ as follows:
    * 1 Intel:registered:Core:tm: i9 CPU
