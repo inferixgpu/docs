@@ -23,6 +23,13 @@ Whitelist participants include:
 * OG (Original Group) members
 * Key Opinion Leaders (KOLs)
 * Node Sale Partners
+* Participants of events and campaigns
+
+DO YOU WANT TO BE WHITELISTED? CHECK OPTIONS HERE :point\_down:
+
+{% content-ref url="how-to-get-whitelisted.md" %}
+[how-to-get-whitelisted.md](how-to-get-whitelisted.md)
+{% endcontent-ref %}
 
 
 

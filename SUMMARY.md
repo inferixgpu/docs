@@ -83,6 +83,7 @@
     * [What is the Verifier Node (NFT)](verifier-node-guide/what-is-verifier-node/what-is-the-verifier-node-nft.md)
   * [Verifier Node Sales](verifier-node-guide/verifier-node-sales/README.md)
     * [Guide to Purchase Verifier Nodes](verifier-node-guide/verifier-node-sales/guide-to-purchase-verifier-nodes.md)
+    * [How to get Whitelisted?](verifier-node-guide/verifier-node-sales/how-to-get-whitelisted.md)
     * [Smart Contract Addresses](verifier-node-guide/verifier-node-sales/smart-contract-addresses.md)
     * [Referral program](verifier-node-guide/verifier-node-sales/referral-program.md)
     * [Verifier  Node Purchase FAQ](verifier-node-guide/verifier-node-sales/verifier-node-purchase-faq.md)
