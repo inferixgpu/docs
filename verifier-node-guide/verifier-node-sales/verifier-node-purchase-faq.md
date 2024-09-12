@@ -76,7 +76,7 @@ The nodes will be available for purchase directly on our Node Sale Page (link to
 
 **8. How will I receive my node?**
 
-Once purchased, your node will be represented as an ERC-721 NFT, which will be airdropped directly to your wallet. This will happen X weeks after the sale is complete.
+Once purchased, your node will be represented as an ERC-721 NFT, which will be airdropped directly to your wallet. This will happen 4 weeks after the sale is complete.
 
 
 
