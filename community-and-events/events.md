@@ -6,6 +6,21 @@ description: A list of our live, upcoming and ended events.
 
 ***
 
+**\[LIVE NOW]** 🚀**Inferix Node Whitelist Program**
+
+🕘Duration: 10 — 20 Sept, 2024\
+🏆 Rewards: 50 tier 1 to tier 6 Node Whitelist spots & 1,000 $USDT\
+➡️ Details: [**https://medium.com/@inferixgpu/inferix-node-whitelist-program-78b278568fc7**](https://medium.com/@inferixgpu/inferix-node-whitelist-program-78b278568fc7)
+
+
+
+**\[Upcoming] R3al World DePIN Summit @ Token2049 in Singapore** 🇸🇬\
+📅 September 16th - 17th\
+📍 Location: Amara Singapore\
+➡️ Details: [**https://lu.ma/r3al-world-depin-summit-token2049**](https://lu.ma/r3al-world-depin-summit-token2049)
+
+***
+
 ## ENDED EVENTS
 
 **\[Ended]** 🚀**Alliance Campaign** _- our most monumental campaign!_&#x20;
