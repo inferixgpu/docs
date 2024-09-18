@@ -29,21 +29,22 @@ Step 4: Go to [**InferiX Explorer**](https://dash.inferix.io/workers) -> **“Ru
 
 ### **MVP for GPU Providers** <a href="#id-9fbc" id="id-9fbc"></a>
 
-Step 1: Go to our [**Website**](https://inferix.io/) & Download MVP for GPU Providers
-
-Step 2: Install Blender
+Step 1: Install Blender
 
 Follow the instructions in official Blender website to download and install it for your OS. Current version of Inferix uses Blender 3.6:
 
 [https://www.blender.org/download/lts/3-6/#versions](https://www.blender.org/download/lts/3-6/#versions)
 
-Step 3: Install and run the Worker software
+Step 2: Install and run the Worker software
 
-_For Windows PC:_ check out the video tutorial: [**HERE**](https://www.youtube.com/watch?v=ZPH9tKSPcsE)
+_For Windows PC:_&#x20;
+
+* Download Windows Worker from this link: [https://h3d.me/ifxworkerverifierwin](https://h3d.me/ifxworkerverifierwin)
+* Check out the video tutorial: [**HERE**](https://www.youtube.com/watch?v=ZPH9tKSPcsE)
 
 _For Ubuntu Linux PC:_&#x20;
 
-* Download the Ubuntu Worker from this link: [http://h3d.me/ifxworkerubuntu](http://h3d.me/ifxworkerubuntu)
+* Download the Ubuntu Worker from this link: [https://h3d.me/ifxworkerubuntu](https://h3d.me/ifxworkerubuntu)&#x20;
 * Unzip the dowloaded folder
 * Open Termial, run these commands under the unzipped downloaded folder:
 
