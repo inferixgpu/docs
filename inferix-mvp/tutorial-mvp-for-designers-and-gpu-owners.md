@@ -45,8 +45,8 @@ _For Windows PC:_&#x20;
 _For Ubuntu Linux PC:_&#x20;
 
 * Download the Ubuntu Worker from this link: [https://h3d.me/ifxworkerubuntu](https://h3d.me/ifxworkerubuntu)&#x20;
-* Unzip the dowloaded folder
-* Open Termial, run these commands under the unzipped downloaded folder:
+* Unzip the downloaded folder
+* Open Terminal, run these commands under the unzipped downloaded folder:
 
 ```
 sudo ./mount.sh
