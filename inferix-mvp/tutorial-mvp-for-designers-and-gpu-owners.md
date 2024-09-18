@@ -27,7 +27,7 @@ Step 3: Save the file name of your rendered image/video
 
 Step 4: Go to [**InferiX Explorer**](https://dash.inferix.io/workers) -> **“Running Job”** part -> Check your rendered job
 
-### **MVP for GPU Providers on Windows** <a href="#id-9fbc" id="id-9fbc"></a>
+### **MVP for GPU Providers** <a href="#id-9fbc" id="id-9fbc"></a>
 
 Step 1: Go to our [**Website**](https://inferix.io/) & Download MVP for GPU Providers
 
