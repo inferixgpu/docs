@@ -42,7 +42,7 @@ _For Windows PC:_&#x20;
 * Download Windows Worker from this link: [https://h3d.me/ifxworkerverifierwin](https://h3d.me/ifxworkerverifierwin)
 * Check out the video tutorial: [**HERE**](https://www.youtube.com/watch?v=ZPH9tKSPcsE)
 
-_For Ubuntu Linux PC:_&#x20;
+_For Linux PC:_&#x20;
 
 * Download the Ubuntu Worker from this link: [https://h3d.me/ifxworkerubuntu](https://h3d.me/ifxworkerubuntu)&#x20;
 * Unzip the downloaded folder
