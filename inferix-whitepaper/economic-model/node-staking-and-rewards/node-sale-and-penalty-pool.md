@@ -8,8 +8,6 @@ description: All about Inferix Node Sales
 
 Node Sales are crucial programs for building Inferix's compute network. Participants in these programs are required to stake a certain amount of $IFX tokens by purchasing a node license. The number of $IFX tokens needed varies depending on the type of node and the timing of the license purchase. Node Sale programs will be organized into tiers based on the order of the sale. As a general rule, the earlier the license is purchased (the lower the tier), the cheaper the price. Licenses purchased before the TGE are referred to as Whitelisted licenses. Participants who acquire Whitelisted licenses will receive more benefits and discounts compared to those who purchase after the TGE.
 
-A portion of the repurchased node licenses will be reassigned to current active node operators to further boost engagement. The remaining node licenses will be sent to the Inferix treasury, with possible applications including distributing node operation rewards to $IFX stakers, reselling nodes, or burning them.
-
 **2. Guaranteed Node Buyback program**
 
 In order to ensure the stability of node supply, increase transparency, and safeguard the rights of network contributors, Inferix introduces the very special _Guaranteed Node Buyback_ program
@@ -25,6 +23,8 @@ _Buyback 100%_ with $IFX, value equivalent to the price of nodes denominated in 
 OR
 
 _Immediate buyback 80%_ in ETH, value equivalent to the price of nodes snapshot in ETH at time of purchase. Immediate ETH release. To ensure transparency and security, Inferix will integrate the _Guaranteed Node Buyback_ program into smart contracts and collaborating with reputable, top-tier third-party auditors.
+
+A portion of the repurchased node licenses will be reassigned to current active node operators to further boost engagement. The remaining node licenses will be sent to the Inferix treasury, with possible applications including distributing node operation rewards to $IFX stakers, reselling nodes, or burning them.
 
 **3. Guaranteed Node Buyback fund**
 
