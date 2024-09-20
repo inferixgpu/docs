@@ -1,8 +1,4 @@
----
-description: All about Inferix Node Sales
----
-
-# Node Sale and Guaranteed Node Buyback
+# Node sale and guaranteed node buyback
 
 **1. Node Sales**
 
