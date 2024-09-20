@@ -18,6 +18,7 @@ The token allocation of $IFX is depicted in [Figure 16](token-allocation.md#toke
   * Inferix platform expansion projects,
   * Inferix hackathon and bug fixes,
   * Inferix DAO building.
+  * [Guaranteed Node Buyback](../node-staking-and-rewards/node-sale-and-penalty-pool.md) program
 * _**Inferix foundation:**_ 12.5% for:
   * Inferix Labs operation activities,
   * Inferix global expansion.
