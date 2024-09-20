@@ -10,7 +10,9 @@ Obtain a Whitelist spot for our Verifier Node Sales by participating in:
 
 If you have idle GPUs, you can contribute these precious resources to InferiX Network to earn scores and compete on the leaderboard. The higher rank you are, the higher the chance of obtaining rewards
 
-Duration: 10 — 20 Sept, 2024
+Duration: 10 — 23 Sep, 2024
+
+<mark style="color:red;background-color:yellow;">**The campaign is extended to 23 Sep, 2024!**</mark>
 
 Rewards: 50 tier 1 to tier 6 Node Whitelist spots & 1,000 $USDT
 
@@ -22,7 +24,7 @@ Step 1. Go to our [**Website**](https://inferix.io/) & Download MVP for GPU Owne
 
 Step 2. Check out the video tutorial to install Blender and Inferix Worker: [**HERE**](https://www.youtube.com/watch?v=ZPH9tKSPcsE\&t=1s)
 
-_<mark style="background-color:yellow;">(📌 Keep in mind: install Blender before installing Inferix Worker!)</mark>_
+_<mark style="color:red;background-color:yellow;">(📌 Keep in mind: install Blender before installing Inferix Worker!)</mark>_
 
 _**👋** Goodbye to the old version:_ For GPU Providers who install the old Inferix Worker before the campaign starting, remember to uninstall the old version and download the latest one from [https://inferix.io/](https://inferix.io/), then install and run it again to see your Node ID
 
