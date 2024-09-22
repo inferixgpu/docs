@@ -4,7 +4,7 @@ Obtain a Whitelist spot for our Verifier Node Sales by participating in:
 
 * **Whitelist drop for Aethir Node Holders**&#x20;
 * **Other events with our strategic partners**&#x20;
-* **Our referral program for Influencers & Community Leaders (KOLs)**\
+* [**Our referral program for Influencers & Community Leaders (KOLs)**](referral-program.md)\
   _(If you are interested, contact BD team via Telegram to: @nguyen5)_
 * **The Inferix Node Whitelist Program 👇**
 
