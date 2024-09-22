@@ -1,6 +1,6 @@
-# Guaranteed node buy back program
+# Guaranteed Node Buyback program
 
-In order to ensure the stability of node supply, increase transparency, and safeguard the rights of network contributors, Inferix introduces the very special _guaranteed node buyback_ program.
+In order to ensure the stability of node supply, increase transparency, and safeguard the rights of network contributors, Inferix introduces the very special _Guaranteed Node Buyback_ program.
  * _**Eligibility:**_ Node license holders with a participation rate of over $66.7\%$ in executing Inferix network tasks, and who have never been blacklisted, will be eligible to participate in this program.
  * _**Timeline:**_ Starting six months after the TGE, node license holders will have a 7-day window to participate in the program.
  * _**Execution options:**_
@@ -8,3 +8,5 @@ In order to ensure the stability of node supply, increase transparency, and safe
    * or _immediate buyback 80\%_ in ETH, value equivalent to the price of nodes snapshot in ETH at time of purchase. To ensure transparency and security, Inferix will integrate the _guaranteed node buyback_ program into smart contracts and collaborating with reputable, top-tier third-party auditors.
 
 A portion of the repurchased node licenses will be reassigned to current active node operators to further boost engagement. The remaining licenses will be sent to the Inferix treasury, with possible applications including distributing node operation rewards to \$IFX stakers, reselling nodes, or burning them.
+
+**Guaranteed Node Buyback Fund**: To facilitate the _guaranteed node buyback_, **10,000,000 $IFX** will be allocated from the _Ecosystem Fund_, as the _Guaranteed Node Buyback Fund_. Node license holders will retain all previously distributed airdrops, even after participating in the program.
