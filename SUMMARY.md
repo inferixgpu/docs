@@ -69,7 +69,6 @@
     * [Node sale and guaranteed node buyback](inferix-whitepaper/economic-model/node-sale-and-penalty-pool/README.md)
       * [Node sales](inferix-whitepaper/economic-model/node-sale-and-penalty-pool/node-sales.md)
       * [Guaranteed node buy back](inferix-whitepaper/economic-model/node-sale-and-penalty-pool/guaranteed-node-buy-back.md)
-      * [Guaranteed node buyback fund](inferix-whitepaper/economic-model/node-sale-and-penalty-pool/guaranteed-node-buyback-fund.md)
   * [Future development](inferix-whitepaper/future-development/README.md)
     * [PoR and NFT minting for graphics creative assets](inferix-whitepaper/future-development/por-and-nft-minting-for-graphics-creative-assets.md)
     * [ZKP and PoR communication](inferix-whitepaper/future-development/zkp-and-por-communication.md)
