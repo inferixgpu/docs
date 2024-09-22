@@ -70,7 +70,7 @@ Each tier has a limited number of licenses, so early purchases will be more cost
 
 **7. Where can I purchase nodes?**
 
-The nodes will be available for purchase directly on our Node Sale Page (link to be provided before the sale). Please ensure you have enough ETH in your wallet to complete the transaction.
+The nodes will be available for purchase directly on our Node Sale Page ([https://verifier.inferix.io/](https://verifier.inferix.io/)). Please ensure you have enough wETH in your wallet to complete the transaction.
 
 
 
