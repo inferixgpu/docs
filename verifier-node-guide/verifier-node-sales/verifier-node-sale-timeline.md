@@ -1,6 +1,6 @@
 # Verifier Node Sale Timeline
 
-![](<../../.gitbook/assets/image (11).png>)
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 \
 Sep 24, 2024 03:00 PM (UTC) ETH to USD Price Snapshot
