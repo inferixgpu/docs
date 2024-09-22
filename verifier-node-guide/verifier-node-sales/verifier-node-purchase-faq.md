@@ -1,4 +1,4 @@
-# Verifier  Node Purchase FAQ
+# Verifier Node Purchase FAQ
 
 1**. How many nodes are available for purchase?**
 
@@ -10,7 +10,7 @@ Inferix is offering 17,250 nodes across 20 tiers. Each tier has a limited number
 
 To purchase a node, follow these steps:
 
-* Whitelist Sale (if eligible): If you are whitelisted, you'll have early access to buy nodes at a lower price during the 24-hour Whitelist Sale. The Whitelist Sale has 8 tiers of pricing, with increasing prices.
+* Whitelist Sale (if eligible): If you are whitelisted, you'll have early access to buy nodes at a lower price during Whitelist Sale. The Whitelist Sale has 8 tiers of pricing, with increasing prices.
 * Public Sale: After the whitelist sale, any remaining nodes will be available in the Public Sale on a first-come, first-served basis. Public sale prices will increase across the 20 tiers.
 
 
@@ -35,7 +35,7 @@ DO YOU WANT TO BE WHITELISTED? CHECK OPTIONS HERE :point\_down:
 
 **4. What is the purchase token for the sale?**
 
-Nodes can be purchased using ETH (Ethereum) on Arbitrum and Ethereum during both the Whitelist and Public sales.
+Nodes can be purchased using wETH on Arbitrum Network during both the Whitelist and Public sales.
 
 
 

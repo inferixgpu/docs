@@ -1,11 +1,11 @@
 # Guide to Purchase Verifier Nodes
 
-**Step 1 - Get ETH tokens to buy the Node and for gas fee.**\
-_Nodes can be purchased using **ETH (Ethereum) on Arbitrum** and **Ethereum** during both the Whitelist and Public sales._
+**Step 1 - Get wETH tokens (**_**Arbitrum**_**) to buy the Node and for gas fee.**\
+_Nodes can be purchased using w**ETH (Ethereum) on Arbitrum Network** during sales._
 
 
 
-**Step 2 - Go to the Node Sale Page  (link to be provided before the sale)  and connect your wallet.**  \
+**Step 2 - Go to the Node Sale Page (**[**https://verifier.inferix.io/**](https://verifier.inferix.io/)**) and connect your wallet.**  \
 Please take into consideration r_ewards from nodes will be airdropped to the same wallet used to purchase it, and this cannot be changed._
 
 
