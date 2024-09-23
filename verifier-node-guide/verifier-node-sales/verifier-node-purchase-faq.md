@@ -70,7 +70,7 @@ Each tier has a limited number of licenses, so early purchases will be more cost
 
 **7. Where can I purchase nodes?**
 
-The nodes will be available for purchase directly on our Node Sale Page ([https://verifier.inferix.io/](https://verifier.inferix.io/)). Please ensure you have enough wETH in your wallet to complete the transaction.
+The nodes will be available for purchase directly on our [Node Sale Page](https://verifier.inferix.io). All node purchases are conducted using wETH tokens on the [Arbitrum One](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) network. Please ensure you have enough wETH in your wallet to complete the transaction.
 
 
 

@@ -1,9 +1,14 @@
 # Guide to Purchase Verifier Nodes
 
-**Step 1 - Get wETH tokens (**_**Arbitrum**_**) to buy the Node and for gas fee.**\
-_Nodes can be purchased using **wETH (Ethereum) on Arbitrum Network** during sales._
+**Step 1 - Get wETH tokens to buy the Node and for gas fee.**\
+_Nodes can be purchased using **wETH (Ethereum) on**_ [_**Arbitrum One**_](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) _**Network** during sales._
 
+{% hint style="info" %}
+Don't know how to get wETH? Use one of these way:
 
+* Goto [Uniswap](https://app.uniswap.org/swap?outputCurrency=0x82af49447d8a07e3bd95bd0d56f35241523fbab1), connect your wallet and convert your token assets to wETH
+* Goto a centralized exchange, such as Binance, buy ETH and then send it from your Binance account to your wallet address using the Arbitrum One network
+{% endhint %}
 
 **Step 2 - Go to the Node Sale Page (**[**https://verifier.inferix.io/**](https://verifier.inferix.io/)**) and connect your wallet.**  \
 Please take into consideration r_ewards from nodes will be airdropped to the same wallet used to purchase it, and this cannot be changed._
