@@ -10,7 +10,7 @@ Obtain a Whitelist spot for our Verifier Node Sales by participating in:
 
 If you have idle GPUs, you can contribute these precious resources to InferiX Network to earn scores and compete on the leaderboard. The higher rank you are, the higher the chance of obtaining rewards
 
-Duration: 10 — 23 Sep, 2024
+Duration: 10 — 20 Sep, 2024
 
 <mark style="color:red;background-color:yellow;">**The campaign is extended to 23 Sep, 2024!**</mark>
 
