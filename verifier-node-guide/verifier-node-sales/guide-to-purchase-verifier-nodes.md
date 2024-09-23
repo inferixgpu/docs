@@ -1,7 +1,7 @@
 # Guide to Purchase Verifier Nodes
 
 **Step 1 - Get wETH tokens (**_**Arbitrum**_**) to buy the Node and for gas fee.**\
-_Nodes can be purchased using w**ETH (Ethereum) on Arbitrum Network** during sales._
+_Nodes can be purchased using **wETH (Ethereum) on Arbitrum Network** during sales._
 
 
 
