@@ -88,7 +88,7 @@
   * [Verifier Node Sales](verifier-node-guide/verifier-node-sales/README.md)
     * [Guide to Purchase Verifier Nodes](verifier-node-guide/verifier-node-sales/guide-to-purchase-verifier-nodes.md)
     * [Verifier Node Sale Timeline](verifier-node-guide/verifier-node-sales/verifier-node-sale-timeline.md)
-    * [Node Purchase Caps](verifier-node-guide/verifier-node-sales/node-purchase-caps.md)
+    * [Node Supply, Price, Tiers and Purchase Caps](verifier-node-guide/verifier-node-sales/node-purchase-caps.md)
     * [Guaranteed Node Buyback](verifier-node-guide/verifier-node-sales/guaranteed-node-buyback.md)
     * [How to get Node Whitelisted?](verifier-node-guide/verifier-node-sales/how-to-get-whitelisted.md)
     * [Smart Contract Addresses](verifier-node-guide/verifier-node-sales/smart-contract-addresses.md)

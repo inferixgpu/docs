@@ -15,7 +15,7 @@ Node Sale programs will be organized into tiers based on the order of the sale. 
 * Tier 4: $450 per node
 * Prices continue to rise until Tier 20, where the price reaches $1,250 per node
 
-**The nodes will be available for purchase directly on our Node Sale Page** ([**https://verifier.inferix.io/**](https://verifier.inferix.io/)). Please ensure you have enough w**ETH** _(Arbitrum network)_ in your wallet to complete the transaction.\
+**The nodes will be available for purchase directly on our Node Sale Page** ([**https://verifier.inferix.io/**](https://verifier.inferix.io/)). Please ensure you have enough **wETH** _(Arbitrum One network)_ in your wallet to complete the transaction.\
 \
 Once purchased, **your node will be represented as an ERC-721 NFT, which will be airdropped directly to your wallet.** This will happen 4 week after the sale is complete.
 

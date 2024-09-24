@@ -2,7 +2,7 @@
 
 In order to ensure the stability of node supply, increase transparency, and safeguard the rights of network contributors, Inferix introduces the very special _**Guaranteed Node Buyback**_ program:
 
-_**Eligibility:** Node license holders with a participation rate of over $66.7%$ in executing Inferix network tasks, and who have never been blacklisted, will be eligible to participate in this program._\
+_**Eligibility:** Node license holders with a participation rate of over $66.7% in executing Inferix network tasks, and who have never been blacklisted, will be eligible to participate in this program._\
 [_Free node airdrop_](how-to-get-whitelisted.md#id-3.-free-node-airdrops) _winners will not be eligible to participate this program_
 
 _**Timeline:** Starting six months after the TGE, node license holders will have a 7-day window to participate in the program_.

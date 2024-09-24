@@ -2,8 +2,7 @@
 
 1**. How many nodes are available for purchase?**
 
-Inferix is offering 17,250 nodes across 20 tiers. Each tier has a limited number of licenses, and prices increase as the tiers progress.
-
+Inferix is offering 17,250 nodes across 20 tiers. Each tier has a limited number of licenses, and prices increase as the tiers progress.\
 
 
 **2. What are the steps to purchase a node?**
