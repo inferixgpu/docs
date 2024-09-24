@@ -12,7 +12,7 @@ There are 2 types of referral codes available for use during the node sale:
 
 ### What benefit do users get for successful referrals? <a href="#what-benefit-do-users-get-for-successful-referrals" id="what-benefit-do-users-get-for-successful-referrals"></a>
 
-Users with successful referrals (users used your code to purchase a node) will receive a 5% cashback
+Users with successful referrals (users used your code to purchase a node) will receive a 5% rebate in wETH
 
 ### Will referred users who input their friend’s wallet address as a code automatically get cashback? <a href="#will-referred-users-who-input-their-friends-wallet-address-as-a-code-automatically-get-cashback" id="will-referred-users-who-input-their-friends-wallet-address-as-a-code-automatically-get-cashback"></a>
 
