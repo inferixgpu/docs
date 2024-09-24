@@ -2,8 +2,9 @@
 
 1**. How many nodes are available for purchase?**
 
-Inferix is offering 17,250 nodes across 20 tiers. Each tier has a limited number of licenses, and prices increase as the tiers progress.\
+Inferix is offering 17,250 nodes across 20 tiers. Each tier has a limited number of licenses, and prices increase as the tiers progress.
 
+***
 
 **2. What are the steps to purchase a node?**
 
@@ -12,7 +13,7 @@ To purchase a node, follow these steps:
 * Whitelist Sale (if eligible): If you are whitelisted, you'll have early access to buy nodes at a lower price during Whitelist Sale. The Whitelist Sale has 8 tiers of pricing, with increasing prices.
 * Public Sale: After the whitelist sale, any remaining nodes will be available in the Public Sale on a first-come, first-served basis. Public sale prices will increase across the 20 tiers.
 
-
+***
 
 **3. Who is eligible for the Whitelist Sale?**
 
@@ -30,13 +31,13 @@ DO YOU WANT TO BE WHITELISTED? CHECK OPTIONS HERE :point\_down:
 [how-to-get-whitelisted.md](how-to-get-whitelisted.md)
 {% endcontent-ref %}
 
-
+***
 
 **4. What is the purchase token for the sale?**
 
 Nodes can be purchased using wETH on Arbitrum Network during both the Whitelist and Public sales.
 
-
+***
 
 **5. Is there a purchase limit for nodes?**
 
@@ -51,7 +52,7 @@ Tiers 1 - 8: There are specific purchase caps per wallet for these tiers:
 
 Tiers 9 - 20: There is no limit on the number of nodes you can purchase in these tiers.
 
-
+***
 
 **6. How does the pricing work?**
 
@@ -65,33 +66,39 @@ The price of each node increases with each tier. Here’s a brief outline of the
 
 Each tier has a limited number of licenses, so early purchases will be more cost-effective.
 
-
+***
 
 **7. Where can I purchase nodes?**
 
 The nodes will be available for purchase directly on our [Node Sale Page](https://verifier.inferix.io). All node purchases are conducted using wETH tokens on the [Arbitrum One](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) network. Please ensure you have enough wETH in your wallet to complete the transaction.
 
-
+***
 
 **8. How will I receive my node?**
 
 Once purchased, your node will be represented as an ERC-721 NFT, which will be airdropped directly to your wallet. This will happen 4 weeks after the sale is complete.
 
-
+***
 
 **9. Can I transfer my node after purchase?**
 
 Nodes will be locked for a period of a year after the sale. After this lock-up period, you’ll be able to transfer or sell your node on the secondary market.
 
-
+***
 
 **10. What rewards do I earn as a node holder?**
 
 As a node holder, you will earn $IFX rewards and possibly additional rewards, which we’ll announce in the future.
 
+***
+
+**11. What are the rules for releasing rewards for Verifiers？**\
+The rule of node rewards is defined in section VI. Burn-Mint-Work token issuance model in White paper. Inferix releases rewards after each Epoch period of 72 hours. The rewarding amount for each period is planned in the Emission Plan and the Ecosystem Fund will be released all within 4 years.\
 
 
-**11. When will the Inferix network launch?**
+***
+
+**12. When will the Inferix network launch?**
 
 **Inferix Network will launch the mainnet after the TGE in November, 2024**
 
