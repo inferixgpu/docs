@@ -93,6 +93,12 @@ Inferix offers a referral program for both KOLs and users:
 * **KOLs/Partners:** You’ll receive a unique referral code to share with your audience. For every sale made through your referral code, you'll earn a commission (the rate may vary depending on the KOL/partner agreement) along with a 10% rebate on each node purchase.
 * **Users:** Your wallet address used for purchasing the node will serve as your personal referral code. You will receive a 5% commission and a 5% rebate on any node purchases made using your code.
 
+Check the detailed information here :point\_down:
+
+{% content-ref url="referral-program.md" %}
+[referral-program.md](referral-program.md)
+{% endcontent-ref %}
+
 ***
 
 **13. When will the Inferix network launch?**\
