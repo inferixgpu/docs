@@ -12,7 +12,7 @@ If you have idle GPUs, you can contribute these precious resources to InferiX Ne
 
 Duration: 10 — 20 Sep, 2024
 
-<mark style="color:red;background-color:yellow;">**The campaign is extended to 23 Sep, 2024!**</mark>
+<mark style="color:red;background-color:yellow;">**The campaign has ended!**</mark>
 
 Rewards: 50 tier 1 to tier 6 Node Whitelist spots & 1,000 $USDT
 
