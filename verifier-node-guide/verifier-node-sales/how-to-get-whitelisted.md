@@ -1,6 +1,6 @@
 # How to get Node Whitelisted?
 
-1. **Node Whitelist Program**
+#### 1. **Node Whitelist Program**
 
 Obtain a Node Whitelist spot for our Verifier Node Sales by participating in:
 
@@ -10,9 +10,7 @@ Obtain a Node Whitelist spot for our Verifier Node Sales by participating in:
   _(If you are interested, contact BD team via Telegram to: @nguyen5)_
 * **The Inferix Whitelist Programs**&#x20;
 
-
-
-2. **Inferix Node Sale Whitelist Program**&#x20;
+#### **2. Inferix Node Sale Whitelist Program**
 
 If you have idle GPUs, you can contribute these precious resources to InferiX Network to earn scores and compete on the leaderboard. The higher rank you are, the higher the chance of obtaining rewards
 
@@ -51,9 +49,7 @@ The winner result will be announced after the campaign ends and before the White
 
 Find full details and get started 👉 [**HERE**](https://medium.com/@inferixgpu/inferix-node-whitelist-program-78b278568fc7)
 
-
-
-3. **Free Node Airdrops**
+#### 3. Free Node Airdrops
 
 Some community campaigns by Inferix will airdrop node licenses completely free to individuals who achieve top performance in completing specific campaign tasks. Inferix will use tokens from the [Community Grants Fund](../../inferix-whitepaper/economic-model/token-metrics-and-allocation/token-allocation.md) to reimburse the equivalent amount of ETH for the licenses distributed for free. All decisions regarding these free node airdrops are made through DAO governance.
 
