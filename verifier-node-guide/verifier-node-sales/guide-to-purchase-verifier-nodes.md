@@ -20,17 +20,17 @@ There are a total of 20 tiers of nodes available for purchase.  For detailed inf
 
 
 
-**Step 4 - Approve the purchase of your InferiX Node License**\
+**Step 4 - Approve the purchase of your Inferix Node License**\
 Click on “Approve” on the sale page. You will be prompted to sign a contract in your wallet. Once it has been signed, accept.
 
-### **Congratulations you have now successfully purchased your InferiX Node License!**
+### **Congratulations you have now successfully purchased your Inferix Node License!**
 
 \
 **What’s next? Important info!**  :point\_down:\
-After purchasing an InferiX node, investors will receive an ERC-721 NFT to the wallet addresses used during the InferiX node sale. The NFT symbolizes ownership of the purchased InferiX Verifier node.&#x20;
+4 weeks after purchasing an Inferix node, investors will receive an ERC-721 NFT to the wallet addresses used during the Inferix node sale. The NFT symbolizes ownership of the purchased Inferix Verifier node.&#x20;
 
-Keep in mind that you will need to match the min. requirements for EACH node license you buy.  ([Min. hardware req. ](../../inferix-whitepaper/appendix-c-hardware-requirements-for-nodes.md)[HERE](../../inferix-whitepaper/appendix.md)) There's **no cap** on the number of nodes you can buy **during whitelist sales**, but there's a **limit on the public sales.** (see info [HERE](./))&#x20;
+Keep in mind that in order to run nodes, you will need a PC/mobile that match the min. requirements for EACH node license you buy.  ([Min. hardware req. ](../../inferix-whitepaper/appendix-c-hardware-requirements-for-nodes.md)[HERE](../../inferix-whitepaper/appendix.md)) There's **no cap** on the number of nodes you can buy **during whitelist sales**, but there's a **limit on the public sales.** (see info [HERE](./))&#x20;
 
-The NFTs will be airdropped to buyer wallets directly at a later date. There's no claiming process. The NFTs will be non-transferable for the first year after the node sale. \
+The NFTs will be airdropped to buyer wallets directly, there's no claiming process. The NFTs will be non-transferable for the first year after the node sale. \
 \
-Nodes will be locked for a period of **a year** after the sale. After this lock-up period, you’ll be able to transfer or sell your node on the secondary market.
+Nodes will be locked for a period of **a year** after the sale. After this lock-up period, you’ll be able to transfer or sell your node on the secondary market. You can also join our [Guaranteed Node Buyback](../../inferix-whitepaper/economic-model/node-sale-and-penalty-pool/guaranteed-node-buy-back.md) program after purchasing nodes.
