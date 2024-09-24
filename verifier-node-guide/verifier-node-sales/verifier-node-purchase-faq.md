@@ -93,12 +93,18 @@ As a node holder, you will earn $IFX rewards and possibly additional rewards, wh
 ***
 
 **11. What are the rules for releasing rewards for Verifiers？**\
-The rule of node rewards is defined in section VI. Burn-Mint-Work token issuance model in White paper. Inferix releases rewards after each Epoch period of 72 hours. The rewarding amount for each period is planned in the Emission Plan and the Ecosystem Fund will be released all within 4 years.\
-
+The rule of node rewards is defined in section VI. Burn-Mint-Work token issuance model in White paper. Inferix releases rewards after each Epoch period of 72 hours. The rewarding amount for each period is planned in the Emission Plan and the Ecosystem Fund will be released all within 4 years.
 
 ***
 
-**12. When will the Inferix network launch?**
+**12. How does the referral program work?**\
+Inferix offers a referral program for both KOLs and users:
 
-**Inferix Network will launch the mainnet after the TGE in November, 2024**
+* **KOLs/Partners:** You’ll receive a unique referral code to share with your audience. For every sale made through your referral code, you'll earn a commission (the rate may vary depending on the KOL/partner agreement) along with a 10% rebate on each node purchase.
+* **Users:** Your wallet address used for purchasing the node will serve as your personal referral code. You will receive a 5% commission and a 5% rebate on any node purchases made using your code.
+
+***
+
+**13. When will the Inferix network launch?**\
+Inferix Network will launch the mainnet after the TGE in November, 2024
 
