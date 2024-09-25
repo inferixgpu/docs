@@ -2,7 +2,7 @@
 
 You will be able to acquire Verifier node licences through Node Sales, crucial programs for building Inferix's compute network. There will be **2 type of Node Sales** for you to participate:
 
-* **Whitelist Sale (if eligeble).**
+* **Whitelist Sale (if eligible).**
 * **Public Sale.**
 
 Node Sale programs will be organized into tiers based on the order of the sale. As a general rule, the earlier the license is purchased (the lower the tier), the cheaper the price.  Licenses purchased before the TGE are referred to as Whitelisted licenses. Participants who acquire Whitelisted licenses will receive more benefits and discounts compared to those who purchase after the TGE. (see info about whitelist [HERE](verifier-node-purchase-faq.md))\
