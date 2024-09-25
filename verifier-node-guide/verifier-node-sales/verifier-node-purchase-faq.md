@@ -1,7 +1,7 @@
 # Verifier Node Purchase FAQ
 
 1**. How many nodes are available for purchase?**\
-Inferix is offering 17,250 nodes across 20 tiers. Each tier has a limited number of licenses, and prices increase as the tiers progress.
+Inferix is offering 25,000 nodes across 30 tiers. Each tier has a limited number of licenses, and prices increase as the tiers progress.
 
 ***
 
@@ -45,7 +45,7 @@ Tiers 1 - 8: There are specific purchase caps per wallet for these tiers:
 * Tier 3: Max of 15 nodes per wallet
 * Tiers 4 - 8: Max of 20 nodes per wallet
 
-Tiers 9 - 20: There is no limit on the number of nodes you can purchase in these tiers.
+Tiers 9 - 30: There is no limit on the number of nodes you can purchase in these tiers.
 
 ***
 
@@ -56,7 +56,7 @@ The price of each node increases with each tier. Here’s a brief outline of the
 * Tier 2: $350 per node
 * Tier 3: $400 per node
 * Tier 4: $450 per node
-* Prices continue to rise until Tier 20, where the price reaches $1,250 per node.
+* Prices continue to rise until Tier 30, where the price reaches $1,750 per node.
 
 Each tier has a limited number of licenses, so early purchases will be more cost-effective.
 
