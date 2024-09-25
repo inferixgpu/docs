@@ -1,5 +1,9 @@
 # Guide to Purchase Verifier Nodes
 
+### A video walk-through on how to purchase a node:
+
+{% embed url="https://www.youtube.com/watch?v=viDsEJ9Xc7M" %}
+
 **Step 1 - Get wETH tokens to buy the Node and for gas fee.**\
 _Nodes can be purchased using **wETH (Ethereum) on**_ [_**Arbitrum One**_](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) _**Network** during sales._
 
