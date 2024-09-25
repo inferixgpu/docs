@@ -6,10 +6,16 @@ Inferix is offering 25,000 nodes across 30 tiers. Each tier has a limited number
 ***
 
 **2. What are the steps to purchase a node?**\
-To purchase a node, follow these steps:
+To purchase a node, there's two types of sales:
 
 * Whitelist Sale (if eligible): If you are whitelisted, you'll have early access to buy nodes at a lower price during Whitelist Sale. The Whitelist Sale has 8 tiers of pricing, with increasing prices.
-* Public Sale: After the whitelist sale, any remaining nodes will be available in the Public Sale on a first-come, first-served basis. Public sale prices will increase across the 20 tiers.
+* Public Sale: After the whitelist sale, any remaining nodes will be available in the Public Sale on a first-come, first-served basis. Public sale prices will increase across the 30 tiers.
+
+A detailed guide, and a video walkthrough to purchase a node is available here :point\_down:
+
+{% content-ref url="guide-to-purchase-verifier-nodes.md" %}
+[guide-to-purchase-verifier-nodes.md](guide-to-purchase-verifier-nodes.md)
+{% endcontent-ref %}
 
 ***
 
@@ -22,22 +28,24 @@ Whitelist participants include:
 * Node Sale Partners
 * Participants of events and campaigns
 
-DO YOU WANT TO BE WHITELISTED? CHECK OPTIONS HERE :point\_down:
-
-{% content-ref url="how-to-get-whitelisted.md" %}
-[how-to-get-whitelisted.md](how-to-get-whitelisted.md)
-{% endcontent-ref %}
-
 ***
 
 **4. What is the purchase token for the sale?**\
 Nodes can be purchased using wETH on Arbitrum Network during both the Whitelist and Public sales.
 
+{% hint style="info" %}
+**Don't know how to get wETH?**&#x20;
+
+* Go to [Uniswap](https://app.uniswap.org/swap?outputCurrency=0x82af49447d8a07e3bd95bd0d56f35241523fbab1), connect your wallet and convert your token assets to wETH
+* If you dont have enough token in your wallet, go to a centralized exchange, such as Binance, buy ETH and then send it from your Binance account to your wallet address using the Arbitrum One network
+{% endhint %}
+
 ***
 
 **5. Is there a purchase limit for nodes?**\
-Yes, there are limits during the public sale:
-
+During whitelist sales, Max. 1 node per whitelisted Tier.\
+\
+During the public sales:\
 Tiers 1 - 8: There are specific purchase caps per wallet for these tiers:
 
 * Tier 1: Max of 5 nodes per wallet

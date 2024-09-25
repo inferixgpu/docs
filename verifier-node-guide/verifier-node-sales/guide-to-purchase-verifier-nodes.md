@@ -20,7 +20,7 @@ Please take into consideration r_ewards from nodes will be airdropped to the sam
 
 
 **Step 3 - Select available tier and click “Purchase”**\
-There are a total of 20 tiers of nodes available for purchase.  For detailed information about each node read ["Verifier Node Sales"](./) and ["Verifier Node Purchase FAQ"](verifier-node-purchase-faq.md)
+There are a total of 30 tiers of nodes available for purchase.  For detailed information about each node read ["Verifier Node Sales"](./) and ["Verifier Node Purchase FAQ"](verifier-node-purchase-faq.md)
 
 
 

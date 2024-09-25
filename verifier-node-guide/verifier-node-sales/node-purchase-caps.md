@@ -16,8 +16,11 @@ ETH Snapshot Price 24/9/2025 15:00UTC @ 2,612.00USDT
 
 _Tier Implied FDV:_ The estimated FDV of a tier with 50% projected nodes participation rate assumption.
 
-To promote decentralization and make participation more equitable, Inferix offers lower-tier nodes with lower caps during Public Node Sales:
-
+To promote decentralization and make participation more equitable, Inferix offers lower-tier nodes with lower caps during  Whitelist and Public Node Sales:\
+\
+During whitelist sales, Max. 1 node per whitelisted Tier.\
+\
+During Public sales:\
 Tiers 1 - 8: There are specific purchase caps per wallet for these tiers:
 
 * Tier 1: Max of 5 nodes per wallet
