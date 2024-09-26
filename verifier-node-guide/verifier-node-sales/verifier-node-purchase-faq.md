@@ -31,13 +31,14 @@ Whitelist participants include:
 ***
 
 **4. What is the purchase token for the sale?**\
-Nodes can be purchased using wETH on Arbitrum Network during both the Whitelist and Public sales.
+Nodes can be purchased using wETH on Arbitrum network or wIOTX on IoTeX network during both the Whitelist and Public sales.
 
 {% hint style="info" %}
-**Don't know how to get wETH?**&#x20;
+**Don't know how to get wETH or wIOTX?**&#x20;
 
-* Go to [Uniswap](https://app.uniswap.org/swap?outputCurrency=0x82af49447d8a07e3bd95bd0d56f35241523fbab1), connect your wallet and convert your token assets to wETH
-* If you dont have enough token in your wallet, go to a centralized exchange, such as Binance, buy ETH and then send it from your Binance account to your wallet address using the Arbitrum One network
+* Goto [Uniswap](https://app.uniswap.org/swap?outputCurrency=0x82af49447d8a07e3bd95bd0d56f35241523fbab1), connect your wallet and convert your token assets to wETH
+* Goto [Mimo Exchange](https://mimo.exchange/swap?inputCurrency=IOTX\&outputCurrency=0xa00744882684c3e4747faefd68d283ea44099d03) connect your wallet and convert your token assets to wIOTX
+* If you dont have enough token in your wallet, goto a centralized exchange, such as Binance, buy ETH or IOTX and then send it from your Binance account to your wallet address using the Arbitrum One or IoTex network
 {% endhint %}
 
 ***
@@ -71,7 +72,7 @@ Each tier has a limited number of licenses, so early purchases will be more cost
 ***
 
 **7. Where can I purchase nodes?**\
-The nodes will be available for purchase directly on our [Node Sale Page](https://verifier.inferix.io). All node purchases are conducted using wETH tokens on the [Arbitrum One](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) network. Please ensure you have enough wETH in your wallet to complete the transaction.
+The nodes will be available for purchase directly on our [Node Sale Page](https://verifier.inferix.io). All node purchases are conducted using wETH tokens on the [Arbitrum One](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) networkor wIOTX on [IoTeX](https://iotexscan.io) network. Please ensure you have enough ETH or IOTX in your wallet to complete the transaction.
 
 ***
 
