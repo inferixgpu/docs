@@ -8,7 +8,7 @@
 _Nodes can be purchased using **wETH on**_ [_**Arbitrum One**_](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) _**Network** or wIOTX on_ [_Iotex Network_](https://iotexscan.io) _during sales._
 
 {% hint style="info" %}
-Don't know how to get wETH ?&#x20;
+Don't know how to get wETH or wIOTX?&#x20;
 
 * Goto [Uniswap](https://app.uniswap.org/swap?outputCurrency=0x82af49447d8a07e3bd95bd0d56f35241523fbab1), connect your wallet and convert your token assets to wETH
 * Goto [Mimo Exchange](https://mimo.exchange/swap?inputCurrency=IOTX\&outputCurrency=0xa00744882684c3e4747faefd68d283ea44099d03) connect your wallet and convert your token assets to wIOTX
