@@ -6,30 +6,25 @@ description: A list of our live, upcoming and ended events.
 
 ***
 
-## UPCOMING EVENTS
+## ENDED EVENTS
 
-**\[UPCOMING]** 🚀**Inferix Verifier Node Sales - Aethir Whitelist**\
+**\[ENDED]** 🚀**Inferix Verifier Node Sales - Aethir Whitelist**\
 📅 Sep 25, 2024, at 03:00 PM (UTC)\
 ➡️ Website: [https://verifier.inferix.io/](https://verifier.inferix.io/)\
-🏆[ Whitelist winners](https://docs.google.com/spreadsheets/d/1pQgaGAyPkz3e5fi5\_\_lvRMza-L1brPXx6jUzYUNMIgg/edit?usp=sharing)\
+🏆[ Whitelist winners](https://docs.google.com/spreadsheets/d/1pQgaGAyPkz3e5fi5__lvRMza-L1brPXx6jUzYUNMIgg/edit?usp=sharing)\
 \
-**\[UPCOMING]** 🚀**Inferix Verifier Node Sales - Whitelist & Public** \
+&#xNAN;**\[ENDED]** 🚀**Inferix Verifier Node Sales - Whitelist & Public** \
 📅 Sep 26, 2024, at 03:00 PM (UTC)\
 ➡️ Website: [https://verifier.inferix.io/](https://verifier.inferix.io/)\
-🏆[ Whitelist winners](https://docs.google.com/spreadsheets/d/1pQgaGAyPkz3e5fi5\_\_lvRMza-L1brPXx6jUzYUNMIgg/edit?usp=sharing)\
+🏆[ Whitelist winners](https://docs.google.com/spreadsheets/d/1pQgaGAyPkz3e5fi5__lvRMza-L1brPXx6jUzYUNMIgg/edit?usp=sharing)\
 \
-[Guide to Purchase Verifier Nodes](https://docs.inferix.io/verifier-node-guide/verifier-node-sales/guide-to-purchase-verifier-nodes) :point\_left:\
 Check the verifier node guide for all the information here :point\_down:
 
 {% content-ref url="../verifier-node-guide/" %}
 [verifier-node-guide](../verifier-node-guide/)
 {% endcontent-ref %}
 
-
-
 ***
-
-## ENDED EVENTS
 
 **\[ENDED]** 🚀**Inferix Node Whitelist Program**
 
@@ -82,7 +77,7 @@ Check the verifier node guide for all the information here :point\_down:
 \
 📅 Duration: **May 1st — May 7th, 2024**\
 💰 Reward pool: **$5,000 IFX to 100 lucky winners!**\
-🏆 Winners: [**https://twitter.com/DeMR\_official/status/1787730188929024167**](https://twitter.com/DeMR\_official/status/1787730188929024167)
+🏆 Winners: [**https://twitter.com/DeMR\_official/status/1787730188929024167**](https://twitter.com/DeMR_official/status/1787730188929024167)
 
 ***
 
