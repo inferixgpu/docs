@@ -4,6 +4,13 @@ description: A list of our live, upcoming and ended events.
 
 # Events
 
+## UPCOMING EVENTS
+
+🚀**Inferix Supernode GPU Staking Mining Testne**t 1\
+📅 January 2, 2025.\
+➡️ More information: [https://x.com/InferixGPU/status/1869036349988491646](https://x.com/InferixGPU/status/1869036349988491646)\
+
+
 ***
 
 ## ENDED EVENTS
