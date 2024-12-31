@@ -5,7 +5,7 @@
 {% embed url="https://www.youtube.com/watch?v=viDsEJ9Xc7M" %}
 
 **Step 1 - Get wETH tokens to buy the Node and for gas fee.**\
-_Nodes can be purchased using **wETH on**_ [_**Arbitrum One**_](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) _**Network** or wIOTX on_ [_Iotex Network_](https://iotexscan.io) _during sales._
+&#xNAN;_&#x4E;odes can be purchased using **wETH on**_ [_**Arbitrum One**_](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) _**Network** or wIOTX on_ [_Iotex Network_](https://iotexscan.io) _during sales._
 
 {% hint style="info" %}
 Don't know how to get wETH or wIOTX?&#x20;
@@ -16,7 +16,7 @@ Don't know how to get wETH or wIOTX?&#x20;
 {% endhint %}
 
 **Step 2 - Go to the Node Sale Page (**[**https://verifier.inferix.io/**](https://verifier.inferix.io/)**) and connect your wallet.**  \
-Please take into consideration r_ewards from nodes will be airdropped to the same wallet used to purchase it, and this cannot be changed._
+Please take into consideration &#x72;_&#x65;wards from nodes will be airdropped to the same wallet used to purchase it, and this cannot be changed._
 
 
 

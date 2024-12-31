@@ -10,6 +10,6 @@ TABLE
 
 ### **Unstaking**&#x20;
 
-If you wish to remove a GPU from the network, you can complete the process by clicking the Unstake button. Once unstaked, the initially staked tokens will be locked for 180 days before being returned to the wallet used for the operation.&#x20;
+If you wish to remove a GPU from the network, you can complete the process by clicking the **Unstake** button. Once unstaked, the initially staked tokens will be locked for 180 days before being returned to the wallet used for the operation.&#x20;
 
 Currently, the test network does not support unstaking.

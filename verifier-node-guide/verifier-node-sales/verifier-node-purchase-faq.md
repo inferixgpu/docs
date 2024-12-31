@@ -1,6 +1,6 @@
 # Verifier Node Purchase FAQ
 
-1**. How many nodes are available for purchase?**\
+&#x31;**. How many nodes are available for purchase?**\
 Inferix is offering 25,000 nodes across 30 tiers. Each tier has a limited number of licenses, and prices increase as the tiers progress.
 
 ***

@@ -6,7 +6,7 @@ A typical rendering session contains several steps here we explain main Verifier
 
 The rendering task controller of the _manager_ receives the rendering job request, the rendering tasks are assigned to _workers_ and the verification keys will be sent to the verifying task controller.
 
-The verifying task controller receives the notification and then it creates a verification task; **this task will be assigned to a **_**verifier**_.
+The verifying task controller receives the notification and then it creates a verification task; **this task will be assigned to a&#x20;**_**verifier**_.
 
 After receiving a verification task, a _verifier:_
 

@@ -1,7 +1,7 @@
 # PoR MVP
 
 **What is Proof-of-Rendering (PoR)?**\
-_Proof-of-Rendering (PoR) stands as a fundamental technology within InferiX, offering analysis, consensus, and validation algorithms tailored specifically for the rendering tasks performed by GPU resource providers._\
+&#xNAN;_&#x50;roof-of-Rendering (PoR) stands as a fundamental technology within InferiX, offering analysis, consensus, and validation algorithms tailored specifically for the rendering tasks performed by GPU resource providers._\
 \
 We're thrilled to announce the release of the **Proof-of-Rendering (PoR) MVP**! This marks a significant milestone in the evolution of our platform, empowering GPU resource providers and users alike with advanced rendering capabilities.
 
