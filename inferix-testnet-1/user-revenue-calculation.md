@@ -2,18 +2,18 @@
 
 ### View Earnings&#x20;
 
-As a GPU Compute Provider on the Inferixplatform, effectively managing your ATH computation rewards is crucial for maximizing income and ensuring financial transparency. The platform's Wallet page offers comprehensive tools to help you easily track, claim, and manage your financial activities. \
+As a GPU Compute Provider on the Inferixplatform, effectively managing your ATH computation rewards is crucial for maximizing income and ensuring financial transparency. The platform's **Wallet** page offers comprehensive tools to help you easily track, claim, and manage your financial activities. \
 \
-Providers can view their daily earnings on the Wallet page, including: \
+Providers can view their daily earnings on the **Wallet** page, including: \
 • **Worker Rewards:** Earnings from computational tasks. \
 • **Rental Revenue:** Income from renting out GPU servers.\
-\
-IMAGE 5\
 
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Worker Rewards&#x20;
 
-Worker rewards are composed of two parts: PoC rewards and PoD rewards. \
+Worker rewards are composed of two parts: **PoC rewards** and **PoD rewards**. \
 \
 **PoC: Proof of Capacity** \
 Proof of Capacity (PoC) is a blockchain consensus algorithm that allows mining devices in the network to utilize their available computational power to determine mining rights and validate transactions. PoC rewards are designed to encourage participants to keep their computational resources (containers) online and available, even when not actively processing tasks. This ensures a consistent and reliable resource pool for the network. Any container that remains online and meets the network's uptime requirements is eligible for PoC rewards. \
@@ -27,30 +27,34 @@ The total reward pool is determined based on the overall network utilization and
 \
 Single GPU Weight Formula
 
-
+$$
+Single GPUweight = Kfactor × (Uptime + WPoD ⋅ Lease Time)
+$$
 
 Single GPU Revenue Formula:
 
-
+$$
+asd
+$$
 
 ### Rental Revenue
 
-Rental Revenue refers to the rent paid by tenants, with 95% of the daily rental income distributed to the GPU provider. A 5% protocol fee is deducted as a platform fee to cover operational costs and support further development. \
+**Rental Revenue** refers to the rent paid by tenants, with 95% of the daily rental income distributed to the GPU provider. A 5% protocol fee is deducted as a platform fee to cover operational costs and support further development. \
 \
 Daily earnings are distributed at 1:00 AM UTC. The release rules are as follows:\
 \
-• Worker Rewards: \
+• **Worker Rewards:** \
 ◦ 25% of the total revenue is released immediately. \
 ◦ The remaining 75% is linearly released over 180 days. \
 \
-• Rental Revenue: \
+• **Rental Revenue:** \
 ◦ Fully liquid and available for withdrawal on the same day.
 
 ### Claiming Rewards
 
-• Worker Rewards: Claimable rewards from Worker revenue can be claimed. Once approved by the backend, they can be withdrawn to the user’s wallet. \
+• **Worker Rewards:** Claimable rewards from Worker revenue can be claimed. Once approved by the backend, they can be withdrawn to the user’s wallet. \
 \
-• Rental Revenue: Rental revenue can also be directly claimed. After backend approval, it can be withdrawn to the user’s wallet. \
+• **Rental Revenue:** Rental revenue can also be directly claimed. After backend approval, it can be withdrawn to the user’s wallet. \
 \
 Currently, the test network does not support claiming rewards.\
 \
