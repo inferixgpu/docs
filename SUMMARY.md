@@ -98,6 +98,8 @@
 * [Inferix MVP](inferix-mvp/README.md)
   * [Tutorial: MVP for designers & GPU owners](inferix-mvp/tutorial-mvp-for-designers-and-gpu-owners.md)
   * [PoR MVP](inferix-mvp/por-mvp.md)
+* [Inferix Testnet 1](inferix-testnet-1/README.md)
+  * [Inferix GPU Solutions](inferix-testnet-1/inferix-gpu-solutions.md)
 * [Inferix Explorer](inferix-explorer.md)
 * [Team & Achievements](team-and-achievements/README.md)
   * [Our Story](team-and-achievements/our-story.md)
