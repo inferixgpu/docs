@@ -34,7 +34,7 @@ $$
 Single GPU Revenue Formula:
 
 $$
-asd
+-----
 $$
 
 ### Rental Revenue
