@@ -6,10 +6,9 @@ As a GPU Compute Provider on the Inferixplatform, effectively managing your ATH 
 \
 Providers can view their daily earnings on the **Wallet** page, including: \
 • **Worker Rewards:** Earnings from computational tasks. \
-• **Rental Revenue:** Income from renting out GPU servers.\
+• **Rental Revenue:** Income from renting out GPU servers.
 
-
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/IMG_2830.JPG" alt=""><figcaption></figcaption></figure>
 
 ### Worker Rewards&#x20;
 
@@ -33,9 +32,7 @@ $$
 
 Single GPU Revenue Formula:
 
-$$
------
-$$
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-01 at 10.44.24.png" alt=""><figcaption></figcaption></figure>
 
 ### Rental Revenue
 

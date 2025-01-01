@@ -40,7 +40,7 @@ _**Note:** For GPU Providers who install the old Inferix Worker before the campa
 
 Step 3. Head over to [**Register Form**](https://inferix.io/register) and submit required information for verification, including:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **(1)** Your ioPay Wallet Address
 
