@@ -1,5 +1,11 @@
 # Adding GPUs to the Network
 
+<mark style="background-color:green;">For GPU provider:</mark> To participate, you need to have:
+
+. A computer with a GPU equivalent to RTX 3090 or above\
+. Linux-based server\
+. A public IP address and a worker that can be accessed via SSH
+
 1. **Log in to the Website**
 
 Use your Gmail account to log in at: [https://provider.inferix.io/](https://provider.inferix.io/)
