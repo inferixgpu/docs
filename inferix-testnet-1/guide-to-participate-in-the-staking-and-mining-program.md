@@ -11,7 +11,7 @@
 * **Step 3: Connect your GPUs** \
   Follow [our docs](adding-gpus-to-the-network.md) or watch the instructional video to connect your GPU to the network and stake tIFX for rewards
 
-{% embed url="https://cdn.discordapp.com/attachments/1324543542051344404/1324813280685985852/tzlve24m6oElLv8h.mp4?ex=67798403&hm=f2a7078786c0616278091c461e48b7b4d70147604076fe2e42734e4f2c844413&is=67783283" %}
+{% embed url="https://cdn.discordapp.com/attachments/1324543542051344404/1324816174948683928/C4rbTJO7KwHc2dDh.mp4?ex=677986b6&hm=c810cbf67079d0763e32db40d34516ec76da7e7d03e555558c7a53122ca33dc2&is=67783536" %}
 
 ***
 
