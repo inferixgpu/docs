@@ -104,6 +104,8 @@
   * [Renting GPU Devices](inferix-testnet-1/renting-gpu-devices.md)
   * [User Revenue Calculation](inferix-testnet-1/user-revenue-calculation.md)
   * [GPU Staking](inferix-testnet-1/gpu-staking.md)
+  * [Guide to participate in the Staking & Mining Program](inferix-testnet-1/guide-to-participate-in-the-staking-and-mining-program.md)
+  * [FAQ](inferix-testnet-1/faq.md)
 * [Inferix Explorer](inferix-explorer.md)
 * [Team & Achievements](team-and-achievements/README.md)
   * [Our Story](team-and-achievements/our-story.md)
