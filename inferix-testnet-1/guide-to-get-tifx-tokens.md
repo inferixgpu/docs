@@ -8,8 +8,6 @@ We use OTC process for buying tIFX token:
    **0x9798420f6520c48e9E9026292C222ac1207d6919**
 2. When the transaction is confirmed, we will send tIFX to the user's wallet. **User must use IoTeX network address to receive tIFX.**
 
-
-
 {% hint style="info" %}
 **The exchange rate is: 1 tIFX = 0.05 USDT** \
 It's confirmed the conversion rate will be 1:1 to mainnet tokens.
@@ -32,3 +30,6 @@ You can still participate without a GPU, read more here:
 [alternatives-to-participate-in-the-testnet.md](alternatives-to-participate-in-the-testnet.md)
 {% endcontent-ref %}
 
+{% content-ref url="guide-to-participate-in-the-staking-and-mining-program.md" %}
+[guide-to-participate-in-the-staking-and-mining-program.md](guide-to-participate-in-the-staking-and-mining-program.md)
+{% endcontent-ref %}
