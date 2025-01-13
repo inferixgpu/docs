@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Alternatives to participate in the testnet
 
 In many cases, when a GPU owner does not have sufficient funds to stake, they can form groups to collectively purchase a staking package for a single node!

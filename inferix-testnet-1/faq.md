@@ -10,7 +10,7 @@
    **-** A public IP address and a worker that can be accessed via SSH\
    \- A computer with a GPU equivalent to RTX 3090 or above:
 
-_**The list of registered GPUs includes:** NVIDIA H100, NVIDIA H200, NVIDIA RTX 4090, NVIDIA RTX 4080, NVIDIA RTX 4070, NVIDIA RTX 4060, NVIDIA RTX 3090._\
+_**The list of registered GPUs includes:** NVIDIA H100, NVIDIA H200, NVIDIA RTX 4090, NVIDIA RTX 4080, NVIDIA RTX 4070, NVIDIA RTX 4060, NVIDIA RTX 3090. (Find all the information in the table HERE:_ [_"GPU STAKING"_](gpu-staking.md)_)_\
 \
 **important:** You should use a computer that does not contain any important personal data. Your machine will be utilized by end-users for AI training and visual computing, and there is a risk that data may be altered or lost. This is users responsibility, we will not be held responsible for any such incidents.
 
@@ -52,10 +52,6 @@ Read all about user revenue calculation here:
 
 6. **Can I participate if I don't have a GPU to provide/funds?**\
    Yes, you can still participate in the testnet 1, please read all the information below:
-
-{% content-ref url="alternatives-to-participate-in-the-testnet.md" %}
-[alternatives-to-participate-in-the-testnet.md](alternatives-to-participate-in-the-testnet.md)
-{% endcontent-ref %}
 
 {% content-ref url="guide-to-participate-in-the-staking-and-mining-program.md" %}
 [guide-to-participate-in-the-staking-and-mining-program.md](guide-to-participate-in-the-staking-and-mining-program.md)
