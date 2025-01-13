@@ -6,13 +6,28 @@ description: A list of our live, upcoming and ended events.
 
 ## LIVE EVENTS
 
-🚀**Inferix Supernode GPU Staking Mining Testne**t 1\
+**\[LIVE]** 🚀**Inferix Supernode GPU Staking Mining Testnet 1**\
 📅 Start: January 2, 2025 // End: February, 2025\
 ➡️ All information :point\_down:
 
 {% content-ref url="../inferix-testnet-1/" %}
 [inferix-testnet-1](../inferix-testnet-1/)
 {% endcontent-ref %}
+
+***
+
+**\[LIVE]** 🚀**Get Goated Season 2 - IoTeX x Inferix**\
+&#xNAN;_&#x43;omplete simple social tasks on Galxe at the **GGS2** for Inferix and get chances to win a share a pool of **$50K in $IFX** and compete in a leaderboard with x2 BinoBits bonus for **100M IOTX** up for grabs!_\
+📅 End: 29th January 2025\
+➡️ **Participate now:** [**https://app.galxe.com/quest/SAS7eBhXhnRZWmvjhRu34w/GCcbJtKTRT**](https://app.galxe.com/quest/SAS7eBhXhnRZWmvjhRu34w/GCcbJtKTRT) // [https://goat.iotex.io/binobits ](https://goat.iotex.io/binobits)
+
+***
+
+**\[LIVE] 🚀DePIN Kickstart 2025 Camp - AIxBlock x Inferix** \
+&#xNAN;_&#x43;omplete easy tasks on Zealy and claim your share of **$4000** (1k fiat & 3k equals of tokens)_\
+📅 End: 16th January 2025\
+➡️ **Participate now:** [**https://zealy.io/cw/aixblockhub/questboard**](https://zealy.io/cw/aixblockhub/questboard)\
+More information: [https://x.com/AIxBlock/status/1874806027356656099](https://x.com/AIxBlock/status/1874806027356656099)
 
 ***
 
