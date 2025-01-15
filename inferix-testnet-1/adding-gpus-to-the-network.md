@@ -23,7 +23,7 @@ To participate you will need:\
 #### STEP BY STEP GUIDE
 
 1. **Register for an account** \
-   Go to https://provider.inferix.io/ and use your gmail to create your account. (Once your registration is approved, you will receive an onboarding email shortly from our official email address: contact@inferix.io)\
+   Go to https://provider.inferix.io/ and use your gmail to create your account. (Once your registration is approved, you will receive an onboarding email shortly from our official email address: <mark style="color:blue;">contact@inferix.io</mark>)\
 
 2. **Set Up the Wallet Address** \
    The system currently supports MetaMask wallet extension. After successfully logging in, navigate to the _**Settings**_ page and configure your wallet address. Please note that this address cannot be changed later, and all subsequent website operations will be linked to this wallet.\
