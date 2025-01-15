@@ -24,7 +24,6 @@ If you are new to IoTeX, visit [<mark style="color:blue;">the guide</mark>](http
 To ensure you are eligible to convert your $tIFX into mainnet tokens after one year, you must:
 
 * participate in running nodes for at least three months&#x20;
-* join Inferix Testnet 1
-* provide GPU mining online for a minimum duration of 30 days&#x20;
+* provide GPU mining online in Inferix Testnet 1 for a minimum duration of 30 days&#x20;
 
 To maximize your rewards from this airdrop, you can purchase additional $tIFX to stake and run nodes with higher-end GPUs. These additional $tIFX will be subject to unlocking and vesting rights according to the Testnet staking program, as outlined in the[ <mark style="color:blue;">Staking Token Unlocking Rules</mark>](gpu-staking.md) and [<mark style="color:blue;">Mining Revenue Unlocking Rules</mark>](user-revenue-calculation.md) sections
