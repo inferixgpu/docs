@@ -3,7 +3,7 @@
 Inferix will hand out $tIFX tokens to all Inferix node owners who:
 
 * purchased Inferix Verifier nodes in September 2024
-* won Inferix free nodes from Aethir&#x20;
+* won free Inferix nodes from Aethir&#x20;
 
 {% hint style="info" %}
 #### **Each node is airdropped 15,060 tIFX, valued at 753 USDT at the time of Testnet 1!** 🔥
