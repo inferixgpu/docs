@@ -23,7 +23,13 @@ If you have GPUs but not enough funds to participate in the staking program, use
 
 ### **FOR USERS WITHOUT GPU**
 
-If you don’t have GPUs but still want to participate in the staking program, you can invest in purchasing tIFX and stake a GPU from a GPU owner without funds to participate. Inferix will help with the connection between these two groups; and **the mining profits are split evenly at a 50%-50% ratio based on the additional funds raised.**
+If you don’t have GPUs but still want to participate in the staking program, you can invest in purchasing tIFX and stake a GPU from a GPU owner without funds to participate. Inferix will help with the connection between these two groups; and **the mining profits are split evenly at a 50%-50% ratio based on the additional funds raised.**\
+\
+After buying tIFX for sharing staking, user will be provided a shared account on provider.inferix.io to see their shared assets. At end of Testnet2, each staking user will be provided a link for claiming their tIFX part from shared account to their own account and they can manage their own assets like normal staking-mining users. \
+\
+The claiming tIFX part splitting is automatically done The GPU providers of sharing staking will be one of our B2B partners, not casual users. Our partners have a large amount of GPUs available in all types ranging from RTX3090, RTX4060 to H100. So any users that buys tIFX now, can choose any type of GPU for sharing staking. They dont have to connect to the GPU owner manually.\
+\
+&#xNAN;**(This is shared accounts are only available for users who purchase tIFX tokens, you can't get a shared account with our B2B partners GPU's if you only will use airdrop tokens.)**
 
 ***
 
