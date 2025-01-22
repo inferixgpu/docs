@@ -1,6 +1,6 @@
 # Guide to participate in the Staking & Mining Program
 
-**FOR GPU OWNERS**
+### **FOR GPU OWNERS**
 
 (Users need to meet the three requirements, check [docs](https://docs.inferix.io/inferix-testnet-1) )
 
