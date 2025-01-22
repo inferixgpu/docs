@@ -33,10 +33,6 @@ The claiming tIFX part splitting is automatically done The GPU providers of shar
 
 ***
 
-### **FOR INFERIX NODE BUYERS:**&#x20;
+### **FOR INFERIX NODE HOLDERS:**&#x20;
 
-For those who purchased an Inferix Verifier node in September, there will be an airdrop of tIFX tokens:
-
-* Each node is airdropped 15,060 tIFX, valued at 753 USDT at the time of Testnet1.
-* After one year, this amount of tIFX can be converted into IFX on the mainnet, provided that the node has participated in running for at least three months and has joined Inferix's Testnet program.
-* Buyers who purchase additional tIFX to stake and run nodes with higher-end GPUs will have these additional tIFX subject to unlocking and vesting rights according to the Testnet staking program, as outlined in the[ Staking Token Unlocking Rules](gpu-staking.md) and [Mining Revenue Unlocking Rules](user-revenue-calculation.md) sections.
+Claim your special airdrop: [<mark style="color:blue;">here</mark>](https://docs.inferix.io/inferix-testnet-1/special-airdrop-for-inferix-node-holders)
