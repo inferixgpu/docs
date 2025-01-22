@@ -14,8 +14,8 @@ _**The list of registered GPUs includes:** NVIDIA H100, NVIDIA H200, NVIDIA RTX 
 \
 **important:** You should use a computer that does not contain any important personal data. Your machine will be utilized by end-users for AI training and visual computing, and there is a risk that data may be altered or lost. This is users responsibility, we will not be held responsible for any such incidents.
 
-{% content-ref url="guide-to-participate-in-the-staking-and-mining-program.md" %}
-[guide-to-participate-in-the-staking-and-mining-program.md](guide-to-participate-in-the-staking-and-mining-program.md)
+{% content-ref url="multiple-options-to-participate-in-the-staking-and-mining-program.md" %}
+[multiple-options-to-participate-in-the-staking-and-mining-program.md](multiple-options-to-participate-in-the-staking-and-mining-program.md)
 {% endcontent-ref %}
 
 ***
@@ -53,8 +53,8 @@ Read all about user revenue calculation here:
 6. **Can I participate if I don't have a GPU to provide/funds?**\
    Yes, you can still participate in the testnet 1, please read all the information below:
 
-{% content-ref url="guide-to-participate-in-the-staking-and-mining-program.md" %}
-[guide-to-participate-in-the-staking-and-mining-program.md](guide-to-participate-in-the-staking-and-mining-program.md)
+{% content-ref url="multiple-options-to-participate-in-the-staking-and-mining-program.md" %}
+[multiple-options-to-participate-in-the-staking-and-mining-program.md](multiple-options-to-participate-in-the-staking-and-mining-program.md)
 {% endcontent-ref %}
 
 ***

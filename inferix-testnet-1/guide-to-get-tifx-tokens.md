@@ -30,6 +30,6 @@ You can still participate without a GPU, read more here:
 [alternatives-to-participate-in-the-testnet.md](alternatives-to-participate-in-the-testnet.md)
 {% endcontent-ref %}
 
-{% content-ref url="guide-to-participate-in-the-staking-and-mining-program.md" %}
-[guide-to-participate-in-the-staking-and-mining-program.md](guide-to-participate-in-the-staking-and-mining-program.md)
+{% content-ref url="multiple-options-to-participate-in-the-staking-and-mining-program.md" %}
+[multiple-options-to-participate-in-the-staking-and-mining-program.md](multiple-options-to-participate-in-the-staking-and-mining-program.md)
 {% endcontent-ref %}
