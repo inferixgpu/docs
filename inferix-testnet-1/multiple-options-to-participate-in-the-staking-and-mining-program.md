@@ -1,15 +1,15 @@
-# Guide to participate in the Staking & Mining Program
+# Multiple options to participate in the Staking & Mining Program
 
 ### **FOR GPU OWNERS**
 
-(Users need to meet the three requirements, check [docs](https://docs.inferix.io/inferix-testnet-1) )
+(Users need to meet the three requirements, check [<mark style="color:blue;">docs</mark>](faq.md) )
 
 * **Step 1: Register for an account** \
-  Go to [Testnet 1 ](https://provider.inferix.io/)to create your account (please wait until your account gets approved, you will receive an email!)
+  Go to [<mark style="color:blue;">Testnet 1</mark> ](https://provider.inferix.io/)to create your account (please wait until your account gets approved, you will receive an email!)
 * **Step 2: Purchase tIFX tokens** \
-  How? Contact the Inferix team on our [official discord channel](https://discord.gg/q5gBts3Q6x) to buy tIFX tokens for staking and mining. **The price for testnet1 is 1 tIFX = 0.05 USDT**
+  How? Contact the Inferix team on our [<mark style="color:blue;">official discord channel</mark>](https://discord.gg/q5gBts3Q6x) to buy tIFX tokens for staking and mining. **The price for testnet1 is 1 tIFX = 0.05 USDT**
 * **Step 3: Connect your GPUs** \
-  Follow [our docs](adding-gpus-to-the-network.md) or watch the instructional video to add your GPUs to the network and stake tIFX for rewards
+  Follow [<mark style="color:blue;">our docs</mark>](adding-gpus-to-the-network.md) or watch the instructional video to add your GPUs to the network and stake tIFX for rewards
 
 {% embed url="https://www.youtube.com/watch?v=hMaUVTaOuTo" %}
 

@@ -29,8 +29,8 @@ To participate you will need:\
    The system currently supports MetaMask wallet extension. After successfully logging in, navigate to the _**Settings**_ page and configure your wallet address. Please note that this address cannot be changed later, and all subsequent website operations will be linked to this wallet.\
 
 3. **Get tIFX Tokens**\
-   Contact the Inferix team on our [official discord channel](https://discord.gg/q5gBts3Q6x) to buy tIFX tokens for staking and mining. **The price for testnet1 is 1 tIFX = 0.05 USDT.**\
-   **T**he required amount of tokens for staking vary based on the GPU mode&#x6C;**, Refer  to the table on** [**"GPU Staking"**](gpu-staking.md):point\_down:
+   Contact the Inferix team on our [<mark style="color:blue;">official discord channel</mark>](https://discord.gg/q5gBts3Q6x) to buy tIFX tokens for staking and mining. **The price for testnet1 is 1 tIFX = 0.05 USDT.**\
+   **T**he required amount of tokens for staking vary based on the GPU mode&#x6C;**, Refer  to the table on** [<mark style="color:blue;">**"GPU Staking"**</mark>](gpu-staking.md):point\_down:
 
 {% content-ref url="gpu-staking.md" %}
 [gpu-staking.md](gpu-staking.md)
@@ -54,7 +54,7 @@ D. While the server is in the _**Pending Review**_ status, the operations team w
 
 When the provider user sees the server status change to _**Await Stake**_ on their _**Server**_ page, they can proceed with the staking operation. Clicking the **Stake** button will trigger the MetaMask wallet, displaying the staking amount. This action will call the smart contract to lock the staking amount within it. \
 \
-It’s important to note that the staking requirements vary based on the GPU model. Please refer to the table here: [GPU STAKING ](gpu-staking.md)
+It’s important to note that the staking requirements vary based on the GPU model. Please refer to the table here: [<mark style="color:blue;">GPU STAKING</mark> ](gpu-staking.md)
 
 <figure><img src="../.gitbook/assets/IMG_2827.PNG" alt=""><figcaption></figcaption></figure>
 

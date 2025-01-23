@@ -22,9 +22,9 @@ Proof of Delivery (PoD) verifies that mining devices in the network are genuine 
 
 ### Reward Calculation
 
-The total reward pool is determined based on the overall network utilization and activity. Individual rewards are calculated proportionally, considering factors such as the container's [Inferix Bench](../inferix-whitepaper/economic-model/inferix-bench-and-ibme/) (reflecting performance and capabilities) and its uptime.
+The total reward pool is determined based on the overall network utilization and activity. Individual rewards are calculated proportionally, considering factors such as the container's [<mark style="color:blue;">Inferix Bench</mark>](../inferix-whitepaper/economic-model/inferix-bench-and-ibme/) (reflecting performance and capabilities) and its uptime.
 
-In Testnet1, the value of Inferix Bench of each GPU model is pre-defined in **GPU Specification, Hashrate and Staking amounts** table in the [GPU Staking](gpu-staking.md#gpu-specification-hashrate-and-staking-amounts) section.\
+In Testnet1, the value of Inferix Bench of each GPU model is pre-defined in **GPU Specification, Hashrate and Staking amounts** table in the [<mark style="color:blue;">GPU Staking</mark>](gpu-staking.md#gpu-specification-hashrate-and-staking-amounts) section.\
 \
 Single GPU Weight Formula
 

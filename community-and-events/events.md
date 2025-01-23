@@ -23,15 +23,12 @@ description: A list of our live, upcoming and ended events.
 
 ***
 
-**\[LIVE] 🚀DePIN Kickstart 2025 Camp - AIxBlock x Inferix** \
-&#xNAN;_&#x43;omplete easy tasks on Zealy and claim your share of **$4000** (1k fiat & 3k equals of tokens)_\
-📅 End: 16th January 2025\
-➡️ **Participate now:** [**https://zealy.io/cw/aixblockhub/questboard**](https://zealy.io/cw/aixblockhub/questboard)\
-More information: [https://x.com/AIxBlock/status/1874806027356656099](https://x.com/AIxBlock/status/1874806027356656099)
-
-***
-
 ## ENDED EVENTS
+
+**\[ENDED]🚀DePIN Kickstart 2025 Camp - AIxBlock x Inferix** \
+📅 End: 16th January 2025\
+➡️ [**https://zealy.io/cw/aixblockhub/questboard**](https://zealy.io/cw/aixblockhub/questboard)\
+🏆[ ](https://docs.google.com/spreadsheets/d/1pQgaGAyPkz3e5fi5__lvRMza-L1brPXx6jUzYUNMIgg/edit?usp=sharing)Winners: [https://x.com/AIxBlock/status/1880166886362722595](https://x.com/AIxBlock/status/1880166886362722595)
 
 **\[ENDED]** 🚀**Inferix Verifier Node Sales - Aethir Whitelist**\
 📅 Sep 25, 2024, at 03:00 PM (UTC)\

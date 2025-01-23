@@ -107,7 +107,6 @@
   * [Multiple options to participate in the Staking & Mining Program](inferix-testnet-1/multiple-options-to-participate-in-the-staking-and-mining-program.md)
   * [Special airdrop for Inferix Node Holders! 🎉](inferix-testnet-1/special-airdrop-for-inferix-node-holders.md)
   * [Guide to get tIFX tokens](inferix-testnet-1/guide-to-get-tifx-tokens.md)
-  * [Alternatives to participate in the testnet](inferix-testnet-1/alternatives-to-participate-in-the-testnet.md)
   * [FAQ](inferix-testnet-1/faq.md)
 * [Inferix Explorer](inferix-explorer.md)
 * [Team & Achievements](team-and-achievements/README.md)

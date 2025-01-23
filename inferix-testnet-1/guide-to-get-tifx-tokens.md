@@ -1,6 +1,6 @@
 # Guide to get tIFX tokens
 
-To purchase your tIFX, please contact the Inferix team ([official discord channel](https://discord.gg/q5gBts3Q6x).) \
+To purchase your tIFX, please contact the Inferix team ([<mark style="color:blue;">official discord channel</mark>](https://discord.gg/q5gBts3Q6x)) \
 \
 We use OTC process for buying tIFX token:
 
@@ -25,10 +25,6 @@ To know how many tokens do you need for staking your GPU please check the table 
 ***
 
 You can still participate without a GPU, read more here:
-
-{% content-ref url="alternatives-to-participate-in-the-testnet.md" %}
-[alternatives-to-participate-in-the-testnet.md](alternatives-to-participate-in-the-testnet.md)
-{% endcontent-ref %}
 
 {% content-ref url="multiple-options-to-participate-in-the-staking-and-mining-program.md" %}
 [multiple-options-to-participate-in-the-staking-and-mining-program.md](multiple-options-to-participate-in-the-staking-and-mining-program.md)
