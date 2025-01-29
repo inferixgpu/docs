@@ -7,7 +7,7 @@ description: A list of our live, upcoming and ended events.
 ## LIVE EVENTS
 
 **\[LIVE]** 🚀**Inferix Supernode GPU Staking Mining Testnet 1**\
-📅 Start: January 2, 2025 // End: February, 2025\
+📅 Start: January 2nd, 2025 // Time to join until: February 2nd, 2025\
 ➡️ All information :point\_down:
 
 {% content-ref url="../inferix-testnet-1/" %}
@@ -16,19 +16,21 @@ description: A list of our live, upcoming and ended events.
 
 ***
 
-**\[LIVE]** 🚀**Get Goated Season 2 - IoTeX x Inferix**\
+## ENDED EVENTS
+
+**\[ENDED]** 🚀**Get Goated Season 2 - IoTeX x Inferix**\
 &#xNAN;_&#x43;omplete simple social tasks on Galxe at the **GGS2** for Inferix and get chances to win a share a pool of **$50K in $IFX** and compete in a leaderboard with x2 BinoBits bonus for **100M IOTX** up for grabs!_\
-📅 End: 29th January 2025\
-➡️ **Participate now:** [**https://app.galxe.com/quest/SAS7eBhXhnRZWmvjhRu34w/GCcbJtKTRT**](https://app.galxe.com/quest/SAS7eBhXhnRZWmvjhRu34w/GCcbJtKTRT) // [https://goat.iotex.io/binobits ](https://goat.iotex.io/binobits)
+📅 End: 28th January 2025\
+➡️ **Participate now:** [**https://app.galxe.com/quest/SAS7eBhXhnRZWmvjhRu34w/GCcbJtKTRT**](https://app.galxe.com/quest/SAS7eBhXhnRZWmvjhRu34w/GCcbJtKTRT) // [https://goat.iotex.io/binobits](https://goat.iotex.io/binobits)
 
 ***
-
-## ENDED EVENTS
 
 **\[ENDED]🚀DePIN Kickstart 2025 Camp - AIxBlock x Inferix** \
 📅 End: 16th January 2025\
 ➡️ [**https://zealy.io/cw/aixblockhub/questboard**](https://zealy.io/cw/aixblockhub/questboard)\
 🏆[ ](https://docs.google.com/spreadsheets/d/1pQgaGAyPkz3e5fi5__lvRMza-L1brPXx6jUzYUNMIgg/edit?usp=sharing)Winners: [https://x.com/AIxBlock/status/1880166886362722595](https://x.com/AIxBlock/status/1880166886362722595)
+
+***
 
 **\[ENDED]** 🚀**Inferix Verifier Node Sales - Aethir Whitelist**\
 📅 Sep 25, 2024, at 03:00 PM (UTC)\
