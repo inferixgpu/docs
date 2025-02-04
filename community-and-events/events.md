@@ -10,10 +10,10 @@ description: A list of our live, upcoming and ended events.
 📅 Start: January 2nd, 2025 // ~~<mark style="color:red;">Ends: February 2nd, 2025</mark>~~
 
 {% hint style="info" %}
-Ex**tended until February 17th, 2025!**&#x20;
+**Extended until February 17th, 2025!**&#x20;
 {% endhint %}
 
-➡️ All information :point\_down:
+➡️ Information of the program and guides :poin
 
 {% content-ref url="../inferix-testnet-1/" %}
 [inferix-testnet-1](../inferix-testnet-1/)
