@@ -7,7 +7,12 @@ description: A list of our live, upcoming and ended events.
 ## LIVE EVENTS
 
 **\[LIVE]** 🚀**Inferix Supernode GPU Staking Mining Testnet 1**\
-📅 Start: January 2nd, 2025 // Time to join until: February 2nd, 2025\
+📅 Start: January 2nd, 2025 // ~~<mark style="color:red;">Ends: February 2nd, 2025</mark>~~
+
+{% hint style="info" %}
+Ex**tended until February 17th, 2025!**&#x20;
+{% endhint %}
+
 ➡️ All information :point\_down:
 
 {% content-ref url="../inferix-testnet-1/" %}
