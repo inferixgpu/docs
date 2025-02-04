@@ -13,7 +13,7 @@ description: A list of our live, upcoming and ended events.
 **Extended until February 17th, 2025!**&#x20;
 {% endhint %}
 
-➡️ Information of the program and guides :point\_down:&#x20;
+Information of the program and guides to start now! :point\_down:&#x20;
 
 {% content-ref url="../inferix-testnet-1/" %}
 [inferix-testnet-1](../inferix-testnet-1/)
@@ -23,26 +23,26 @@ description: A list of our live, upcoming and ended events.
 
 ## ENDED EVENTS
 
-**\[ENDED]** 🚀**Get Goated Season 2 - IoTeX x Inferix**\
+**\[Ended]** 🚀**Get Goated Season 2 - IoTeX x Inferix**\
 &#xNAN;_&#x43;omplete simple social tasks on Galxe at the **GGS2** for Inferix and get chances to win a share a pool of **$50K in $IFX** and compete in a leaderboard with x2 BinoBits bonus for **100M IOTX** up for grabs!_\
 📅 End: 28th January 2025\
 ➡️ **Participate now:** [**https://app.galxe.com/quest/SAS7eBhXhnRZWmvjhRu34w/GCcbJtKTRT**](https://app.galxe.com/quest/SAS7eBhXhnRZWmvjhRu34w/GCcbJtKTRT) // [https://goat.iotex.io/binobits](https://goat.iotex.io/binobits)
 
 ***
 
-**\[ENDED]🚀DePIN Kickstart 2025 Camp - AIxBlock x Inferix** \
+**\[Ended]🚀DePIN Kickstart 2025 Camp - AIxBlock x Inferix** \
 📅 End: 16th January 2025\
 ➡️ [**https://zealy.io/cw/aixblockhub/questboard**](https://zealy.io/cw/aixblockhub/questboard)\
 🏆[ ](https://docs.google.com/spreadsheets/d/1pQgaGAyPkz3e5fi5__lvRMza-L1brPXx6jUzYUNMIgg/edit?usp=sharing)Winners: [https://x.com/AIxBlock/status/1880166886362722595](https://x.com/AIxBlock/status/1880166886362722595)
 
 ***
 
-**\[ENDED]** 🚀**Inferix Verifier Node Sales - Aethir Whitelist**\
+**\[Ended]** 🚀**Inferix Verifier Node Sales - Aethir Whitelist**\
 📅 Sep 25, 2024, at 03:00 PM (UTC)\
 ➡️ Website: [https://verifier.inferix.io/](https://verifier.inferix.io/)\
 🏆[ Whitelist winners](https://docs.google.com/spreadsheets/d/1pQgaGAyPkz3e5fi5__lvRMza-L1brPXx6jUzYUNMIgg/edit?usp=sharing)\
 \
-&#xNAN;**\[ENDED]** 🚀**Inferix Verifier Node Sales - Whitelist & Public** \
+&#xNAN;**\[Ended]** 🚀**Inferix Verifier Node Sales - Whitelist & Public** \
 📅 Sep 26, 2024, at 03:00 PM (UTC)\
 ➡️ Website: [https://verifier.inferix.io/](https://verifier.inferix.io/)\
 🏆[ Whitelist winners](https://docs.google.com/spreadsheets/d/1pQgaGAyPkz3e5fi5__lvRMza-L1brPXx6jUzYUNMIgg/edit?usp=sharing)\
@@ -55,7 +55,7 @@ Check the verifier node guide for all the information here :point\_down:
 
 ***
 
-**\[ENDED]** 🚀**Inferix Node Whitelist Program**
+**\[Ended]** 🚀**Inferix Node Whitelist Program**
 
 🕘Duration: 10 — 23 Sept, 2024\
 :gift: Rewards: 50 tier 1 to tier 6 Node Whitelist spots & 1,000 $USDT\
