@@ -13,7 +13,7 @@ description: A list of our live, upcoming and ended events.
 **Extended until February 17th, 2025!**&#x20;
 {% endhint %}
 
-➡️ Information of the program and guides :poin
+➡️ Information of the program and guides :point\_down:&#x20;
 
 {% content-ref url="../inferix-testnet-1/" %}
 [inferix-testnet-1](../inferix-testnet-1/)

@@ -116,7 +116,7 @@
   * [Achievements](team-and-achievements/achievements.md)
 * [Community & Events](community-and-events/README.md)
   * [Events](community-and-events/events.md)
-  * [Introducing Inferix Campaign: "ALLIANCE"](community-and-events/introducing-inferix-campaign-alliance.md)
+  * [(ended) Inferix Campaign: "ALLIANCE"](community-and-events/introducing-inferix-campaign-alliance.md)
 * [Terms of Service](terms-of-service/README.md)
   * [Privacy Policy](terms-of-service/privacy-policy.md)
   * [Airdrop Terms of Service](terms-of-service/airdrop-terms-of-service.md)
