@@ -1,6 +1,6 @@
 # Guide to get tIFX tokens
 
-To purchase your tIFX, please contact the Inferix team ([<mark style="color:blue;">official discord channel</mark>](https://discord.gg/q5gBts3Q6x)) \
+To purchase your tIFX, please contact the Inferix team in our [<mark style="color:blue;">Official Discord Channel</mark>](https://discord.gg/ufS2Jwh5C6). \
 \
 We use OTC process for buying tIFX token:
 
