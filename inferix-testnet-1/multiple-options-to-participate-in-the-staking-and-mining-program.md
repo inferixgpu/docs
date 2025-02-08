@@ -44,7 +44,7 @@ If you have GPUs but not enough funds to participate in the staking program, you
 You need to meet these 3 requirements, check them [<mark style="color:blue;">**HERE (question 2)**</mark>](faq.md).
 
 * **Step 1: Register for an account** \
-  Go to [<mark style="color:blue;">Testnet1 portal</mark> ](https://provider.inferix.io/)to create your account (please wait until your account gets approved, you will receive an email!)
+  Go to [<mark style="color:blue;">Testnet1</mark> ](https://provider.inferix.io/)<mark style="color:blue;">web</mark> to create your account (please wait until your account gets approved, you will receive an email!)
 * **Step 2: Purchase tIFX tokens** \
   Buy the tIFX following the guide below :point\_down:
 
@@ -53,6 +53,6 @@ You need to meet these 3 requirements, check them [<mark style="color:blue;">**H
 {% endcontent-ref %}
 
 * **Step 3: Connect your GPUs** \
-  Follow [<mark style="color:blue;">ostep by step guide in our docs</mark>](adding-gpus-to-the-network.md) or watch this instructional video to add your GPUs to the network and stake tIFX for rewards :point\_down:
+  Follow the [<mark style="color:blue;">step by step guide in our docs</mark>](adding-gpus-to-the-network.md) or watch this instructional video to add your GPUs to the network and stake tIFX for rewards :point\_down:
 
 {% embed url="https://www.youtube.com/watch?v=hMaUVTaOuTo" %}
