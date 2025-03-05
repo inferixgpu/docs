@@ -4,24 +4,25 @@ description: A list of our live, upcoming and ended events.
 
 # Events
 
-## LIVE EVENTS
+## UPCOMING EVENTS
 
-**\[LIVE]** 🚀**Inferix Supernode GPU Staking Mining Testnet 1**\
-📅 Start: January 2nd, 2025 // ~~<mark style="color:red;">Ends: February 2nd, 2025</mark>~~
+**\[SOON!]** 🚀**Inferix Supernode GPU Staking Mining Testnet 2**\
+📅 Start: March 7th, 8:00 AM UTC\
+![](<../.gitbook/assets/image (17).png>)
 
-{% hint style="info" %}
-**Extended until February 17th, 2025!**&#x20;
-{% endhint %}
+***
 
-Information of the program and guides to start now! :point\_down:&#x20;
+## ENDED EVENTS
+
+**\[ENDED]** 🚀**Inferix Supernode GPU Staking Mining Testnet 1**\
+📅 From January 2nd to February 17th, 2025\
+Read more: [https://medium.com/@inferixgpu/inferix-gpu-testnet-1-ends-testnet-2-launching-this-week-42bef40887d1](https://medium.com/@inferixgpu/inferix-gpu-testnet-1-ends-testnet-2-launching-this-week-42bef40887d1)&#x20;
 
 {% content-ref url="../inferix-testnet-1/" %}
 [inferix-testnet-1](../inferix-testnet-1/)
 {% endcontent-ref %}
 
 ***
-
-## ENDED EVENTS
 
 **\[Ended]** 🚀**Get Goated Season 2 - IoTeX x Inferix**\
 &#xNAN;_&#x43;omplete simple social tasks on Galxe at the **GGS2** for Inferix and get chances to win a share a pool of **$50K in $IFX** and compete in a leaderboard with x2 BinoBits bonus for **100M IOTX** up for grabs!_\
