@@ -1,11 +1,6 @@
----
-description: >-
-  Connecting GPU servers to the Inferix network provides strong computational
-  support for high performance AI projects. Below are the unique advantages of
-  choosing the Inferix GPU solution:
----
-
 # Inferix GPU Solutions
+
+Connecting GPU servers to the Inferix network provides strong computational support for high performance AI projects. Below are the unique advantages of choosing the Inferix GPU solution:
 
 * **GPU Staking and Network Stability**
 

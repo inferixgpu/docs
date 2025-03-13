@@ -124,8 +124,6 @@
   * [Inferix GPU Solutions](inferix-testnet-2/inferix-gpu-solutions.md)
   * [Adding GPUs to the Network](inferix-testnet-2/adding-gpus-to-the-network/README.md)
     * [For GPU providers](inferix-testnet-2/adding-gpus-to-the-network/for-gpu-providers.md)
-    * [For GPU providers without funds](inferix-testnet-2/adding-gpus-to-the-network/for-gpu-providers-without-funds.md)
-    * [For users without GPU](inferix-testnet-2/adding-gpus-to-the-network/for-users-without-gpu.md)
     * [For Inferix Node Holders](inferix-testnet-2/adding-gpus-to-the-network/for-inferix-node-holders.md)
   * [Renting GPU Devices](inferix-testnet-2/renting-gpu-devices.md)
   * [User Revenue Calculation](inferix-testnet-2/user-revenue-calculation/README.md)
