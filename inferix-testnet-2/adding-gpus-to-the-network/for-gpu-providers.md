@@ -12,7 +12,7 @@ Simply add your GPUs to the network and stake your [<mark style="color:blue;">$t
 
 ### Step 1. Log in to the website using a Gmail account
 
-GPU provider website (IoTeX) : [https://provider.inferix.io/](https://provider.inferix.io/)&#x20;
+GPU provider website (IoTeX) : [<mark style="color:blue;">https://provider.inferix.io/</mark>](https://provider.inferix.io/)
 
 GPU provider website (Solana): [<mark style="color:blue;">https://miner.inferix.io/</mark>](https://miner.inferix.io/)
 
