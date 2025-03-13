@@ -7,7 +7,7 @@
 Proof of Capacity (PoC) is a blockchain consensus algorithm that allows mining devices in the network to utilize their available computational power to determine mining rights and validate transactions. PoC rewards are designed to encourage participants to keep their computational resources (containers) online and available, even when not actively processing tasks. This ensures a consistent and reliable resource pool for the network. Any container that remains online and meets the network's uptime requirements is eligible for PoC rewards.
 
 * PoC incentivizes GPUs to remain **online and available** even when not actively performing tasks.&#x20;
-* The calculation is based on the **K-value of the GPU and its uptime**
+* The calculation is based on the **K-value of the GPU** and **its uptime**
 * The longer the GPU remains online, the higher the PoC reward.
 * PoC Formula:
 

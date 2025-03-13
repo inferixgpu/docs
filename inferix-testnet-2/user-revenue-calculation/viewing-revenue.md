@@ -4,5 +4,5 @@ As a GPU provider on the Inferix platform, tracking computing rewards is essenti
 
 The Wallet page provides tools to track, claim, and manage financial activities. Providers can view daily earnings, including:&#x20;
 
-* Worker Rewards&#x20;
-* Rental Revenue
+* **Worker Rewards**&#x20;
+* **Rental Revenue**
