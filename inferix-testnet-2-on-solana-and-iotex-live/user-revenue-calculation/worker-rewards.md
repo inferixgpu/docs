@@ -11,7 +11,7 @@ Proof of Capacity (PoC) is a blockchain consensus algorithm that allows mining d
 * The longer the GPU remains online, the higher the PoC reward.
 * PoC Formula:&#x20;
 
-## &#x20;                         **PoC Reward = InferixBench x UpTime**
+### &#x20;            **PoC Reward = InferixBench x UpTime**
 
 ### PoD: Proof of Delivery
 
@@ -22,7 +22,7 @@ Proof of Delivery (PoD) verifies that mining devices in the network are genuine 
 * PoD rewards are only granted after the completion of the computational task.
 * PoD Formula:
 
-## &#x20;                           PoD Reward = InferixBench x LeaseTime
+### &#x20;            PoD Reward = InferixBench x LeaseTime
 
 ***
 
@@ -38,7 +38,7 @@ To compute the total daily earnings of a GPU, PoC and PoD rewards are aggregated
 
 * Single GPU PoC Weight Formula
 
-## &#x20;               Single GPU PoC Weight = InferixBench x UpTime
+### &#x20;        Single GPU PoC Weight = InferixBench x UpTime
 
 * Single GPU PoC Revenue Formula
 
@@ -48,7 +48,7 @@ To compute the total daily earnings of a GPU, PoC and PoD rewards are aggregated
 
 * Single GPU PoD Weight Formula
 
-## &#x20;         Single GPU PoD Weight = InferixBench x LeaseTime
+### &#x20;  Single GPU PoD Weight = InferixBench x LeaseTime
 
 * Single GPU PoD Revenue Formula
 
