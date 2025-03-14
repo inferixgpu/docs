@@ -10,8 +10,7 @@ Simply add your GPUs to the network and stake your [<mark style="color:blue;">$t
 
 ### Step 1. Log in to the website using a Gmail account
 
-GPU provider website (IoTeX) : [<mark style="color:blue;">https://provider.inferix.io/</mark>](https://provider.inferix.io/)
-
+GPU provider website (IoTeX) : [<mark style="color:blue;">https://provider.inferix.io/</mark>](https://provider.inferix.io/)\
 GPU provider website (Solana): [<mark style="color:blue;">https://miner.inferix.io/</mark>](https://miner.inferix.io/)
 
 <mark style="background-color:yellow;">⚠️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Note that:**</mark> Once your registration is approved, you will receive an onboarding email shortly from our official email address: <mark style="color:blue;">contact@inferix.io</mark>&#x20;
@@ -59,8 +58,8 @@ Click **Stake**, and the **MetaMask wallet** will open, displaying:&#x20;
 * The **staking amount**.&#x20;
 * Execution of the **smart contract call** to lock the staked amount.&#x20;
 
-<mark style="background-color:yellow;">⚠️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Note that:**</mark>  Different GPU models require different staking amounts.&#x20;
-
-After staking, the machine will show as **Online**, marking its entry into the **Testnet** for mining.
+<mark style="background-color:yellow;">⚠️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Note that:**</mark>  Different GPU models require different staking amounts. Find the [<mark style="color:blue;">**staking requirement of each GPU HERE.**</mark> ](../gpu-staking-and-unstaking/staking-requirements.md)
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.48.36.png" alt=""><figcaption></figcaption></figure>
+
+After staking, the machine will show as **Online**, marking its entry into the **Testnet** for mining.
