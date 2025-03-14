@@ -112,6 +112,7 @@
   * [GPU Staking & Unstaking](inferix-testnet-2/gpu-staking-and-unstaking/README.md)
     * [Staking Requirements](inferix-testnet-2/gpu-staking-and-unstaking/staking-requirements.md)
     * [Unstaking GPUs](inferix-testnet-2/gpu-staking-and-unstaking/unstaking-gpus.md)
+  * [Guide to get tIFX tokens](inferix-testnet-2/guide-to-get-tifx-tokens.md)
 * [Inferix Testnet 1](inferix-testnet-1/README.md)
   * [Inferix GPU Solutions](inferix-testnet-1/inferix-gpu-solutions.md)
   * [Adding GPUs to the Network](inferix-testnet-1/adding-gpus-to-the-network.md)

@@ -2,17 +2,16 @@
 
 ### Step 1. Log in to the website using a Gmail account
 
-GPU rental website (IoTeX): https://cloud.inferix.io&#x20;
+GPU rental website (IoTeX): [<mark style="color:blue;">https://cloud.inferix.io</mark>](https://cloud.inferix.io) \
+GPU rental website (Solana): [<mark style="color:blue;">https://tenant.inferix.io/</mark>](https://tenant.inferix.io/)&#x20;
 
-GPU rental website (Solana): https://tenant.inferix.io/&#x20;
-
-⚠️ <mark style="background-color:yellow;">**Note that:**</mark> It is recommended to use a different username and wallet than the GPU provider site.
+<mark style="background-color:yellow;">⚠️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Note that:**</mark> It is recommended to use a different username and wallet than the GPU provider site.
 
 ### Step 2. Set up the wallet address
 
 Go to the **Settings** page after logging in.&#x20;
 
-&#x20;⚠️ <mark style="background-color:yellow;">**Note that:**</mark>  This wallet address cannot be changed later. All future operations will be linked to this wallet.
+&#x20;<mark style="background-color:yellow;">⚠️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Note that:**</mark>  This wallet address cannot be changed later. All future operations will be linked to this wallet.
 
 ### Step 3. Rent a GPU Server
 
