@@ -18,8 +18,8 @@ description: A list of our live, upcoming and ended events.
 📅 From January 2nd to February 17th, 2025\
 Read more: [https://medium.com/@inferixgpu/inferix-gpu-testnet-1-ends-testnet-2-launching-this-week-42bef40887d1](https://medium.com/@inferixgpu/inferix-gpu-testnet-1-ends-testnet-2-launching-this-week-42bef40887d1)&#x20;
 
-{% content-ref url="../inferix-testnet-1-on-iotex/" %}
-[inferix-testnet-1-on-iotex](../inferix-testnet-1-on-iotex/)
+{% content-ref url="../inferix-testnet-1-on-iotex-ended/" %}
+[inferix-testnet-1-on-iotex-ended](../inferix-testnet-1-on-iotex-ended/)
 {% endcontent-ref %}
 
 ***
