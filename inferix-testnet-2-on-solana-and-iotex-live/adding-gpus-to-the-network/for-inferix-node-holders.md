@@ -23,11 +23,11 @@ If you’ve found your wallet among the winners on the list, please open a ticke
 If you are new to IoTeX, visit [<mark style="color:blue;">the guide</mark>](https://docs.iotex.io/depin-infra-modules-dim/iotex-l1-depin-blockchain/wallets) for more info
 {% endhint %}
 
-<mark style="background-color:yellow;">❗️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Please note that:**</mark>
+<mark style="background-color:yellow;">⚠️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Note that:**</mark>
 
 To ensure you are eligible to convert your $tIFX into mainnet tokens after one year, you must:
 
 * participate in running nodes for at least three months&#x20;
-* provide GPU mining online in Inferix Testnet 1 for a minimum duration of 30 days&#x20;
+* provide GPU mining online in Inferix Testnet 2 for a minimum duration of 30 days&#x20;
 
 To maximize your rewards from this airdrop, you can purchase additional $tIFX to stake and run nodes with higher-end GPUs. These additional $tIFX will be subject to unlocking and vesting rights according to the Testnet staking program, as outlined in the [<mark style="color:blue;">Staking Token Unlocking Rules</mark>](../gpu-staking-and-unstaking/unstaking-gpus.md) and [<mark style="color:blue;">Mining Revenue Unlocking Rules</mark>](../user-revenue-calculation/claiming-rewards.md) sections
