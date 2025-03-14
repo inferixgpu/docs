@@ -1,6 +1,6 @@
 # For GPU providers without funds
 
-If you have GPUs but not enough funds to participate in the staking program, you can join our ["Connect for Testnet](https://discord.gg/rhaY6Z7yZd)🤝["](https://discord.gg/rhaY6Z7yZd) channel in our [official discord server](https://discord.com/invite/NJvcWYcB9W) to find users and form groups to collectively purchase a staking package for a single node.
+If you have GPUs but not enough funds to participate in the staking program, you can join our ["Connect for Testnet](https://discord.gg/rhaY6Z7yZd)🤝[<mark style="color:blue;">"</mark>](https://discord.gg/rhaY6Z7yZd) channel in our [<mark style="color:blue;">official discord server</mark>](https://discord.com/invite/NJvcWYcB9W) to find users and form groups to collectively purchase a staking package for a single node.
 
 
 

@@ -6,7 +6,7 @@ If you don’t have GPUs but still want to participate in the staking program, y
 
 Inferix will help with this connection providing users a shared account; the mining profits of this participation are automatically split evenly at a **50%-50%** ratio based on the additional funds raised.
 
-After buying tIFX for shared staking, user will be provided a shared account on [provider.inferix.io](https://provider.inferix.io/) or <mark style="color:blue;">https://miner.inferix.io/</mark> to see their shared assets. At end of Testnet 2, each user involved on the staking will be provided a link for claiming their tIFX part from the shared account to their own account where they will be able to manage their assets, like normal staking-mining users.
+After buying tIFX for shared staking, user will be provided a shared account on [<mark style="color:blue;">provider.inferix.io</mark>](https://provider.inferix.io/) or <mark style="color:blue;">https://miner.inferix.io/</mark> to see their shared assets. At end of Testnet 2, each user involved on the staking will be provided a link for claiming their tIFX part from the shared account to their own account where they will be able to manage their assets, like normal staking-mining users.
 
 Our partners have a large amount of GPUs from each allowed model available, so any user that buys tIFX now, can choose any type of GPU they want to join their shared staking according to the tIFX they buy.
 
@@ -24,7 +24,7 @@ Open a ticket in [<mark style="color:blue;">Inferix official Discord server</mar
 
 #### **Step 3: Check your email**
 
-After your tIFX purchase, we will ask you for an email address where we will send you the credentials to the shared staking account at [provider.inferix.io](https://provider.inferix.io/) or <mark style="color:blue;">https://miner.inferix.io/</mark> where you will see the shared assets and earnings
+After your tIFX purchase, we will ask you for an email address where we will send you the credentials to the shared staking account at [<mark style="color:blue;">provider.inferix.io</mark>](https://provider.inferix.io/) or <mark style="color:blue;">https://miner.inferix.io/</mark> where you will see the shared assets and earnings
 
 #### **Step 4: Claim** tIFX rewards
 
