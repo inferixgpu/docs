@@ -1,2 +1,7 @@
-# Inferix Testnet 2
+# Inferix Testnet 2 on Solana & IoTeX \[LIVE]
 
+Inferix Testnet 2 is now LIVE on Solana and IoTeX mainnet, open to all!
+
+All token rewards earned during the testnet phase will be converted into mainnet tokens! Happy testing! \~
+
+<figure><img src="../.gitbook/assets/testnet.png" alt=""><figcaption></figcaption></figure>
