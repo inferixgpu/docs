@@ -23,6 +23,7 @@ layout:
 [Getting Starts](./)
 
 * [Overview](getting-started/overview.md)
+* [$IFX ](readme/usdifx.md)
 * [Resources](getting-started/resources.md)
 * [Brand Kit](getting-started/brand-kit.md)
 * [Frequently asked questions (FAQs)](readme/frequently-asked-questions-faqs.md)
