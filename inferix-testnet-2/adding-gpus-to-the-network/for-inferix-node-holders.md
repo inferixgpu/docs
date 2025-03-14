@@ -10,7 +10,7 @@ Inferix will hand out $tIFX tokens to all Inferix node owners who:
 * won free Inferix nodes from Aethir&#x20;
 
 {% hint style="info" %}
-#### **Each node is airdropped 15,060 tIFX, valued at 753 USDT at the time of Testnet 1!** 🔥
+#### **Each node is airdropped** 10,040 **tIFX, valued at 753 USDT at the time of Testnet 2!** 🔥
 {% endhint %}
 
 ### Finding yourself on the list of winners: [<mark style="color:blue;">HERE</mark>](https://docs.google.com/spreadsheets/d/1qRA2RiV1tdbrZIqxRfMSo33N-9GWF3p5pO6kOk-ekWY/edit?gid=0#gid=0)

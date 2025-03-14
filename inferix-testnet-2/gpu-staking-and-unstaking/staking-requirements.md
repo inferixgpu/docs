@@ -8,9 +8,6 @@ The table below lists GPU models eligible for Inferix GPU Network participation.
 
 — GPUs not listed are currently not supported. \
 — Staking requirements may change periodically based on network conditions and market trends.\
-— The K-value is determined by:&#x20;
+— InferixBench is the metric used to measure the compute power of a node within the Inferix network. For more details, please read our whitepaper 👇
 
-* GPU purchase cost&#x20;
-* Memory size&#x20;
-* Market demand&#x20;
-* It affects staking amounts and rental costs&#x20;
+{% embed url="https://docs.inferix.io/inferix-whitepaper/economic-model/inferix-bench-and-ibme/ib-and-ibm" %}
