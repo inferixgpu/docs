@@ -9,7 +9,7 @@ To purchase your tIFX, please contact Inferix team in our [<mark style="color:bl
 2. When the transaction is confirmed, we will send tIFX to the user's wallet. **User must use IoTeX network address to receive tIFX.**
 
 {% hint style="info" %}
-**The exchange rate is: 1 tIFX = 0.05 USDT** \
+**The exchange rate is: 1 tIFX = 0.075 USDT** \
 &#xNAN;_&#x49;t's confirmed the conversion rate will be **1:1** to mainnet tokens._
 {% endhint %}
 
