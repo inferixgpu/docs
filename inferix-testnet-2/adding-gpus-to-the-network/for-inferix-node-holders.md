@@ -23,7 +23,7 @@ If you’ve found your wallet among the winners on the list, please open a ticke
 If you are new to IoTeX, visit [<mark style="color:blue;">the guide</mark>](https://docs.iotex.io/depin-infra-modules-dim/iotex-l1-depin-blockchain/wallets) for more info
 {% endhint %}
 
-❗️ **Please note that:**
+<mark style="background-color:yellow;">❗️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Please note that:**</mark>
 
 To ensure you are eligible to convert your $tIFX into mainnet tokens after one year, you must:
 

@@ -2,10 +2,8 @@
 
 If you have:
 
-☑️ Linux-based servers &#x20;
-
-☑️ A computer with a GPU equivalent to RTX 3090 or above ([<mark style="color:blue;">List of eligible GPU models</mark>](../gpu-staking-and-unstaking/staking-requirements.md))
-
+☑️ Linux-based servers  \
+☑️ A computer with a GPU equivalent to RTX 3090 or above ([<mark style="color:blue;">List of eligible GPU models</mark>](../gpu-staking-and-unstaking/staking-requirements.md))\
 ☑️ A public IP address and a worker that can be accessed via SSH
 
 Simply add your GPUs to the network and stake your [<mark style="color:blue;">$tIFX</mark>](https://x.com/search?q=%24tIFX\&src=cashtag_click) tokens to earn passive rewards with the guide below 👇
@@ -16,7 +14,7 @@ GPU provider website (IoTeX) : [<mark style="color:blue;">https://provider.infer
 
 GPU provider website (Solana): [<mark style="color:blue;">https://miner.inferix.io/</mark>](https://miner.inferix.io/)
 
-⚠️ <mark style="background-color:yellow;">**Note that:**</mark> Once your registration is approved, you will receive an onboarding email shortly from our official email address: <mark style="color:blue;">contact@inferix.io</mark>&#x20;
+<mark style="background-color:yellow;">⚠️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Note that:**</mark> Once your registration is approved, you will receive an onboarding email shortly from our official email address: <mark style="color:blue;">contact@inferix.io</mark>&#x20;
 
 ### Step 2. Set up your account’s wallet address
 
@@ -24,7 +22,7 @@ _The system currently supports the MetaMask wallet plugin._&#x20;
 
 After successful login, go to the **Settings** page and set the wallet address.&#x20;
 
-⚠️ <mark style="background-color:yellow;">**Note that:**</mark> This wallet address cannot be changed later! All future operations on the website will be linked to this wallet.
+<mark style="background-color:yellow;">⚠️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Note that:**</mark> This wallet address cannot be changed later! All future operations on the website will be linked to this wallet.
 
 ### Step 3. Add a GPU Server
 
@@ -34,7 +32,7 @@ After successful login, go to the **Settings** page and set the wallet address.&
 
 3.2. Run the command on your GPU server with root privileges.
 
-⚠️ <mark style="background-color:yellow;">**Note that:**</mark> Currently, only Linux systems are supported.
+<mark style="background-color:yellow;">⚠️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Note that:**</mark> Currently, only Linux systems are supported.
 
 3.3. Return to the **Server** page.
 
@@ -61,7 +59,7 @@ Click **Stake**, and the **MetaMask wallet** will open, displaying:&#x20;
 * The **staking amount**.&#x20;
 * Execution of the **smart contract call** to lock the staked amount.&#x20;
 
-⚠️ <mark style="background-color:yellow;">**Note that:**</mark> Different GPU models require different staking amounts.&#x20;
+<mark style="background-color:yellow;">⚠️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Note that:**</mark>  Different GPU models require different staking amounts.&#x20;
 
 After staking, the machine will show as **Online**, marking its entry into the **Testnet** for mining.
 
