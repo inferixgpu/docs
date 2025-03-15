@@ -26,4 +26,12 @@ Go to the **Settings** page after logging in.&#x20;
 * Click **Details** to get the **SSH login command**.&#x20;
 * Using the provided **SSH IP, port, and key file**, the renter can access the server.
 
+Find Inferix GPU Pricing 👇
+
+{% content-ref url="gpu-staking-and-unstaking/staking-requirements.md" %}
+[staking-requirements.md](gpu-staking-and-unstaking/staking-requirements.md)
+{% endcontent-ref %}
+
+
+
 <figure><img src="../.gitbook/assets/Screenshot 2025-03-13 at 23.00.57.png" alt=""><figcaption></figcaption></figure>
