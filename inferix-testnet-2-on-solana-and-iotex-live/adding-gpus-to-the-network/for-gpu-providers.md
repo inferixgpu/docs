@@ -67,3 +67,19 @@ Click **Stake**, and the **MetaMask wallet** will open, displaying:&#x20;
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 22.48.36.png" alt=""><figcaption></figcaption></figure>
 
 After staking, the machine will show as **Online**, marking its entry into the **Testnet** for mining.
+
+***
+
+**VIDEOTUTORIALS:**
+
+Solana:
+
+{% embed url="https://video.twimg.com/ext_tw_video/1904570463516581892/pu/vid/avc1/1280x720/ooe50LXmR26eIQRM.mp4?tag=12" %}
+Guide to join Testnet on Solana
+{% endembed %}
+
+IOTEX:&#x20;
+
+{% embed url="https://www.youtube.com/watch?v=hMaUVTaOuTo" %}
+Guide to join testnet on IOTEX
+{% endembed %}
