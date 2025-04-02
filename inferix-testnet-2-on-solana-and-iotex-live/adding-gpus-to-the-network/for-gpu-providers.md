@@ -74,12 +74,12 @@ After staking, the machine will show as **Online**, marking its entry into the *
 
 Solana:
 
-{% embed url="https://video.twimg.com/ext_tw_video/1904570463516581892/pu/vid/avc1/1280x720/ooe50LXmR26eIQRM.mp4?tag=12" %}
-Guide to join Testnet on Solana
+{% embed url="https://www.youtube.com/watch?v=6sbAyPIvEhI" %}
+video guide to join testnet on Solana
 {% endembed %}
 
 IOTEX:&#x20;
 
 {% embed url="https://www.youtube.com/watch?v=hMaUVTaOuTo" %}
-Guide to join testnet on IOTEX
+video guide to join testnet on IOTEX
 {% endembed %}

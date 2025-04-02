@@ -17,7 +17,7 @@ Inferix will hand out $tIFX tokens to all Inferix node owners who:
 
 ### How to get airdrop?
 
-If you’ve found your wallet among the winners on the list, please open a ticket on our [<mark style="color:blue;">discord</mark>](https://discord.com/invite/NJvcWYcB9W) and provide your IoTeX wallet address for the reward distribution!
+If you’ve found your wallet among the winners on the list, please open a ticket on our [<mark style="color:blue;">discord</mark>](https://discord.com/invite/NJvcWYcB9W) and provide your IoTeX or Solana wallet address for the reward distribution!
 
 {% hint style="info" %}
 If you are new to IoTeX, visit [<mark style="color:blue;">the guide</mark>](https://docs.iotex.io/depin-infra-modules-dim/iotex-l1-depin-blockchain/wallets) for more info
