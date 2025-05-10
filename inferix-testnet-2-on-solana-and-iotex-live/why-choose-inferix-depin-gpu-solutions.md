@@ -1,4 +1,4 @@
-# Inferix GPU Solutions
+# Why choose Inferix DePIN GPU Solutions?
 
 Connecting GPU servers to the Inferix network provides strong computational support for high performance AI projects. Below are the unique advantages of choosing the Inferix GPU solution:
 

@@ -1,4 +1,4 @@
-# Inferix Testnet 2 on Solana & IoTeX \[LIVE]
+# Inferix Testnet 2 on Solana & IoTeX \[ENDED]
 
 Inferix Testnet 2 is now LIVE on Solana and IoTeX mainnet, open to all!
 

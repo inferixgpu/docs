@@ -6,13 +6,22 @@ description: A list of our live, upcoming and ended events.
 
 ## UPCOMING EVENTS
 
-**\[SOON!]** 🚀**Inferix Supernode GPU Staking Mining Testnet 2**\
-📅 Start: March 7th, 8:00 AM UTC\
-![](<../.gitbook/assets/image (17).png>)
+\
+
 
 ***
 
 ## ENDED EVENTS
+
+**\[ENDED]** 🚀**Inferix Supernode GPU Staking Mining Testnet 2**\
+📅 From March 7th to April 25th\
+Read more:
+
+{% content-ref url="../inferix-testnet-2-on-solana-and-iotex-live/" %}
+[inferix-testnet-2-on-solana-and-iotex-live](../inferix-testnet-2-on-solana-and-iotex-live/)
+{% endcontent-ref %}
+
+***
 
 **\[ENDED]** 🚀**Inferix Supernode GPU Staking Mining Testnet 1**\
 📅 From January 2nd to February 17th, 2025\
@@ -47,8 +56,7 @@ Read more: [https://medium.com/@inferixgpu/inferix-gpu-testnet-1-ends-testnet-2-
 📅 Sep 26, 2024, at 03:00 PM (UTC)\
 ➡️ Website: [https://verifier.inferix.io/](https://verifier.inferix.io/)\
 🏆[ Whitelist winners](https://docs.google.com/spreadsheets/d/1pQgaGAyPkz3e5fi5__lvRMza-L1brPXx6jUzYUNMIgg/edit?usp=sharing)\
-\
-Check the verifier node guide for all the information here :point\_down:
+Read the **verifier node guide** for more information :point\_down:
 
 {% content-ref url="../verifier-node-guide/" %}
 [verifier-node-guide](../verifier-node-guide/)
@@ -76,6 +84,10 @@ Check the verifier node guide for all the information here :point\_down:
 
 🕘Duration: 15th April — 15th June 2024 \
 ➡️ Details: [**https://medium.com/@inferixgpu/introducing-inferix-campaign-alliance-a6fee43c79e3**](https://medium.com/@inferixgpu/introducing-inferix-campaign-alliance-a6fee43c79e3)
+
+{% content-ref url="introducing-inferix-campaign-alliance.md" %}
+[introducing-inferix-campaign-alliance.md](introducing-inferix-campaign-alliance.md)
+{% endcontent-ref %}
 
 ***
 
