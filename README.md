@@ -48,8 +48,14 @@ layout:
 * [Tutorial: MVP for designers & GPU owners](inferix-mvp/tutorial-mvp-for-designers-and-gpu-owners.md)
 * [PoR MVP](inferix-mvp/por-mvp.md)
 
+[Inferix Testnet 2 on Solana & IoTeX \[ENDED\]](inferix-testnet-2-on-solana-and-iotex-live/)
+
+[Inferix Testnet 1 on IoTeX \[ENDED\]](inferix-testnet-1-on-iotex-ended/)
+
 [Inferix Explorer](inferix-explorer.md)
 
 [Team & Achievements](team-and-achievements/)
 
 [Community & Events](community-and-events/)
+
+[Terms of Service](terms-of-service/)
