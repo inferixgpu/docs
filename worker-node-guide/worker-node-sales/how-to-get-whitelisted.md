@@ -4,7 +4,7 @@
 
 Obtain a Node Whitelist spot for our Worker Node Sales by participating in:
 
-* **Whitelist drop for ABKK Node Holders**\
+* **Whitelist drop for Animoca Brands Japan Node Holders**\
   &#xNAN;_&#x43;lick_ [_HERE_ ](https://docs.google.com/forms/d/e/1FAIpQLSdmw6dGY5RKqkXjCUdiB4EqnBlGlWZv4OIhWN0kiGsuREVcww/viewform?usp=header)_to join ABKK Whitelist Program_
 * **Other events with our strategic partners**&#x20;
 * [**Our referral program for Influencers & Community Leaders (KOLs)**](referral-program.md)\
