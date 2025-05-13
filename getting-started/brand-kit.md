@@ -4,7 +4,9 @@ description: Primary Logo
 
 # Brand Kit
 
-<figure><img src="../.gitbook/assets/inferix-logo.svg" alt=""><figcaption><p>1</p></figcaption></figure>
+
+
+<figure><img src="../.gitbook/assets/inferix-logo.svg" alt=""><figcaption><p>SVG logo</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/inferix-logo-2462x499.png" alt=""><figcaption><p>2</p></figcaption></figure>
 
@@ -13,3 +15,7 @@ description: Primary Logo
 <figure><img src="../.gitbook/assets/inferix-logo-500x100.png" alt=""><figcaption><p>4</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/inferix-logo-382x77.png" alt=""><figcaption><p>5</p></figcaption></figure>
+
+{% file src="../.gitbook/assets/brandkit.zip" %}
+Inferix Brand Kit (logo, token icon)
+{% endfile %}

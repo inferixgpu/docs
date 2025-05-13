@@ -1,0 +1,11 @@
+# What is the Worker Node License (NFT)
+
+The Worker Node (as an ERC721 NFT)  allows you to be part of Inferix ecosystem, earning rewards by running a Worker Node Client. You can choose to run your Worker Node Client on your on devices matching the min. requirements. Check the min. req. and how to run the verifier node [HERE](how-to-run-worker-node.md).
+
+You can [purchase](../worker-node-sales/guide-to-purchase-worker-nodes.md) your NFT either from the [Node Sales](../worker-node-sales/) or through secondary market in the future. The Official [Smart Contracts Addresses](../worker-node-sales/smart-contract-addresses.md) will be released soon, so stay tuned for further updates.
+
+Worker Node NFTs  are non-transferable from the purchase wallet for the first year. Read more information on the Worker Node Purchase FAQ :point\_down:
+
+{% content-ref url="../../verifier-node-guide/verifier-node-sales/verifier-node-purchase-faq.md" %}
+[verifier-node-purchase-faq.md](../../verifier-node-guide/verifier-node-sales/verifier-node-purchase-faq.md)
+{% endcontent-ref %}
