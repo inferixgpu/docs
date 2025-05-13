@@ -110,7 +110,7 @@
     * [Smart Contract Addresses](worker-node-guide/worker-node-sales/smart-contract-addresses.md)
     * [User Discounts & Referral Program](worker-node-guide/worker-node-sales/referral-program.md)
     * [Worker Node Purchase FAQ](worker-node-guide/worker-node-sales/worker-node-purchase-faq.md)
-    * [ABKK Free Node Winners FAQ](worker-node-guide/worker-node-sales/abkk-free-node-winners-faq.md)
+    * [ABKK Collaboration FAQ](worker-node-guide/worker-node-sales/abkk-collaboration-faq.md)
 * [Inferix MVP](inferix-mvp/README.md)
   * [Tutorial: MVP for designers & GPU owners](inferix-mvp/tutorial-mvp-for-designers-and-gpu-owners.md)
   * [PoR MVP](inferix-mvp/por-mvp.md)
