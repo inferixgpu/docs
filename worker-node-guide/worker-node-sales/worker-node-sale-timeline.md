@@ -1,14 +1,10 @@
 # Worker Node Sale Timeline
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+**\<A Poster Image should be HERE>**
 
 \
-Sep 24, 2024 03:00 PM (UTC) [ETH to USD Price Snapshot](../../verifier-node-guide/verifier-node-sales/node-purchase-caps.md)
+May 29, 2025 Whitelist wallet address submission (For all node tiers by all partners)
 
-Sep 24, 2024 03:00 PM (UTC) Whitelist wallet address submission (For all node tiers by all partners)
+May 29, 2025 Whitelist winners announcement
 
-Sep 24, 2024 Whitelist winner announcement
-
-Sep 25, 2024 03:00 PM (UTC) Inferix Node Sale (Aethir Whitelist)
-
-Sep 26, 2024 03:00 PM (UTC) Inferix Node Sale (Whitelist & Public)
+May 30, 2025 10:00 AM (UTC) Inferix Node Sale (Whitelist & Public)
