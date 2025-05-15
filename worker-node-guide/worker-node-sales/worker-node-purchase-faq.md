@@ -33,7 +33,7 @@ Whitelist participants include:
 ***
 
 **4. What is the purchase token for the sale?**\
-Nodes can be purchased using [USD₮0](https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9), it is the [USDT ](https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9)on Arbitrum One network during both the Whitelist and Public sales.
+Nodes can be purchased using [USD₮0](https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9), it is the bridged [USDT ](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7)on Arbitrum One network during both the Whitelist and Public sales.
 
 {% hint style="info" %}
 **Don't know how to get USDT on Arbitrum?**&#x20;

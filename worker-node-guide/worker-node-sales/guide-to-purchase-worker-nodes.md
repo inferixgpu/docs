@@ -5,12 +5,12 @@
 {% embed url="https://www.youtube.com/watch?v=aSwPqtOVrdw" %}
 
 **Step 1 - Get USDT tokens to buy the Node and for gas fee.**\
-&#xNAN;_&#x4E;odes can be purchased using_ [USD₮0](https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9), the [USDT ](https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9)on [_**Arbitrum One**_](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) _**Network**._
+&#xNAN;_&#x4E;odes can be purchased using_ [USD₮0](https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9), the bridged [USDT ](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7)on [_**Arbitrum One**_](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) _**Network**._
 
 {% hint style="info" %}
 Don't know how to get USDT on Abitrum One Network?&#x20;
 
-* Goto [Arbitrum Bridge](https://bridge.arbitrum.io/), connect your Metamask wallet, set "Testnet mode" to OFF and convert your USDT token assets to USD₮0
+* Go to [Arbitrum Bridge](https://bridge.arbitrum.io/), connect your Metamask wallet, set "Testnet mode" to OFF and convert your USDT token assets to USD₮0
 * If you don't have USDT token in your wallet, goto a centralized exchange, such as Binance, buy USDT and then send it from your Binance account to your wallet address using the Arbitrum One network
 {% endhint %}
 
@@ -20,7 +20,7 @@ Please take into consideration &#x72;_&#x65;wards from nodes will be airdropped 
 
 
 **Step 3 - Select available tier and click “Purchase”**\
-There are a total of 30 tiers of nodes available for purchase.  For detailed information about each node read ["Verifier Node Sales"](./) and ["Worker Node Purchase FAQ"](worker-node-purchase-faq.md)
+There are a total of 30 tiers of nodes available for purchase.  For detailed information about each node read ["Worker Node Sales"](./) and ["Worker Node Purchase FAQ"](worker-node-purchase-faq.md)
 
 
 
