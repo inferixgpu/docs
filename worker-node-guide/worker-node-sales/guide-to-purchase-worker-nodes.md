@@ -2,7 +2,7 @@
 
 ### A video walk-through on how to purchase a node:
 
-{% embed url="https://www.youtube.com/watch?v=viDsEJ9Xc7M" %}
+{% embed url="https://www.youtube.com/watch?v=aSwPqtOVrdw" %}
 
 **Step 1 - Get USDT tokens to buy the Node and for gas fee.**\
 &#xNAN;_&#x4E;odes can be purchased using_ [USD₮0](https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9), the [USDT ](https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9)on [_**Arbitrum One**_](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) _**Network**._
