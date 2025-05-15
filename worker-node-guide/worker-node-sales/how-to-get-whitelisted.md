@@ -10,10 +10,8 @@ Obtain a Node Whitelist spot for our Worker Node Sales by participating in:
 * [**Our referral program for Influencers & Community Leaders (KOLs)**](referral-program.md)\
   &#xNAN;_(If you are interested, contact our team by sending email to contact@inferix.io)_
 
-
-
 #### 2. Free Node Airdrops
 
-Some community campaigns by Inferix will airdrop node licenses completely free to individuals who achieve top performance in completing specific campaign tasks. Inferix will use tokens from the [Community Grants Fund](../../inferix-whitepaper/economic-model/token-metrics-and-allocation/token-allocation.md) to reimburse the equivalent amount of ETH for the licenses distributed for free. All decisions regarding these free node airdrops are made through DAO governance.
+Some community campaigns by Inferix will airdrop node licenses completely free to individuals who achieve top performance in completing specific campaign tasks. Inferix will use tokens from the [Community Grants Fund](../../inferix-whitepaper/economic-model/token-metrics-and-allocation/token-allocation.md) to reimburse the equivalent amount of USDT for the licenses distributed for free. All decisions regarding these free node airdrops are made through DAO governance.
 
 However, these free airdrop nodes will not be eligible to participate in [Guaranteed Node Buyback](guaranteed-node-buyback.md) program.

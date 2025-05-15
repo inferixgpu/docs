@@ -14,10 +14,7 @@ Total IFX Token Supply Available For Workers: 37,50%
 
 _Tier Implied FDV:_ The estimated FDV of a tier with 50% projected nodes participation rate assumption.
 
-**FLEXIBLE RULES BETWEEN PAYMENT NETWORKS**
-
-* The Node Sale allows payment in both wIOTX on the IoTeX network and wETH on the Arbitrum network.
-* The maximum number of nodes sold for each tier is fixed as shown in the table above. However, the quantity sold on each network will be updated based on real-time conditions, following the principle that the total number of nodes sold on IoTeX + the total number sold on Arbitrum will not exceed the maximum quantity for each tier.
+The Node Sale allows payment in [USD₮0](https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9), the [USDT ](https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9)on [_**Arbitrum One**_](https://docs.arbitrum.io/build-decentralized-apps/public-chains#arbitrum-one) _**Network**_. See [Guide to Purchase](guide-to-purchase-worker-nodes.md) for more details.
 
 To promote decentralization and make participation more equitable, Inferix offers lower-tier nodes with lower caps during  Whitelist and Public Node Sales:\
 \
@@ -26,9 +23,9 @@ During whitelist sales, Max. 1 node per whitelisted Tier.\
 During Public sales:\
 Tiers 1 - 8: There are specific purchase caps per wallet for these tiers:
 
-* Tier 1: Max of 5 nodes per wallet
-* Tier 2: Max of 10 nodes per wallet
-* Tier 3: Max of 15 nodes per wallet
-* Tiers 4 - 8: Max of 20 nodes per wallet
+* Tier 1: Max of 10 nodes per wallet
+* Tier 2: Max of 20 nodes per wallet
+* Tier 3: Max of 25 nodes per wallet
+* Tiers 4 - 8: Max of 30 nodes per wallet
 
 Tiers 9 - 30: There is no limit on the number of nodes you can purchase in these tiers.

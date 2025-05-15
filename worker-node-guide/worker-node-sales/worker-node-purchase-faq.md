@@ -9,7 +9,9 @@ Inferix is offering 100,000 nodes across 30 tiers. Each tier has a limited numbe
 To purchase a node, there's two types of sales:
 
 * Whitelist Sale (if eligible): If you are whitelisted, you'll have early access to buy nodes at a lower price during Whitelist Sale. The Whitelist Sale has 8 tiers of pricing, with increasing prices.
-* Public Sale: After the whitelist sale, any remaining nodes will be available in the Public Sale on a first-come, first-served basis. Public sale prices will increase across the 30 tiers.
+* Public Sale: The remaining number of nodes will be available in the Public Sale on a first-come, first-served basis. Public sale prices will increase across the 30 tiers.
+
+The purchasing of Whitelist Sale and Public Sale will be started at the same time.
 
 A detailed guide, and a video walkthrough to purchase a node is available here :point\_down:
 
