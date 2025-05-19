@@ -38,6 +38,11 @@ layout:
 * [Economic model](inferix-whitepaper/economic-model/)
 * [Future development](inferix-whitepaper/future-development/)
 
+[Worker Node Guide](worker-node-guide/)
+
+* [What is Worker Node](worker-node-guide/what-is-worker-node/)
+* [Worker Node Sales](worker-node-guide/worker-node-sales/)
+
 [Verifier Node Guide](verifier-node-guide/)
 
 * [What is Verifier Node](verifier-node-guide/what-is-verifier-node/)
