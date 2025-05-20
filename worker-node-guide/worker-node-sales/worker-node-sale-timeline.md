@@ -1,6 +1,6 @@
 # Worker Node Sale Timeline
 
-**\<A Poster Image should be HERE>**
+<figure><img src="../../.gitbook/assets/key date.png" alt=""><figcaption></figcaption></figure>
 
 \
 May 29, 2025 Whitelist wallet address submission (For all node tiers by all partners)
