@@ -33,7 +33,7 @@ Click on “Approve” on the sale page. You will be prompted to sign a contract
 **What’s next? Important info!**  :point\_down:\
 72 hours after purchasing an Inferix node, investors will receive an ERC-721 NFT to the wallet addresses used during the Inferix node sale. The NFT symbolizes ownership of the purchased Inferix Worker node.&#x20;
 
-Keep in mind that in order to run nodes, you will need a PC that match the min. requirements for EACH node license you buy.  ([Min. hardware req. ](../../inferix-whitepaper/appendix-c-hardware-requirements-for-nodes.md)[HERE](../../inferix-whitepaper/appendix.md)) There's **no cap** on the number of nodes you can buy **during whitelist sales**, but there's a **limit on the public sales.** (see info [HERE](./))&#x20;
+Keep in mind that in order to run nodes, you will need a PC that match the min. requirements for EACH node license you buy.  ([Min. hardware req. ](../../inferix-whitepaper/appendix-c-hardware-requirements-for-nodes.md)[HERE](../../inferix-whitepaper/appendix.md)) There's **no cap** on the number of nodes you can buy **during whitelist sales**, but there are **limits on the public sales.** (see info [HERE](./))&#x20;
 
 The NFTs will be airdropped to buyer wallets directly, there's no claiming process. The NFTs will be non-transferable for the first year after the node sale. \
 \
