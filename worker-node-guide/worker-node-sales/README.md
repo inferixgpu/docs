@@ -5,7 +5,7 @@ You will be able to acquire Worker node licenses through Node Sales, crucial pro
 * **Whitelist Sale (if eligible).**
 * **Public Sale.**
 
-Node Sale programs will be organized into tiers based on the order of the sale. As a general rule, the earlier the license is purchased (the lower the tier), the cheaper the price.  Licenses purchased before the TGE are referred to as Whitelisted licenses. Participants who acquire Whitelisted licenses will receive more benefits and discounts compared to those who purchase after the TGE. (see info about whitelist [HERE](../../verifier-node-guide/verifier-node-sales/verifier-node-purchase-faq.md))\
+Node Sale programs will be organized into tiers based on the order of the sale. As a general rule, the earlier the license is purchased (the lower the tier), the cheaper the price.  Licenses purchased before the TGE are referred to as Whitelisted licenses. Participants who acquire Whitelisted licenses will receive more benefits and discounts compared to those who purchase after the TGE. (see info about whitelist [HERE](./))\
 \
 **Inferix is offering 100,000 nodes across 30 tiers**. Each tier has a limited number of licenses, and prices increase as the tiers progress. Here’s a brief outline of the pricing:
 
@@ -29,4 +29,28 @@ During the **public sales,** there are limits on how many node licenses you can 
 * **Tiers 4 - 8:** Max of 30 nodes per wallet
 
 **Tiers 9 - 30:** There is **no limit** on the number of nodes you can purchase in these tiers. Each tier has a limited number of licenses, so early purchases will be more cost-effective. &#x20;
+
+
+
+_**Read more:**_
+
+[Guide to Purchase Worker Nodes](guide-to-purchase-worker-nodes.md)
+
+[Worker Node Sale Timeline](worker-node-sale-timeline.md)
+
+[Node Supply, Price, Tiers and Purchase Caps](node-purchase-caps.md)
+
+[Guaranteed Node Buyback](guaranteed-node-buyback.md)
+
+[How to get Node Whitelisted?](how-to-get-whitelisted.md)
+
+[Smart Contract Addresses](smart-contract-addresses.md)
+
+[User Discounts & Referral Program](referral-program.md)
+
+[Worker Node Purchase FAQ](worker-node-purchase-faq.md)
+
+[ABKK Collaboration FAQ](abkk-collaboration-faq.md)
+
+
 

@@ -17,4 +17,8 @@
 Follow these steps:
 
 * Download and install Inferix worker software: [https://inferix.io/mvp](https://inferix.io/mvp)
-* Join Inferix [Mining Staking](https://provider.inferix.io/) platform or [SharedMine ](https://sharedmine.inferix.io/)as a GPU provider and start receiving rewards
+* If you own a computer with GPU equipped, join Inferix [Mining Staking](https://provider.inferix.io/) platform[ ](https://sharedmine.inferix.io/)as a GPU provider and start receiving rewards
+
+### 3. Don't have a computer meets the requirements?
+
+Don't worry, you still be able to get rewards by joining our [SharedMine ](https://sharedmine.inferix.io/)platform.

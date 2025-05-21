@@ -45,9 +45,6 @@ Nodes can be purchased using [USD₮0](https://arbiscan.io/token/0xfd086bc7cd5c4
 ***
 
 **5. Is there a purchase limit for nodes?**\
-During whitelist sales, Max. 1 node per whitelisted Tier.\
-\
-During the public sales:\
 Tiers 1 - 8: There are specific purchase caps per wallet for these tiers:
 
 * Tier 1: Max of 10 nodes per wallet
@@ -92,7 +89,7 @@ As a node holder, you will earn $IFX rewards via our Staking Mining or Shared Mi
 
 ***
 
-**11. What are the rules for releasing rewards for Verifiers？**\
+**11. What are the rules for releasing rewards for Workers？**\
 The rule of node rewards is defined in section VI. Burn-Mint-Work token issuance model in White paper. Inferix releases rewards after each Epoch period of 72 hours. The rewarding amount for each period is planned in the Emission Plan and the Ecosystem Fund will be released all within 4 years.
 
 ***

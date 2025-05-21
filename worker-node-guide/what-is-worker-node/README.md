@@ -9,3 +9,13 @@ Worker Node is one of the fundamental components of the Inferix network backend 
 * **Verifier Node:** These nodes ensure the reliability and accuracy of the network. Inferix will have about 25,000 Verifier Nodes, and they are crucial for maintaining the integrity of the system. Unlike Workers, Verifier nodes don’t require heavy hardware and can be run on mobile devices. They receive 7.5% of the $IFX token supply as rewards.\
 
 * **Manager Node:** Manager nodes coordinate the overall network and are critical for handling the Proof of Render (PoR) algorithm. Inferix plans to have 2,500 Manager Nodes to manage millions of render jobs daily. The reward pool for Manager Nodes is 1.25% of the $IFX token supply.
+
+_**Read more:**_
+
+[How do the Worker Node work](how-do-the-worker-node-work.md)
+
+[Worker Node Rewards](worker-node-rewards.md)
+
+[How to run Worker Node](how-to-run-worker-node.md)
+
+[What is the Worker Node License (NFT)](what-is-the-worker-node-license-nft.md)

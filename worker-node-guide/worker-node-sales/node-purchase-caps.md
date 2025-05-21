@@ -18,9 +18,6 @@ The Node Sale allows payment in [USD₮0](https://arbiscan.io/token/0xfd086bc7cd
 
 To promote decentralization and make participation more equitable, Inferix offers lower-tier nodes with lower caps during  Whitelist and Public Node Sales:\
 \
-During whitelist sales, Max. 1 node per whitelisted Tier.\
-\
-During Public sales:\
 Tiers 1 - 8: There are specific purchase caps per wallet for these tiers:
 
 * Tier 1: Max of 10 nodes per wallet

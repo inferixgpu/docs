@@ -14,7 +14,7 @@ description: All about Inferix Worker Node
 
 &#x20;   [What is the Worker Node License (NFT)](what-is-worker-node/what-is-the-worker-node-license-nft.md)
 
-Worker Node Sales
+**Worker Node Sales**
 
 &#x20;   [Guide to Purchase Worker Nodes](worker-node-sales/guide-to-purchase-worker-nodes.md)
 
