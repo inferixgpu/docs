@@ -6,7 +6,7 @@ The Free Node winners of Animoca Brands Japan (ABKK) will receive node licenses 
 ***
 
 **2. Users who won the FREE nodes have to purchase another node during the sale to get their reward?**\
-&#x20;Free node winners will receive $IFX airdropped tokens to run mining with a Tesla T4 or RTX 4060 GPU. If he want to run with higher GPU hardware to receive more rewards, he need to buy more $IFX to do staking mining
+&#x20;Free node winners will receive $tIFX airdropped tokens to run mining with a Tesla T4 or RTX 4060 GPU. If he want to run with higher GPU hardware to receive more rewards, he need to buy more $tIFX to do staking mining
 
 ***
 
