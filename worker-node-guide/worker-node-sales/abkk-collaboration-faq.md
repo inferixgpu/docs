@@ -17,3 +17,6 @@ Free node winners will not be eligible to participate in the [Guaranteed Node Bu
 
 **4. How many FREE nodes were given out in total on ABKK's Collaboration giveaways?**\
 A total of 50.
+
+**5. How many nodes can a wallet whitelisted by ABKK purchase?**\
+A wallet can purchase up to the maximum number of nodes defined per tier in the [_Node Supply, Price, Tiers, and Purchase Caps_](node-purchase-caps.md) document. However, ABKK may allocate fewer nodes per wallet than the specified Cap-Per-User in each tier, due to the limited number of whitelist slots available for ABKK.
