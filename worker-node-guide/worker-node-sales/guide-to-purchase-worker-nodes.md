@@ -10,8 +10,8 @@
 {% hint style="info" %}
 Don't know how to get USDT on Abitrum One Network?&#x20;
 
-* Go to [Arbitrum Bridge](https://bridge.arbitrum.io/), connect your Metamask wallet, set "Testnet mode" to OFF and convert your USDT token assets to USD₮0
-* If you don't have USDT token in your wallet, goto a centralized exchange, such as Binance, buy USDT and then send it from your Binance account to your wallet address using the Arbitrum One network
+* Go to [Arbitrum Bridge](https://bridge.arbitrum.io/), connect your Metamask wallet, in "**Select Network**" dialog set "**Testnet mode**" to **OFF**, choose your "From" and "To" network and convert your USDT token assets to USD₮0
+* If you don't have USDT token in your wallet, go to a centralized exchange, such as Binance, buy USDT and then withdraw it to your wallet address using the Arbitrum One network
 {% endhint %}
 
 **Step 2 - Go to the Node Sale Page (**[**https://worker.inferix.io**](https://worker.inferix.io/)**) and connect your wallet.**  \
@@ -26,6 +26,15 @@ There are a total of 30 tiers of nodes available for purchase.  For detailed inf
 
 **Step 4 - Approve the purchase of your Inferix Node License**\
 Click on “Approve” on the sale page. You will be prompted to sign a contract in your wallet. Once it has been signed, accept.
+
+{% hint style="info" %}
+Make sure you have enough ETH _on Arbitrum One network_ in your wallet to cover gas fee! A node purchasing order typically incurs gas costs equivalent to about $0.10–$1.00 worth of ETH.
+
+Not sure how to get ETH on Arbitrum One network?
+
+* Go to [Arbitrum Bridge](https://bridge.arbitrum.io/), connect your Metamask wallet, in the "**Select Network**" dialog set "**Testnet mode**" to **OFF;** choose your "From" and "To" networks then convert your ETH assets to Arbitrum One ETH
+* If you don't have ETH token in your wallet, go to a centralized exchange, such as Binance, buy ETH and then withdraw it to your wallet address using the Arbitrum One network
+{% endhint %}
 
 ### **Congratulations you have now successfully purchased your Inferix Node License!**
 
