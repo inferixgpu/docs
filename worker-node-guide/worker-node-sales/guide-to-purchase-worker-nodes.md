@@ -40,7 +40,8 @@ Not sure how to get ETH on Arbitrum One network?
 
 \
 **What’s next? Important info!**  :point\_down:\
-Within72 hours after purchasing an Inferix node, investors will receive an ERC-721 NFT to the wallet addresses used during the Inferix node sale. The NFT symbolizes ownership of the purchased Inferix Worker node.&#x20;
+\
+Within 72 hours after purchasing Inferix nodes, investors will receive ERC-721 NFTs to the wallet addresses used during the Inferix node sale. The NFT symbolizes ownership of the purchased Inferix Worker node.&#x20;
 
 Keep in mind that in order to run nodes, you will need a PC that match the min. requirements for EACH node license you buy.  ([Min. hardware req. ](../../inferix-whitepaper/appendix-c-hardware-requirements-for-nodes.md)[HERE](../../inferix-whitepaper/appendix.md)) There are limits on the number of nodes you can buy **during whitelist sales** and **public sales.** (see info [HERE](./))&#x20;
 
