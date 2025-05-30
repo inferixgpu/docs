@@ -16,9 +16,7 @@ Some community campaigns by Inferix will airdrop node licenses completely free t
 
 However, these free airdrop nodes will not be eligible to participate in [Guaranteed Node Buyback](guaranteed-node-buyback.md) program.
 
-
-
-3. **Winners**
+#### 3. The Winners
 
 This is the winner list:
 
