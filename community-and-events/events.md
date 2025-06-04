@@ -4,21 +4,22 @@ description: A list of our live, upcoming and ended events.
 
 # Events
 
-**\[LIVE]** 🚀 **Whitelist for Inferix Worker Node Sale OPEN!**\
-📅 Started: May 9, 2025\
-👉 [<mark style="color:blue;">**APPLY FOR THE WHITELIST NOW!**</mark>](https://docs.google.com/forms/d/e/1FAIpQLSdmw6dGY5RKqkXjCUdiB4EqnBlGlWZv4OIhWN0kiGsuREVcww/viewform)
+**\[LIVE]** 🚀 **Inferix Worker Node Sales**\
+📅 Started: May 30, 2025\
+📌 Website: [https://worker.inferix.io/](https://worker.inferix.io/)
+
+{% hint style="info" %}
+Read more about node workers here: [<mark style="color:blue;">"Worker"</mark>](../inferix-whitepaper/economic-model/node-staking-and-rewards/worker.md)&#x20;
+{% endhint %}
 
 ***
 
 ## UPCOMING EVENTS
 
-**\[SOON]** 🚀 **Inferix Worker Node Sale** \
-📅 Starts: May 30, 2025\
-👉 [<mark style="color:blue;">**APPLY FOR THE WHITELIST NOW!**</mark>](https://docs.google.com/forms/d/e/1FAIpQLSdmw6dGY5RKqkXjCUdiB4EqnBlGlWZv4OIhWN0kiGsuREVcww/viewform)
-
-{% hint style="info" %}
-Read more about node workers here: [<mark style="color:blue;">"Worker"</mark>](../inferix-whitepaper/economic-model/node-staking-and-rewards/worker.md)&#x20;
-{% endhint %}
+🚀 **DePIN APAC Summit to VietNam** 🇻🇳\
+📅 June 7, 2025 | 11:00 AM - 3:00 PM (GMT+7)\
+&#x20;📍Da Nang, Viet Nam\
+➡️ Register now: [https://lu.ma/depin-apac-summit-danang](https://lu.ma/depin-apac-summit-danang)
 
 ***
 
@@ -35,8 +36,7 @@ Read more:
 ***
 
 **\[ENDED]** 🚀**Inferix Supernode GPU Staking Mining Testnet 1**\
-📅 From Jan 2 to Feb 17, 2025\
-Read more: [https://medium.com/@inferixgpu/inferix-gpu-testnet-1-ends-testnet-2-launching-this-week-42bef40887d1](https://medium.com/@inferixgpu/inferix-gpu-testnet-1-ends-testnet-2-launching-this-week-42bef40887d1)&#x20;
+📅 From Jan 2 to Feb 17, 2025
 
 {% content-ref url="../inferix-testnet-1-on-iotex-ended/" %}
 [inferix-testnet-1-on-iotex-ended](../inferix-testnet-1-on-iotex-ended/)
