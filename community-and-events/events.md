@@ -16,7 +16,7 @@ Read more about node workers here: [<mark style="color:blue;">"Worker"</mark>](.
 
 ## UPCOMING EVENTS
 
-🚀 **DePIN APAC Summit to VietNam** 🇻🇳\
+**\[ENDED]** 🚀 **DePIN APAC Summit to VietNam** 🇻🇳\
 📅 June 7, 2025 | 11:00 AM - 3:00 PM (GMT+7)\
 &#x20;📍Da Nang, Viet Nam\
 ➡️ Register now: [https://lu.ma/depin-apac-summit-danang](https://lu.ma/depin-apac-summit-danang)
